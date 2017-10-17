@@ -53,15 +53,15 @@ countIntersect <- function(ngram1, ngram2) {
   return(intersect(ngram1, ngram2) %>% length)
 }
 
-lapply(1:10, FUN = function(x) lapply(1:10, FUN = function(y) countIntersect(ngrams$ngram[ngrams$id == x],ngrams$ngram[ngrams$id == y]))) %>%
+confmat <- lapply(1:50, FUN = function(x) lapply(1:50, FUN = function(y) countIntersect(ngrams$ngram[ngrams$id == x],ngrams$ngram[ngrams$id == y]))) %>%
   unlist %>%
-  matrix(ncol = 10, nrow = 10)
+  matrix(ncol = 50, nrow = 50)
 
 pdf("test.pdf")
 for (i in 1:25) {
-  index.match <- which(ngrams$ngram[ngrams$id ==1] %in% ngrams$ngram[ngrams$id ==i])
-  graph <- data.frame(index = 1:length(ngrams$ngram[ngrams$id == 1]),
-                      bin = rep(0, length(ngrams$ngram[ngrams$id ==1])))
+  index.match <- which(ngrams$ngram[ngrams$id ==i] %in% ngrams$ngram[ngrams$id ==1])
+  graph <- data.frame(index = 1:length(ngrams$ngram[ngrams$id == i]),
+                      bin = rep(0, length(ngrams$ngram[ngrams$id ==i])))
   graph$bin[index.match] <- 1
   
   plot(bin~index, data = graph, type='l')
@@ -70,13 +70,75 @@ dev.off()
 
 
 
+matcher <- function(sourcengram, targetngram) {
+  lapply(sourcengram, FUN = function(ngram) {
+    which(ngram == targetngram)[1]
+  }) %>% unlist
+}
+
+# match source and target ngrams side-by-side
+index.match <- matcher(ngrams$ngram[ngrams$id ==4], ngrams$ngram[ngrams$id ==16])
+
+match.df.6gram <- data.frame(source = ngrams$ngram[ngrams$id ==4], 
+                             target = lapply(index.match, 
+                                             FUN = function (x) {
+                                               ngrams$ngram[ngrams$id == 16][x]
+                                             }) %>% unlist, 
+                             stringsAsFactors = F)
+  #get matching words
+match.df.word <- data.frame(source = match.df.6gram$source %>% strsplit(split = " ") %>% lapply(FUN = function(x) x[[1]]) %>% unlist, 
+                            target = match.df.6gram$target %>% strsplit(split = " ") %>% lapply(FUN = function(x) x[[1]]) %>% unlist,
+                            stringsAsFactors = F)
 
 
-index.match <- which(ngrams$ngram[ngrams$id ==1] %in% ngrams$ngram[ngrams$id ==6])
-graph <- data.frame(index = 1:length(ngrams$ngram[ngrams$id == 1]),
-                    bin = rep(0, length(ngrams$ngram[ngrams$id ==1])))
+    # multiple matching
+    # match source and target ngrams side-by-side
+    match.df.6gram <- data.frame(source = ngrams$ngram[ngrams$id ==4],
+                                 stringsAsFactors = F)
+    
+    runtime <- proc.time()
+    for (i in 1:50) {
+      index.match <- matcher(ngrams$ngram[ngrams$id ==4], ngrams$ngram[ngrams$id ==i])
+      temp <- lapply(index.match, 
+                     FUN = function (x) {
+                       ngrams$ngram[ngrams$id == i][x]
+                     }) %>% unlist
+      match.df.6gram <- cbind(match.df.6gram, temp, stringsAsFactors = F)
+      print(i)
+    }
+    proc.time() - runtime
+    
+    match.df.6gram <- data.frame(source = ngrams$ngram[ngrams$id ==4], 
+                                 target = lapply(index.match, 
+                                                 FUN = function (x) {
+                                                   ngrams$ngram[ngrams$id == 16][x]
+                                                 }) %>% unlist, 
+                                 stringsAsFactors = F)
+    #get matching words
+    match.df.word <- data.frame(source = match.df.6gram$source %>% strsplit(split = " ") %>% lapply(FUN = function(x) x[[1]]) %>% unlist)
+    
+    for (i in 1:50) {
+      match.df.word[,i+1] <- match.df.6gram[,i+1] %>% strsplit(split = " ") %>% lapply(FUN = function(x) x[[1]]) %>% unlist
+      print(i)
+    } 
+    
+    names(match.df.word) <- c("source", text$fname[1:50])
+                            
+
+
+
+
+
+
+
+
+index.match <- which(ngrams$ngram[ngrams$id ==4] %in% ngrams$ngram[ngrams$id ==16])
+graph <- data.frame(index = 1:length(ngrams$ngram[ngrams$id == 4]),
+                    bin = rep(0, length(ngrams$ngram[ngrams$id ==4])))
 graph$bin[index.match] <- 1
 
-ngrams$ngram[ngrams$id==1][index.match]
+cleanText[[4]][lapply(index.match, FUN = function(x) {x:(x+5)}) %>% unlist %>% unique]
 
+plot(bin~index, data = graph, type='l')
+ngrams$ngram[ngrams$id==1][index.match]
 plot(bin~index, data = graph, type='l')
