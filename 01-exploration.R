@@ -24,12 +24,12 @@ data <- tm_map(data, removePunctuation)
 data <- tm_map(data, removeNumbers)
 
 # bring back to df format
-dataframe <- data.frame(text=unlist(sapply(data, `[`, "content")), 
-                        stringsAsFactors=F)
+# dataframe <- data.frame(text=unlist(sapply(data, `[`, "content")), 
+#                         stringsAsFactors=F)
 df <- do.call("rbind", get("content", data))
 
 # basic cleaning of non-english words
-cleanText <- df[1:10,2] %>%
+cleanText <- df[1:199,2] %>%
   strsplit(" ") %>%
   lapply(FUN = function (wordvector) {
     Filter(function (word) word %in% dict, wordvector) %>%
@@ -41,7 +41,7 @@ cleanText <- df[1:10,2] %>%
 a <- cleanText %>% 
   lapply(FUN = function(x) paste(x, collapse = " ")) %>% 
   unlist %>%
-  data.frame(id = 1:10, text = ., stringsAsFactors = F)
+  data.frame(id = 1:199, text = ., stringsAsFactors = F)
 
 
 ngrams <- a %>% 
@@ -56,4 +56,27 @@ countIntersect <- function(ngram1, ngram2) {
 lapply(1:10, FUN = function(x) lapply(1:10, FUN = function(y) countIntersect(ngrams$ngram[ngrams$id == x],ngrams$ngram[ngrams$id == y]))) %>%
   unlist %>%
   matrix(ncol = 10, nrow = 10)
+
+pdf("test.pdf")
+for (i in 1:25) {
+  index.match <- which(ngrams$ngram[ngrams$id ==1] %in% ngrams$ngram[ngrams$id ==i])
+  graph <- data.frame(index = 1:length(ngrams$ngram[ngrams$id == 1]),
+                      bin = rep(0, length(ngrams$ngram[ngrams$id ==1])))
+  graph$bin[index.match] <- 1
   
+  plot(bin~index, data = graph, type='l')
+}
+dev.off()
+
+
+
+
+
+index.match <- which(ngrams$ngram[ngrams$id ==1] %in% ngrams$ngram[ngrams$id ==6])
+graph <- data.frame(index = 1:length(ngrams$ngram[ngrams$id == 1]),
+                    bin = rep(0, length(ngrams$ngram[ngrams$id ==1])))
+graph$bin[index.match] <- 1
+
+ngrams$ngram[ngrams$id==1][index.match]
+
+plot(bin~index, data = graph, type='l')
