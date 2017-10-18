@@ -107,13 +107,6 @@ match.df.word <- data.frame(source = match.df.6gram$source %>% strsplit(split = 
       print(i)
     }
     proc.time() - runtime
-    
-    match.df.6gram <- data.frame(source = ngrams$ngram[ngrams$id ==4], 
-                                 target = lapply(index.match, 
-                                                 FUN = function (x) {
-                                                   ngrams$ngram[ngrams$id == 16][x]
-                                                 }) %>% unlist, 
-                                 stringsAsFactors = F)
     #get matching words
     match.df.word <- data.frame(source = match.df.6gram$source %>% strsplit(split = " ") %>% lapply(FUN = function(x) x[[1]]) %>% unlist)
     
@@ -123,7 +116,50 @@ match.df.word <- data.frame(source = match.df.6gram$source %>% strsplit(split = 
     } 
     
     names(match.df.word) <- c("source", text$fname[1:50])
+    
+    
+    
+    
+    
+    
+    # match source and target ngrams side-by-side (INDEX ONLY)
+    match.df.6gram.index <- data.frame(source = ngrams$ngram[ngrams$id ==1],
+                                 stringsAsFactors = F)
+    
+    runtime <- proc.time()
+    for (i in 1:50) {
+      index.match <- matcher(ngrams$ngram[ngrams$id ==1], ngrams$ngram[ngrams$id ==i])
+      match.df.6gram.index <- cbind(match.df.6gram.index, index.match, stringsAsFactors = F)
+      print(i)
+    }
+    proc.time() - runtime
+  
+    
+    names(match.df.6gram.index) <- c("source", text$fname[1:50])
                             
+library(ggplot2)
+library(reshape2)
+library(magrittr)
+    
+    # binary plot
+    match.df.word %>% {ifelse(is.na(.), 0, 1)} %>%
+            melt %>%
+            ggplot(aes(Var1, Var2, fill=factor(value))) +
+           geom_raster()
+    
+    # index plot
+    match.df.6gram.index[,-1] %>% as.matrix() %>%
+      melt %>%
+      ggplot(aes(Var1, Var2, fill=value)) +
+      geom_raster() + 
+      scale_fill_gradientn(colours = terrain.colors(10)) +
+      theme_minimal() +
+      theme(axis.text.y=element_blank(),
+            axis.ticks.y=element_blank())
+    
+    
+    
+    
 
 
 
