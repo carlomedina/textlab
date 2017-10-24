@@ -9,6 +9,7 @@ for (j in 1:50) {
     print(i)
   }
   proc.time() - runtime
+  
 
   names(match.df.6gram.index) <- c("source", text$fname[1:50])
   
@@ -17,7 +18,7 @@ for (j in 1:50) {
   library(magrittr)
 
     # index plot
-  png(file=paste0("./figs/", j, "to-1-50.png"))
+  png(file=paste0("./figs/10-23-2017/", j, "to-1-50.png"))
   p1 <- match.df.6gram.index[,-1] %>% as.matrix() %>%
     melt %>%
     ggplot(aes(Var1, Var2, fill=value)) +

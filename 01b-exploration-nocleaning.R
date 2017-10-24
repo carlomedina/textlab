@@ -25,25 +25,12 @@ data <- tm_map(data, removeNumbers)
 # bring back to df format
 # dataframe <- data.frame(text=unlist(sapply(data, `[`, "content")), 
 #                         stringsAsFactors=F)
-df <- do.call("rbind", get("content", data))
+df <- do.call("rbind", get("content", data)) %>% 
+  as.data.frame(col.names = c("chan", "text"), stringsAsFactors = F) %>% 
+  cbind(channel=text$fname,id=1:199,., stringsAsFactors= F)
+names(df) <- c("channel", "id", "chan", "text")
 
-# basic cleaning of non-english words
-cleanText <- df[1:199,2] %>%
-  strsplit(" ") %>%
-  lapply(FUN = function (wordvector) {
-    Filter(function (word) word %in% dict, wordvector) %>%
-      paste()
-  })
- 
-
-# sample
-a <- cleanText %>% 
-  lapply(FUN = function(x) paste(x, collapse = " ")) %>% 
-  unlist %>%
-  data.frame(id = 1:199, text = ., stringsAsFactors = F)
-
-
-ngrams <- a %>% 
+ngrams <- df %>% 
   unnest_tokens(ngram, text, token="ngrams", n=6)
 
 
@@ -97,7 +84,7 @@ match.df.word <- data.frame(source = match.df.6gram$source %>% strsplit(split = 
     
     runtime <- proc.time()
     for (i in 1:50) {
-      index.match <- matcher(ngrams$ngram[ngrams$id ==4], ngrams$ngram[ngrams$id ==i])
+      index.match <- matcher(ngrams$ngram[ngrams$id ==4], ngrams$ngram[ngrams$id ==16])
       temp <- lapply(index.match, 
                      FUN = function (x) {
                        ngrams$ngram[ngrams$id == i][x]
