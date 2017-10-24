@@ -5,7 +5,7 @@ library(tm)
 library(quanteda)
 library(tidytext)
 library(reshape2)
-
+library(RColorBrewer)
 
 
 # helper function to clean the source text similar to how the targets were cleaned
@@ -67,7 +67,7 @@ showTargetText <- function(targetngramsdf, targetId) {
 }
 
 function(input, output) {
-  
+  cols <- brewer.pal(5, "Spectral")
   corrPlot <- eventReactive(input$sendSourceText, {
     data <- input$sourceText %>%
       cleanSourceText() %>%
@@ -76,12 +76,15 @@ function(input, output) {
       as.matrix() %>%
       .[,-c(1,2)] %>%
       melt
-      p1 <- ggplot(na.omit(data), aes(Var1, factor(Var2), color="black", fill=as.numeric(value) )) +
-        geom_raster() + 
-        scale_fill_gradientn(colours = terrain.colors(10)) +
+      p1 <- ggplot(na.omit(data), aes(Var1, factor(Var2), color="black", fill=value %>% as.character %>% as.numeric )) +
+        geom_tile() + 
+        scale_fill_gradientn(name="Target Index", colours = cols) +
         theme_minimal() +
         theme(axis.text.y=element_blank(),
-              axis.ticks.y=element_blank())
+              axis.ticks.y=element_blank()) +
+        labs(y="Target ID",
+             x="Source Index",
+             title = "Source-Target Index Correlation")
       ggplotly(p1) 
       
   })

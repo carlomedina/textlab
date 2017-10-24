@@ -1,5 +1,5 @@
 library(ggplot2)
-
+library(plotly)
 fluidPage(
   
   title = "Text Finder",
@@ -8,17 +8,15 @@ fluidPage(
   fluidRow(
     
     # upload text here
-    column(6,
+    column(4,
            textAreaInput("sourceText", label = h5("Paste Text to Analyze:"), value = "", width="100%", height="200px"),
            actionButton("sendSourceText", "Analyze")
-    )
-  ),
-  fluidRow(
-    # show heatmap here
- 
+    ),
+    column(8,
            plotlyOutput('correlationPlot')
-
+           )
   ),
+
   
   fluidRow(
     h4("Compare Texts"),
@@ -44,6 +42,10 @@ fluidPage(
     # show range of target
     column(5,
            textOutput("targetTextSubset")
-           )
+           ),
+    br(),
+    br(),
+    br(),
+    br()
   )
 )
