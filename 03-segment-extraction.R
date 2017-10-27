@@ -8,6 +8,8 @@ library(tm)
 load('./data/environment-10-17.2017.RData')
 
 # count the number of times a particular ngram appears
+# the object ngrams is from the load() statement above
+
 countNgrams <- ngrams %>%
   group_by(id) %>%
   mutate(index = 1:n()) %>%
@@ -18,6 +20,7 @@ countNgrams <- ngrams %>%
 
 # get segments where the ngrams of that segment was found in 5 or more other texts
 # also, and segment only if it contains more than 10 ngrams
+# the parameters/threshold here are only for exploration (not necessarily the optimal values)
 content <- data.frame(id = integer(0), 
                       contentId = character(0), 
                       first = integer(0), 
@@ -30,6 +33,8 @@ for (i in 1:50) {
   if (nrow(mat) == 0) {
     next
   }
+  
+  # perform dbscan to get clusters of content =>. segments
   db <- dbscan(mat, 30, 20)
   group <- data.frame(x = mat[,1],
                      y = mat[,2],
@@ -49,7 +54,7 @@ for (i in 1:50) {
 
 
 ############
-##  ADDING THE CONTENTS
+##  ADDING THE TEXTS TO THE SEGMENTS
 ############
 
 
@@ -86,8 +91,8 @@ textToClean <- Corpus(VectorSource(content$text)) %>%
 cleanText <- lapply(textToClean, FUN = function(x) {
   x
 }) %>% unlist
-
 content$cleanText <- cleanText
+
 
 content$words <- ""
 # sort non-stopwords by alphabetically and only get unique
@@ -101,6 +106,7 @@ content$words <- cleanText %>%
   })
 
 
+# segments similarity is based on the relative frequency of the words used between them
 # segment similarity (intersect(x,y)/length(x)) : NOTE THAT THIS MEASURE IS DIRECTED
 segmentSimilarity <- function(text.x, text.y) {
   sizeIntersection <- length(intersect(text.x, text.y))
@@ -119,11 +125,11 @@ for (i in 1:nrow(content)) {
 }
 
 # create threshold: similarityScore > 0.8 between two pairs mean that the segments contain the same content 
-
+ggg <- similarityScores > 0.8
 
 library(igraph)
-clusters(graph_from_adjacency_matrix(similarityScores, mode = "directed"), mode = "strong")
-content$cluster <- clusters(graph_from_adjacency_matrix(similarityScores, mode = "directed"), mode = "strong")$membership
+clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")
+content$cluster <- clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")$membership
 
 segments <- content[order(content$cluster), c("id", "contentId", "text", "cluster")]
 
