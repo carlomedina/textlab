@@ -13,24 +13,25 @@ countNgrams <- ngrams %>%
   mutate(index = 1:n()) %>%
   group_by(ngram) %>%
   mutate(count = n()) %>%
-  arrange(count,
-            docId = first(sort(id)),
-            indexOnDocIx = first(index[sort(id)])) %>%
-  arrange(desc(count))
+  ungroup
+       
 
 
-# get segments where the ngrams of that segment was found in 3 or more other texts
-# also, and segment only if it contains more than 20 ngrams
+# get segments where the ngrams of that segment was found in 5 or more other texts
+# also, and segment only if it contains more than 10 ngrams
 content <- data.frame(id = integer(0), 
                       contentId = character(0), 
                       first = integer(0), 
                       last = integer(0))
 for (i in 1:50) {
   mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == i]), 
-                       ifelse(countNgrams$count[countNgrams$id == i] >= 2,
+                       ifelse(countNgrams$count[countNgrams$id == i] >= 5,
                               countNgrams$count[countNgrams$id == i],
                               NA)))
-  db <- dbscan(mat, 30, 15)
+  if (nrow(mat) == 0) {
+    next
+  }
+  db <- dbscan(mat, 30, 20)
   group <- data.frame(x = mat[,1],
                      y = mat[,2],
                      cluster = db$cluster)
@@ -138,12 +139,12 @@ uniqueSegments <- segments %>%
 write.csv(uniqueSegments, file="./data/segments-extracted-10-26.csv")
 
 ########
-testindex = 1
+testindex = 5
 mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == testindex]), 
-                     ifelse(countNgrams$count[countNgrams$id == testindex] >= 2,
+                     ifelse(countNgrams$count[countNgrams$id == testindex] >= 5,
                             countNgrams$count[countNgrams$id == testindex],
                             NA)))
-db <- dbscan(mat, 30, 25)
+db <- dbscan(mat, 40, 20)
 group <- data.frame(x = mat[,1],
                     y = mat[,2],
                     cluster = db$cluster)
