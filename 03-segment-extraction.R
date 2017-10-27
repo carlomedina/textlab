@@ -16,7 +16,6 @@ countNgrams <- ngrams %>%
   ungroup
        
 
-
 # get segments where the ngrams of that segment was found in 5 or more other texts
 # also, and segment only if it contains more than 10 ngrams
 content <- data.frame(id = integer(0), 
@@ -90,7 +89,8 @@ cleanText <- lapply(textToClean, FUN = function(x) {
 
 content$cleanText <- cleanText
 
-# sort text by word order and only get unique
+content$words <- ""
+# sort non-stopwords by alphabetically and only get unique
 content$words <- cleanText %>% 
   lapply(FUN = function(x) {
     x %>% 
@@ -119,11 +119,11 @@ for (i in 1:nrow(content)) {
 }
 
 # create threshold: similarityScore > 0.8 between two pairs mean that the segments contain the same content 
-ggg <- similarityScores > 0.5
+
 
 library(igraph)
-clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")
-content$cluster <- clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")$membership
+clusters(graph_from_adjacency_matrix(similarityScores, mode = "directed"), mode = "strong")
+content$cluster <- clusters(graph_from_adjacency_matrix(similarityScores, mode = "directed"), mode = "strong")$membership
 
 segments <- content[order(content$cluster), c("id", "contentId", "text", "cluster")]
 
@@ -136,20 +136,36 @@ uniqueSegments <- segments %>%
   arrange(desc(segmentLength)) %>%
   summarise(sampleText = text[ceiling(length(text)/2)])
 
-write.csv(uniqueSegments, file="./data/segments-extracted-10-26.csv")
+write.csv(segments, file="./data/segments-extracted-10-26.csv", row.names = F)
+write.csv(uniqueSegments, file="./data/unique-segments-extracted-10-26.csv", row.names = F)
 
-########
-testindex = 5
-mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == testindex]), 
-                     ifelse(countNgrams$count[countNgrams$id == testindex] >= 5,
-                            countNgrams$count[countNgrams$id == testindex],
-                            NA)))
-db <- dbscan(mat, 40, 20)
-group <- data.frame(x = mat[,1],
-                    y = mat[,2],
-                    cluster = db$cluster)
-group 
-plot(group$x, group$y, col=factor(db$cluster))
-     
-     
+
+
+
+
+
+
+
+# #######
+# # SANDBOX
+# #######
+# 
+# 
+# ########
+# ## sample dbscan
+# 
+# testindex = 5
+# mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == testindex]), 
+#                      ifelse(countNgrams$count[countNgrams$id == testindex] >= 5,
+#                             countNgrams$count[countNgrams$id == testindex],
+#                             NA)))
+# db <- dbscan(mat, 40, 20)
+# group <- data.frame(x = mat[,1],
+#                     y = mat[,2],
+#                     cluster = db$cluster)
+# group 
+# plot(group$x, group$y, col=factor(db$cluster))
+#      
+# 
+
 
