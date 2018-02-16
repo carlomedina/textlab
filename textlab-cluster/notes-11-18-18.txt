@@ -1,0 +1,27 @@
+Ran the following files with processing.R
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Jul 27 11:42 AHCA_LocalNews_071717-072417
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Aug 10 12:57 AHCA_LocalNews_072517-080917
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Aug 28 10:07 AHCA_LocalNews_081017-082517
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Sep 13 15:46 AHCA_LocalNews_082817-091217
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Sep 28 16:22 AHCA_LocalNews_091317-092517
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Oct 26 13:44 AHCA_LocalNews_092617-101017
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Oct 27 13:43 AHCA_LocalNews_101117-102417
+drwxr-xr-x+ 5 poleinikov wesmediafowler 4096 Nov  8 15:40 AHCA_LocalNews_102517-110717
+
+
+but only the following ran:
+[1]  14303 Running                 nohup Rscript processing.R /data/1/wesmediafowler/TVEyesTasks/Campaigns/AHCA_LocalNews_092617-101017/AHCA_LocalNews_092617-101017_processed.csv 6 ../output > ../output/outfile &
+[6]  14755 Running                 nohup Rscript processing.R /data/1/wesmediafowler/TVEyesTasks/Campaigns/AHCA_LocalNews_081017-082517/AHCA_LocalNews_081017-082517_processed.csv 6 ../output > ../output/outfile6 &
+[7]- 14786 Running                 nohup Rscript processing.R /data/1/wesmediafowler/TVEyesTasks/Campaigns/AHCA_LocalNews_072517-080917/AHCA_LocalNews_072517-080917_processed.csv 6 ../output > ../output/outfile7 &
+[8]+ 14814 Running                 nohup Rscript processing.R /data/1/wesmediafowler/TVEyesTasks/Campaigns/AHCA_LocalNews_071717-072417/AHCA_LocalNews_071717-072417_processed.csv 6 ../output > ../output/outfile8 &
+
+
+The rest had the following error: 
+Error: XML content does not seem to be XML: 'NA'
+Execution halted
+
+
+I don't know if the csv files' xml_body column is missing for some.
+I might need to create a trycatch when converting XMLToList.
+
+

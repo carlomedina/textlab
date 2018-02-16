@@ -1,0 +1,6 @@
+Created processing-parallelized.R from processing.R which used the parallelized implementation of lapply: mcapply from the parallel library
+
+Significant reduction in running time: the serial version was ran first and the parallel version was ran about 15 minutes after the parallel version, and yet the parallel version finished execution was faster than the serial version.
+
+
+
