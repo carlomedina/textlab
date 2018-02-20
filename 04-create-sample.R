@@ -42,7 +42,12 @@ countNgrams$id <- as.factor(countNgrams$id) %>% as.numeric
 content <- data.frame(id = integer(0), 
                       contentId = character(0), 
                       first = integer(0), 
-                      last = integer(0))
+                      last = integer(0),
+                      start_line = integer(0),
+                      end_line = integer(0),
+                      start_timestamp = integer(0),
+                      end_timestamp = integer(0),
+                      station_id = integer(0))
 for (i in 1:100) {
   mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == i]), 
                        ifelse(countNgrams$count[countNgrams$id == i] >= 3,
@@ -57,6 +62,7 @@ for (i in 1:100) {
   group <- data.frame(x = mat[,1],
                       y = mat[,2],
                       cluster = db$cluster)
+  group <- cbind(countNgrams[countNgrams$id == i,][group$x,], group)
   content <- group %>%
     filter(cluster != 0) %>%
     group_by(cluster) %>%
@@ -64,9 +70,14 @@ for (i in 1:100) {
               contentId = paste(i, first(cluster)),
               first = min(x),
               last = max(x),
+              start_line = linenumber[which(x==min(x))],
+              end_line = linenumber[which(x==max(x))],
+              start_timestamp = timestamp[which(x==min(x))],
+              end_timestamp = timestamp[which(x==max(x))],
+              station_id = first(segmentId),
               count = n()) %>%
-    filter(count > 10) %>%
-    select(id, contentId, first, last) %>%
+    filter(count > 10) %>%   # only keep cluster if there are more than 10 words
+    select(id, contentId, first, last, start_line, end_line, start_timestamp, end_timestamp, station_id) %>%
     rbind(content, .)
 }
 
@@ -153,7 +164,8 @@ plot(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")
 clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")
 content$cluster <- clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")$membership
 
-segments <- content[order(content$cluster), c("id", "contentId", "text", "cluster")]
+segments <- content[order(content$cluster), c("id", "contentId", "text", "cluster", "start_line", 
+                                              "end_line", "start_timestamp", "end_timestamp", "station_id")]
 
 library(stringr)
 #### get the text sample with the middle length per each segment cluster
@@ -168,7 +180,20 @@ write.csv(segments, file="./data/segments/092617_extracted-02-16.csv", row.names
 write.csv(uniqueSegments, file="./data/segments/092617_extracted-02-16_unique.csv", row.names = F)
 
 
+# CREATING THE JSON FILE
+library(jsonlite)
+library(readr)
+json <- list()
+for (i in 1:nrow(uniqueSegments)) {
+  segment_list <- split(segments[segments$cluster == i, ] , seq(nrow(segments[segments$cluster == i, ]))) %>%
+    lapply(function(x) {return(x %>% as.list())}) %>% 
+    unname() %>% 
+    list() # cover with a "master list"
+  json[[i]] <- c("cluster_message"=uniqueSegments$sampleText[uniqueSegments$cluster == i], "stations"=segment_list)
+}
+json <- list("date"="10/10/2017", "clusters"=json)
 
+json %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write_lines('./data/segments/092617_extracted-02-16.json')
 
 
 
@@ -182,17 +207,17 @@ write.csv(uniqueSegments, file="./data/segments/092617_extracted-02-16_unique.cs
 # ########
 # ## sample dbscan
 # 
-testindex = 1
-mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == testindex]),
-                     ifelse(countNgrams$count[countNgrams$id == testindex] >= 3,
-                            countNgrams$count[countNgrams$id == testindex],
-                            NA)))
-db <- dbscan(mat, 30, 20)
-group <- data.frame(x = mat[,1],
-                    y = mat[,2],
-                    cluster = db$cluster)
-group
-plot(group$x, group$y, col=factor(db$cluster))
+# testindex = 1
+# mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == testindex]),
+#                      ifelse(countNgrams$count[countNgrams$id == testindex] >= 3,
+#                             countNgrams$count[countNgrams$id == testindex],
+#                             NA)))
+# db <- dbscan(mat, 30, 20)
+# group <- data.frame(x = mat[,1],
+#                     y = mat[,2],
+#                     cluster = db$cluster)
+# group
+# plot(group$x, group$y, col=factor(db$cluster))
 #      
 # 
 
