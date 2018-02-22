@@ -2,9 +2,9 @@
 # from the XML file of the master csv table
 
 # processed file: processed_6gram__AHCA_LocalNews_092617_101017_processed_
-# for this demo purposes: only 092617 transcripts will be analyzed.
+# for this demo purposes: only 101017 transcripts will be analyzed.
 
-# return ids of 092617 news
+# return ids of 101017 news
 ids <- lapply(processed_6gram__AHCA_LocalNews_092617_101017_processed_, function(x) {
   return(x$id[1])
 }) %>% unlist()
@@ -196,6 +196,27 @@ json <- list("date"="10/10/2017", "clusters"=json)
 json %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write_lines('./data/segments/092617_extracted-02-16.json')
 
 
+
+## TRYING TO GET THE VIDEO ELEMENTS
+getVideoQuery <- function(station_id, start_timestamp) {
+  timestamps <- lubridate::mdy_hms(segments$start_timestamp)
+  station_id %>%
+    stringr::str_extract('[A-Z]*') %>%
+    paste(month(timestamps), day(timestamps), year(timestamps) %>% substr(3,4), sep = "") %>%
+    {paste('FileName LIKE "%', ., '%" OR ', sep = "")} %>%
+    unique() %>%
+    paste(collapse = " ")
+}
+write_lines(getVideoQuery(segments$station_id, segments$start_timestamp), "test.txt")
+
+# I queried the entries of the file below using: 
+# select FileName from video where FileName LIKE "%WALA101017%" OR  FileName LIKE "%KYTX101017%" OR  FileName LIKE "%KXMC101017%" OR  FileName LIKE "%KVOA101017%" OR  FileName LIKE "%KTWO101017%" OR  FileName LIKE "%NECN101017%" OR  FileName LIKE "%KTVODT101017%" OR  FileName LIKE "%KSWB101017%" OR  FileName LIKE "%KSTU101017%" OR  FileName LIKE "%KOKI101017%" OR  FileName LIKE "%KRGV101017%" OR  FileName LIKE "%KTVT101017%" OR  FileName LIKE "%KULR101017%" OR  FileName LIKE "%KMTV101017%" OR  FileName LIKE "%KHQA101017%" OR  FileName LIKE "%CFNEWS101017%" OR  FileName LIKE "%KQTV101017%" OR  FileName LIKE "%KFXO101017%" OR  FileName LIKE "%WAGA101017%" OR  FileName LIKE "%CLTV101017%" OR  FileName LIKE "%KWWL101017%" OR  FileName LIKE "%KOSA101017%" OR  FileName LIKE "%KTNV101017%" OR  FileName LIKE "%KGAN101017%" OR  FileName LIKE "%KGUN101017%" OR  FileName LIKE "%KMGH101017%" OR  FileName LIKE "%KFXK101017%" OR  FileName LIKE "%KGTV101017%" OR  FileName LIKE "%KNIN101017%" OR  FileName LIKE "%KREM101017%" OR  FileName LIKE "%KREX101017%" OR  FileName LIKE "%KSHB101017%" OR  FileName LIKE "%KTBC101017%" OR  FileName LIKE "%KTTV101017%" OR  FileName LIKE "%KTVI101017%" OR  FileName LIKE "%KVHP101017%" OR  FileName LIKE "%KVRR101017%" OR  FileName LIKE "%KXRM101017%" OR  FileName LIKE "%KYOU101017%" OR  FileName LIKE "%WBRC101017%”
+videos <- read.csv("./data/segments/101017_videos.csv")
+
+
+findClosestTimeStamp <- function(station_date, timestamp, list_videos){
+  
+}
 
 
 
