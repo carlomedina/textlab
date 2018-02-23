@@ -3,7 +3,7 @@
 
 # processed file: processed_6gram__AHCA_LocalNews_092617_101017_processed_
 # for this demo purposes: only 101017 transcripts will be analyzed.
-
+load("./data/processed_6gram__AHCA_LocalNews_092617_101017_processed_.RData")
 # return ids of 101017 news
 ids <- lapply(processed_6gram__AHCA_LocalNews_092617_101017_processed_, function(x) {
   return(x$id[1])
