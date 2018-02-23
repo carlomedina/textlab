@@ -157,11 +157,12 @@ for (i in 1:nrow(content)) {
 }
 
 # create threshold
-ggg <- similarityScores > 0.7
+ggg <- similarityScores > 0.8
 
 library(igraph)
-plot(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")
-clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")
+g1 <- graph_from_adjacency_matrix(ggg, mode = "directed")
+plot(g1, mode = "strong", arrow.size=0.1, layout=layout_on_grid(g1))
+clusters(g1, mode = "strong")
 content$cluster <- clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")$membership
 
 segments <- content[order(content$cluster), c("id", "contentId", "text", "cluster", "start_line", 
