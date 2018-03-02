@@ -1,0 +1,2075 @@
+{
+  "date": "07-25-2017",
+  "clusters": {
+    "date": {
+      "cluster_message": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds i'm veronica cintron here's a look at the top stories this hour on bay news 9 st petersburg mayor rick kriseman and former mayor rick baker faced off in a one-on-one debate tonight- hosted by bay news 9 and the tampa bay times",
+      "stations": [
+        {
+          "id": 1,
+          "contentId": "1 1",
+          "text": "high temperatures will be in the low to mid 90s the heat index will be 100-105 this afternoon isolated showers and thunderstorms will pop up today but with drier air in place the rain chance drops to 20 and even lower heading into the evening an area of high pressure continues to be across the florida peninsula with southwest to west winds around 10 mph this afternoon there is a slim chance of an isolated shower or a thunderstorm tonight it will be very warm again with low temperatures in the mid 70s to low 80s wednesday will feature above-normal mostly sunny skies and temperatures with most of us back in the low to mid 90s there is a 20 of isolated",
+          "cluster": 1,
+          "start_line": "98532842",
+          "end_line": "98532871",
+          "start_timestamp": "07/25/2017 16:20:31",
+          "end_timestamp": "07/25/2017 16:21:35",
+          "station_id": "BN9--07-25-2017-16-12-00",
+          "segmentLength": 121
+        },
+        {
+          "id": 1,
+          "contentId": "1 2",
+          "text": "high temperatures will be in the low to mid 90s the heat index will be 100-105 this afternoon isolated showers and thunderstorms will pop up today but with drier air in place the rain chance drops to 20 and even lower heading into the evening an area of high pressure continues to be across the florida peninsula with southwest to west winds around 10 mph this afternoon there is a slim chance of an isolated shower or a thunderstorm tonight it will be very warm again with low temperatures in the mid 70s to low 80s wednesday will feature above-normal mostly sunny skies and temperatures with most of us back in the low to mid 90s there is a 20 of isolated",
+          "cluster": 1,
+          "start_line": "98532842",
+          "end_line": "98532871",
+          "start_timestamp": "07/25/2017 16:20:31",
+          "end_timestamp": "07/25/2017 16:21:35",
+          "station_id": "BN9--07-25-2017-16-12-00",
+          "segmentLength": 121
+        },
+        {
+          "id": 5,
+          "contentId": "5 1",
+          "text": "it will be very warm again with low temperatures in the mid 70s to low 80s partly sunny and hot today high temperatures will be in the low to mid 90s the heat index will be 100-105 this afternoon isolated showers and thunderstorms will pop up today but with drier air in place the rain chance drops to 20 near the coast and 30 inland an area of high pressure continues to be across the florida peninsula with",
+          "cluster": 1,
+          "start_line": "98536107",
+          "end_line": "98536123",
+          "start_timestamp": "07/25/2017 18:28:59",
+          "end_timestamp": "07/25/2017 18:29:23",
+          "station_id": "BN9--07-25-2017-18-27-00",
+          "segmentLength": 77
+        },
+        {
+          "id": 7,
+          "contentId": "7 1",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds around 10 mph this evening there is a slim chance of now on bay news 9 vice presidential tie-breaker the u-s senated has voted republican legislation to repeal and replace the affordable care act and",
+          "cluster": 1,
+          "start_line": "98538429",
+          "end_line": "98538454",
+          "start_timestamp": "07/25/2017 19:59:06",
+          "end_timestamp": "07/25/2017 19:59:54",
+          "station_id": "BN9--07-25-2017-19-53-00",
+          "segmentLength": 94
+        },
+        {
+          "id": 8,
+          "contentId": "8 1",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds around 10 mph this evening there is a slim chance of now on bay news 9 vice presidential tie-breaker the u-s senated has voted republican legislation to repeal and replace the affordable care act and",
+          "cluster": 1,
+          "start_line": "98538429",
+          "end_line": "98538454",
+          "start_timestamp": "07/25/2017 19:59:06",
+          "end_timestamp": "07/25/2017 19:59:54",
+          "station_id": "BN9--07-25-2017-19-57-00",
+          "segmentLength": 94
+        },
+        {
+          "id": 9,
+          "contentId": "9 4",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds around 10 mph this evening there is a slim chance of an isolated shower or a thunderstorm tonight it will be very warm again with low temperatures in the mid 70s to low 80s waking up tomorrow morning skies will be mostly sunny wednesday will feature mostly sunny skies and above-normal temperatures with most of us back in the low to mid 90s there is a 20 of isolated thunderstorms tomorrow a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today",
+          "cluster": 1,
+          "start_line": "98538812",
+          "end_line": "98538850",
+          "start_timestamp": "07/25/2017 20:09:08",
+          "end_timestamp": "07/25/2017 20:10:35",
+          "station_id": "BN9--07-25-2017-20-03-00",
+          "segmentLength": 153
+        },
+        {
+          "id": 10,
+          "contentId": "10 1",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds i'm veronica cintron here's a look at the top stories this hour on bay news 9 the south florida museum reopened today for the first time since",
+          "cluster": 1,
+          "start_line": "98539250",
+          "end_line": "98539272",
+          "start_timestamp": "07/25/2017 20:30:10",
+          "end_timestamp": "07/25/2017 20:30:53",
+          "station_id": "BN9--07-25-2017-20-29-00",
+          "segmentLength": 86
+        },
+        {
+          "id": 11,
+          "contentId": "11 1",
+          "text": "hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds now on bay news 9 vice presidential tie-breaker the u-s senated has voted to debate republican legislation to repeal and replace the affordable care act and",
+          "cluster": 1,
+          "start_line": "98540052",
+          "end_line": "98540076",
+          "start_timestamp": "07/25/2017 20:58:44",
+          "end_timestamp": "07/25/2017 20:59:47",
+          "station_id": "BN9--07-25-2017-20-57-00",
+          "segmentLength": 84
+        },
+        {
+          "id": 12,
+          "contentId": "12 3",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds around 10 mph this evening there is a slim chance of an isolated shower or a thunderstorm tonight it will be very warm again with low temperatures in the mid 70s to low 80s waking up tomorrow morning skies will be mostly sunny wednesday will feature mostly sunny skies and above-normal temperatures with most of us back in the low to mid 90s there is a 20 of isolated",
+          "cluster": 1,
+          "start_line": "98540461",
+          "end_line": "98540493",
+          "start_timestamp": "07/25/2017 21:09:57",
+          "end_timestamp": "07/25/2017 21:12:01",
+          "station_id": "BN9--07-25-2017-21-04-00",
+          "segmentLength": 128
+        },
+        {
+          "id": 13,
+          "contentId": "13 1",
+          "text": "a hot day today we reached a high of 94 in tampa a few isoand thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds i'm veronica cintron here's a look at the top stories this hour on bay news 9 the south florida museum reopened today for the first time since",
+          "cluster": 1,
+          "start_line": "98540848",
+          "end_line": "98540869",
+          "start_timestamp": "07/25/2017 21:30:26",
+          "end_timestamp": "07/25/2017 21:31:09",
+          "station_id": "BN9--07-25-2017-21-29-00",
+          "segmentLength": 84
+        },
+        {
+          "id": 16,
+          "contentId": "16 1",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds i'm veronica cintron here's a look at the top stories this hour on bay news 9 st petersburg mayor rick kriseman and former mayor rick baker faced off in a one-on-one debate tonight- hosted by bay news 9 and the tampa bay times",
+          "cluster": 1,
+          "start_line": "98542351",
+          "end_line": "98542378",
+          "start_timestamp": "07/25/2017 22:30:21",
+          "end_timestamp": "07/25/2017 22:31:07",
+          "station_id": "BN9--07-25-2017-22-29-00",
+          "segmentLength": 102
+        },
+        {
+          "id": 17,
+          "contentId": "17 1",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure",
+          "cluster": 1,
+          "start_line": "98542953",
+          "end_line": "98542963",
+          "start_timestamp": "07/25/2017 22:59:13",
+          "end_timestamp": "07/25/2017 22:59:34",
+          "station_id": "BN9--07-25-2017-22-58-00",
+          "segmentLength": 47
+        },
+        {
+          "id": 18,
+          "contentId": "18 4",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight an area of high pressure hours continues to be across the florida peninsula with southwest to west winds around 10 mph this evening there is a slim chance of an isolated shower or a thunderstorm tonight it will be very warm again with low temperatures in thd 0s waking up tomorrow morning skies will be mostly sunny wednesday will feature mostly sunny skies and above-normal temperatures with most of us back in the low to mid 90s there is a 20 of isolated thunderstorms tomorrow a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today",
+          "cluster": 1,
+          "start_line": "98543424",
+          "end_line": "98543462",
+          "start_timestamp": "07/25/2017 23:10:26",
+          "end_timestamp": "07/25/2017 23:11:54",
+          "station_id": "BN9--07-25-2017-23-04-00",
+          "segmentLength": 149
+        },
+        {
+          "id": 19,
+          "contentId": "19 1",
+          "text": "a hot day today we reached a high of 94 in tampa a few isolated showers and thunderstorms have been popping up today but with drier air in place the rain chance drops to 20 and even lower heading into the overnight hours an area of high pressure continues to be across the florida peninsula with southwest to west winds i'm veronica cintron here's a look at the top stories this hour on bay news 9 st petersburg mayor rick kriseman and former mayor rick baker faced off in a one-on-one debate tonight- hosted by bay news 9 and the tampa bay times",
+          "cluster": 1,
+          "start_line": "98543712",
+          "end_line": "98543738",
+          "start_timestamp": "07/25/2017 23:30:06",
+          "end_timestamp": "07/25/2017 23:30:53",
+          "station_id": "BN9--07-25-2017-23-29-00",
+          "segmentLength": 102
+        }
+      ]
+    },
+    "clusters": {
+      "cluster_message": "truth- o-meter is checking the facts tonight's topic voter fraud during a recent discussion on the morning show a fox and friends on of the hosts offered this number quote 5 7 million -- that's how many illegal immigrants might have voted in 2008 allison graves tells us how from politifact politifact's truth- o-meter rated this claim so we rated this claim false politifact has debunked multiple claims about massive voter fraud and just like the others this one is not true so basically fox and friends cohost is citing a conclusion reached by just facts just facts is a libertarian-slash- conservative think tank and they actually used data from a very controversial study that used a very small sample size of respondents to reach its conclusion irs which supplied the underlying data for that survey said that it shouldn't be used to make any conclusions about how many non-citizens had voted so the real big problem here is the small sample size that fox and friends is de facto referring to but furthermore we also looked at non-citizens voting and any other evidence we could find about that and what we did see is that there are instances of non-citizens voting but it's just not happening at a large scale like what's being referred to here so there's really no evidence to this claim so we rated it false you can get more",
+      "stations": [
+        {
+          "id": 3,
+          "contentId": "3 1",
+          "text": "just like the others this one is not true so basically fox and friends cohost is fighting a conclusion reached isby just facts just fax is a libertarian conservative think tank and they actually use data from a very controversial study rethat used a very small sample size of respondents to reach its conclusion in itfact the researchers would supply the other lined data for that survey said that it shouldn't be used to make any conclusions about how many noncitizens had voted so the real big problem here is the small sample size that fox and friends is referring to but furthermore we also looked at noncitizens voting in any other evidence we could find about that and what we did see is that there are instances of noncitizens voting but it is just not happening at a large scale like what is being there is going no evidence for this claim so we rated it false you can get more",
+          "cluster": 2,
+          "start_line": "98534694",
+          "end_line": "98534724",
+          "start_timestamp": "07/25/2017 17:31:49",
+          "end_timestamp": "07/25/2017 17:32:51",
+          "station_id": "BN9--07-25-2017-17-28-00",
+          "segmentLength": 161
+        },
+        {
+          "id": 5,
+          "contentId": "5 2",
+          "text": "truth- o-meter is checking the facts tonight's topic voter fraud during a recent discussion on the morning show a fox and friends on of the hosts offered this number quote 5 7 million -- that's how many illegal immigrants might have voted in 2008 allison graves from politifact tells us how politifact's truth- claim o-meter rated this so we rated this claim false politifact has debunked multiple claims about massive voter fraud and just like the others this one is not true so basically fox and friends cohost is citing a conclusion reached by just facts just facts is a libertarian-slash- conservative think tank and they actually used data from a very controversial study that used a very small sample size of respondents to reach its conclusion in fact the researchers which supplied the underlying data for that survey said that it shouldn't be used to make any conclusions about how many non-citizens had voted so the real big problem here is the small sample size that fox and friends is de facto referring to but rmoe we also looked at non-citizens voting and any other evidence we could find about that and what we did see is that there are instances of non-citizens voting but it's just not happening at a large scale like what's being referred to here so there's really no evidence to this claim so we rated it false you can get more",
+          "cluster": 2,
+          "start_line": "98536176",
+          "end_line": "98536239",
+          "start_timestamp": "07/25/2017 18:30:28",
+          "end_timestamp": "07/25/2017 18:31:55",
+          "station_id": "BN9--07-25-2017-18-27-00",
+          "segmentLength": 236
+        },
+        {
+          "id": 10,
+          "contentId": "10 2",
+          "text": "truth- o-meter is checking the facts tonight's topic voter fraud during a recent discussion on the morning show a fox and friends on of the hosts offered this number quote 5 7 million -- that's how many illegal immigrants might have voted in 2008 allison graves from politifact tells us how politifact's truth- o-meter rated this claim so we rated this claim false politifact has debunked multiple claims about massive voter fraud and just like the otherstt rue so basically fox and friends cohost is citing a conclusion reached by just facts just facts is a libertarian-slash- conservative think tank and they actually used data from a very controversial study that used a very small sample size of respondents to reach its conclusion in fact the researchers which supplied the underlying data for that survey said that it shouldn't be used to make any conclusions about how many non-citizens had voted so the real big problem here is the small sample size that fox and friends is de facto referring to but furthermore we also looked at non-citizens voting and any other evidence we could find about that and what we did see is that there are instances of non-citizens voting but it's just not happening at a large scale like what's being referred to here so there's really no evidence to this claim so we rated it false you can get more",
+          "cluster": 2,
+          "start_line": "98539310",
+          "end_line": "98539373",
+          "start_timestamp": "07/25/2017 20:31:40",
+          "end_timestamp": "07/25/2017 20:33:07",
+          "station_id": "BN9--07-25-2017-20-29-00",
+          "segmentLength": 232
+        },
+        {
+          "id": 13,
+          "contentId": "13 2",
+          "text": "truth- o-meter is checking the facts tonight's topic voter fraud during a recent discussion on the morning show a fox and friends on of the hosts offered this number quote 5 7 million -- that's how many illegal immigrants might have voted in 2008 allison graves tells us how from politifact politifact's truth- o-meter rated this claim so we rated this claim false politifact has debunked multiple claims about massive voter fraud and just like the others this one is not true so basically fox and friends cohost is citing a conclusion reached by just facts just facts is a libertarian-slash- conservative think tank and they actually used data from a very controversial study that used a very small sample size of respondents to reach its conclusion irs which supplied the underlying data for that survey said that it shouldn't be used to make any conclusions about how many non-citizens had voted so the real big problem here is the small sample size that fox and friends is de facto referring to but furthermore we also looked at non-citizens voting and any other evidence we could find about that and what we did see is that there are instances of non-citizens voting but it's just not happening at a large scale like what's being referred to here so there's really no evidence to this claim so we rated it false you can get more",
+          "cluster": 2,
+          "start_line": "98540907",
+          "end_line": "98540969",
+          "start_timestamp": "07/25/2017 21:31:56",
+          "end_timestamp": "07/25/2017 21:33:23",
+          "station_id": "BN9--07-25-2017-21-29-00",
+          "segmentLength": 233
+        },
+        {
+          "id": 16,
+          "contentId": "16 2",
+          "text": "russia the senate still has to sign off on the bill president donald trump has not said whether he will sign it politifact's truth- o-meter is checking the facts tonight's topic voter fraud during a recent discussion on the morning show a fox and friends on of the hosts offered this number quote 5 7 million -- that's how many illegal immigrants might have voted in 2008 allison graves from politifact tells us how politifact's truth- o-meter rated this claim so we rated this claim false politifact has debunked multiple claims about massive voter fraud and just like the others this one is not true so basically fox and friends cohost is citing a conclusion reached by just facts just facts is a libertarian-slash- conservative think tank and they actually used data from a very controversial study that used a very small sample size of respondents to reach its conclusion in fact the researchers which supplied the underlying data for that survey said that it shouldn't be used to make any conclusions about how many non-citizens had voted so the real big problem here is the small sample size that fox and",
+          "cluster": 2,
+          "start_line": "98542420",
+          "end_line": "98542475",
+          "start_timestamp": "07/25/2017 22:31:54",
+          "end_timestamp": "07/25/2017 22:32:52",
+          "station_id": "BN9--07-25-2017-22-29-00",
+          "segmentLength": 191
+        },
+        {
+          "id": 19,
+          "contentId": "19 2",
+          "text": "truth- o-meter is checking the facts tonight's topic voter fraud during a recent discussion on the morning show a fox and friends on of the hosts offered this number quote 5 7 million -- that's how many illegal immigrants might have voted in 2008 allison graves from politifact tells us how politifact's truth- o-meter rated this claim so we rated this claim false politifact has debunked multiple claims about massive voter fraud and just like the others this one is not true so basically fox and friends cohost is citing a conclusion reached by just facts just facts is a libertarian-slash- conservative think tank and they actually used data from a very controversial study that used a very small sample size of respondents to reach its conclusion in fact the researchers which supplied the underlying data for that survey said that it shouldn't be used to make any conclusions about how many non-citizens had voted so the real big problem here is the small sample size that fox and friends is de facto referring to but furthermore we also looked at non-citizens voting and any other evidence we could find about that and what we did see is that there are instances of non-citizens voting but it's just not happening at a large scale like what's being referred to here so there's really no evidence to this claim so we rated it false you can get more",
+          "cluster": 2,
+          "start_line": "98543819",
+          "end_line": "98543882",
+          "start_timestamp": "07/25/2017 23:32:19",
+          "end_timestamp": "07/25/2017 23:33:54",
+          "station_id": "BN9--07-25-2017-23-29-00",
+          "segmentLength": 236
+        }
+      ]
+    },
+    "3": {
+      "cluster_message": "in st petersburg saundra weathers bay news 9 senate republicans have jumped over the first hurdle to advance their healthcare bill- and it was a close one on this vote the yeas are 50 and the nays are 50 the senate being equally divided the vice president votes in teh affirmative and the motion is agreed to the chamber held a nail-biting vote",
+      "stations": [
+        {
+          "id": 4,
+          "contentId": "4 1",
+          "text": "president cast his vote to break the deadlock on this voteand e nays are 50 the senate being equally divided the vice president votes in the affirmative and the motion is agreed to the most emotional moment came when senator john to the most emotional moment came when senator john mccain who was recently diagnosed with brain cancer cast his vote",
+          "cluster": 3,
+          "start_line": "98535396",
+          "end_line": "98535414",
+          "start_timestamp": "07/25/2017 18:00:57",
+          "end_timestamp": "07/25/2017 18:01:22",
+          "station_id": "BN9--07-25-2017-17-57-00",
+          "segmentLength": 60
+        },
+        {
+          "id": 8,
+          "contentId": "8 2",
+          "text": "the vice president cast his vote to break the deadlock on this vote the yeas are 50 and the nays are 50 the senate being equally divided the vice president votes in the affirmative and the motion is agreed to the most emotional moment came when and the motion is agreed to the most emotional moment came when senator john mccain who was recently diagnosed with brain cancer cast his vote",
+          "cluster": 3,
+          "start_line": "98538578",
+          "end_line": "98538597",
+          "start_timestamp": "07/25/2017 20:03:08",
+          "end_timestamp": "07/25/2017 20:03:27",
+          "station_id": "BN9--07-25-2017-19-57-00",
+          "segmentLength": 70
+        },
+        {
+          "id": 9,
+          "contentId": "9 1",
+          "text": "the vice president cast his vote to break the deadlock on this vote the yeas are 50 and the nays are 50 the senate being equally divided the vice president votes in the affirmative and the motion is agreed to the most emotional moment came when and the motion is agreed to the most emotional moment came when senator john mccain who was recently diagnosed with brain cancer cast his vote",
+          "cluster": 3,
+          "start_line": "98538578",
+          "end_line": "98538597",
+          "start_timestamp": "07/25/2017 20:03:08",
+          "end_timestamp": "07/25/2017 20:03:27",
+          "station_id": "BN9--07-25-2017-20-03-00",
+          "segmentLength": 70
+        },
+        {
+          "id": 11,
+          "contentId": "11 3",
+          "text": "to start debating republican legislation to repeal the affordable care act with the vote tied -- the vice president cast his vote to break the deadlock on this vote the yeas are 50 and the nays are 50 the senate being equally divided the vice president votes in the affirmative and the motion is agreed to the most emotional moment came when senator john mccain who was recently diagnosed with brain cancer cast his vote",
+          "cluster": 3,
+          "start_line": "98540226",
+          "end_line": "98540247",
+          "start_timestamp": "07/25/2017 21:03:42",
+          "end_timestamp": "07/25/2017 21:04:09",
+          "station_id": "BN9--07-25-2017-20-57-00",
+          "segmentLength": 74
+        },
+        {
+          "id": 14,
+          "contentId": "14 2",
+          "text": "in st petersburg saundra weathers bay news 9 senate republicans have jumped over the first hurdle to healthcare bill- advance their and it was a close one on this vote the yeas are 50 and the nays are 50 the senate being equally divided",
+          "cluster": 3,
+          "start_line": "98541786",
+          "end_line": "98541798",
+          "start_timestamp": "07/25/2017 22:04:12",
+          "end_timestamp": "07/25/2017 22:04:37",
+          "station_id": "BN9--07-25-2017-21-57-00",
+          "segmentLength": 43
+        },
+        {
+          "id": 15,
+          "contentId": "15 1",
+          "text": "in st petersburg saundra weathers bay news 9 senate republicans have jumped over the first hurdle to healthcare bill- advance their and it was a close one on this vote the yeas are 50 and the nays are 50 the senate being equally divided",
+          "cluster": 3,
+          "start_line": "98541786",
+          "end_line": "98541798",
+          "start_timestamp": "07/25/2017 22:04:12",
+          "end_timestamp": "07/25/2017 22:04:37",
+          "station_id": "BN9--07-25-2017-22-04-00",
+          "segmentLength": 43
+        },
+        {
+          "id": 17,
+          "contentId": "17 3",
+          "text": "in st petersburg saundra weathers bay news 9 senate republicans have jumped over the first hurdle to advance their healthcare bill- and it was a close one on this vote the yeas are 50 and the nays are 50 the senate being equally divided the vice president votes in teh affirmative and the motion is agreed to the chamber held a nail-biting vote",
+          "cluster": 3,
+          "start_line": "98543138",
+          "end_line": "98543156",
+          "start_timestamp": "07/25/2017 23:03:23",
+          "end_timestamp": "07/25/2017 23:03:55",
+          "station_id": "BN9--07-25-2017-22-58-00",
+          "segmentLength": 62
+        },
+        {
+          "id": 20,
+          "contentId": "20 2",
+          "text": "in st petersburg saundra weathers bay news 9 senate republicans have jumped over the first hurdle to advance their healthcare bill- one and it was a close on this vote the yeas are 50 and the nays are 50 the senate being equally divided the vice president votes in teh affirmative and the motion is agreed to the chamber held a nail-biting vote",
+          "cluster": 3,
+          "start_line": "98544679",
+          "end_line": "98544697",
+          "start_timestamp": "07/26/2017 00:03:28",
+          "end_timestamp": "07/26/2017 00:04:00",
+          "station_id": "BN9--07-25-2017-23-58-00",
+          "segmentLength": 62
+        },
+        {
+          "id": 49,
+          "contentId": "49 2",
+          "text": "are 50 and the nays are 50 the senate being equally divided the vice president votes in the affirmative and the motion is agreed to",
+          "cluster": 3,
+          "start_line": "80258545",
+          "end_line": "80258549",
+          "start_timestamp": "07/25/2017 22:14:42",
+          "end_timestamp": "07/25/2017 22:14:48",
+          "station_id": "KBFX--07-25-2017-22-13-00",
+          "segmentLength": 24
+        },
+        {
+          "id": 71,
+          "contentId": "71 2",
+          "text": "path ahead is far from clear senate republicans securing the bare minimum of 50 votes vice president mike pence cast the tie-breaking vote on this vote the yays are 50 and the nays are 50 the senate being equally divided the vice president votes in the affirmative i'm extremely happy we got this vote they say if you look historically this is a tough vote to get truly great health care for the american people we look forward to that this was a big step protesters",
+          "cluster": 3,
+          "start_line": "31077343",
+          "end_line": "31077362",
+          "start_timestamp": "07/25/2017 22:14:53",
+          "end_timestamp": "07/25/2017 22:15:25",
+          "station_id": "KDBC--07-25-2017-22-12-00",
+          "segmentLength": 85
+        }
+      ]
+    },
+    "4": {
+      "cluster_message": "john mccain traveled back to washington to vote yes on working together to come up with something we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle",
+      "stations": [
+        {
+          "id": 4,
+          "contentId": "4 2",
+          "text": "we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle",
+          "cluster": 4,
+          "start_line": "98535448",
+          "end_line": "98535452",
+          "start_timestamp": "07/25/2017 18:02:01",
+          "end_timestamp": "07/25/2017 18:02:06",
+          "station_id": "BN9--07-25-2017-17-57-00",
+          "segmentLength": 25
+        },
+        {
+          "id": 14,
+          "contentId": "14 3",
+          "text": "the chamber held a nail-biting vote tuesday to start debate on the legislation vice president mike pence ended up breaking the tie web anchor roy de jesus has more from the web center health care reform passed the test to begin debate while senator john mccain seized the opportunity to call for bipartisanship less than a week after a brain cancer diagnosis the 80 year old senator came back to washington and cast a vote he then spoke publicly for the first time since the diagnosis let's trust each other let's return to regular order we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare at a campaign rally tonight president trump declared a win and blasted democrats he tweeted earlier in the day as well obamacare is torturing the american people the democrats have fooled the people long enough repeal or repeal replace i have pen in hand don't tell lies kill the bill protestors interrupted the floor of the senate before the vote after the vote senators are on a 20 hour debate senator bill nelson said better to work together and fix obamacare this senator has seen it in florida over and over as i have had people come up to me wherever i am in a meeting on the street corner in the airport wherever and say senator please don't let them take my health care away from me what's happenning now a vote-arama lawmakers propose amendments and make changes to the repeal and replace bill but a full repeal of obamacare is still on the table from the web center i'm roy de jesus senator marco today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com with two thirds being in the affirmative the rules are suspended the bill has passed",
+          "cluster": 4,
+          "start_line": "98541804",
+          "end_line": "98541911",
+          "start_timestamp": "07/25/2017 22:04:49",
+          "end_timestamp": "07/25/2017 22:06:56",
+          "station_id": "BN9--07-25-2017-21-57-00",
+          "segmentLength": 330
+        },
+        {
+          "id": 14,
+          "contentId": "14 4",
+          "text": "we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare",
+          "cluster": 4,
+          "start_line": "98541837",
+          "end_line": "98541846",
+          "start_timestamp": "07/25/2017 22:06:00",
+          "end_timestamp": "07/25/2017 22:06:06",
+          "station_id": "BN9--07-25-2017-21-57-00",
+          "segmentLength": 37
+        },
+        {
+          "id": 15,
+          "contentId": "15 2",
+          "text": "the chamber held a nail-biting vote tuesday to start debate on the legislation vice president mike pence ended up breaking the tie web anchor roy de jesus has more from the web center health care reform passed the test to begin debate while senator john mccain seized the opportunity to call for bipartisanship less than a week after a brain cancer diagnosis the 80 year old senator came back to washington and cast a vote he then spoke publicly for the first time since the diagnosis let's trust each other let's return to regular order we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare at a campaign rally tonight president trump declared a win and blasted democrats he tweeted earlier in the day as well obamacare is torturing the american people the democrats have fooled the people long enough repeal or repeal replace i have pen in hand don't tell lies kill the bill protestors interrupted the floor of the senate before the vote after the vote senators are on a 20 hour debate senator bill nelson said better to work together and fix obamacare this senator has seen it in florida over and over as i have had people come up to me wherever i am in a meeting on the street corner in the airport wherever and say senator please don't let them take my health care away from me what's happenning now a vote-arama lawmakers propose amendments and make changes to the repeal and replace bill but a full repeal of obamacare is still on the table from the web center i'm roy de jesus senator marco today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com with two thirds being in the affirmative the rules are suspended the bill has passed while the senate was voting on health care members of the house passed new sanctions against russia the plan also includes new sanctions against iran and north korea -- and it gives congress the power to block any effort by the white house to weaken sanctions on russia the senate still has to approve the plan president trump",
+          "cluster": 4,
+          "start_line": "98541804",
+          "end_line": "98541932",
+          "start_timestamp": "07/25/2017 22:04:49",
+          "end_timestamp": "07/25/2017 22:07:17",
+          "station_id": "BN9--07-25-2017-22-04-00",
+          "segmentLength": 388
+        },
+        {
+          "id": 15,
+          "contentId": "15 3",
+          "text": "we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare",
+          "cluster": 4,
+          "start_line": "98541837",
+          "end_line": "98541846",
+          "start_timestamp": "07/25/2017 22:06:00",
+          "end_timestamp": "07/25/2017 22:06:06",
+          "station_id": "BN9--07-25-2017-22-04-00",
+          "segmentLength": 37
+        },
+        {
+          "id": 17,
+          "contentId": "17 4",
+          "text": "chamber held a nail-biting vote tuesday to start debate on the legislation vice president mike pence ended up breaking the tie web anchor roy de jesus has more from the web center health care reform passed the test to begin debate while senator john mccain seized the opportunity to call for bipartisanship less than a week after a brain cancer diagnosis the 80 year old senator came back to washington and cast a vote he then spoke publicly for the first time since the diagnosis let's trust each other let's return to regular order we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare at a campaign rally tonight president trump declared a win and blasted democrats he tweeted earlier in the day as well obamacare is torturing the american people the democrats have fooled the people long enough repeal or repeal replace i have pen in hand don't tell lies kill the bill protestors interrupted the floor of the senate before the vote after the vote senators are on a 20 houbasenator bill nelson said better to work together and fix obamacare this senator has seen it in florida over and over as i have had people come up to me wherever i am in a meeting on the street corner in the airport wherever and say senator please don't let them take my health care away from me what's happenning now a vote-arama lawmakers propose amendments and make changes to the repeal and replace bill but a full repeal of obamacare is still on the table from the web center i'm roy de jesus a big development late tonight- republicans rejected the first version of the bill to repeal and replace obamacare",
+          "cluster": 4,
+          "start_line": "98543156",
+          "end_line": "98543255",
+          "start_timestamp": "07/25/2017 23:03:55",
+          "end_timestamp": "07/25/2017 23:05:55",
+          "station_id": "BN9--07-25-2017-22-58-00",
+          "segmentLength": 311
+        },
+        {
+          "id": 17,
+          "contentId": "17 5",
+          "text": "we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare",
+          "cluster": 4,
+          "start_line": "98543189",
+          "end_line": "98543197",
+          "start_timestamp": "07/25/2017 23:04:26",
+          "end_timestamp": "07/25/2017 23:04:41",
+          "station_id": "BN9--07-25-2017-22-58-00",
+          "segmentLength": 37
+        },
+        {
+          "id": 17,
+          "contentId": "17 6",
+          "text": "with two thirds being in the affirmative the rules are suspended the bill has passed while the senate was voting on health care members of the house passed new sanctions against russia the plan also includes new sanctions against iran and north korea -- and it gives congress the power to block any effort by the white house to weaken sanctions on russia the senate still has to approve the plan president trump has not said it whether he'll sign a senate judiciary committee will drop its supboena of former trump campaign chairman paul manafort",
+          "cluster": 4,
+          "start_line": "98543276",
+          "end_line": "98543308",
+          "start_timestamp": "07/25/2017 23:06:15",
+          "end_timestamp": "07/25/2017 23:06:45",
+          "station_id": "BN9--07-25-2017-22-58-00",
+          "segmentLength": 94
+        },
+        {
+          "id": 18,
+          "contentId": "18 1",
+          "text": "legislation vice president mike pence ended up breaking the tie web anchor roy de jesus has more from the web center health care reform passed the test to begin debate while senator john mccain seized the opportunity to call for bipartisanship less than a week after a brain cancer diagnosis the 80 year old senator came back to washington and cast a vote he then spoke publicly for the first time since the diagnosis let's trust each other let's return to regular order we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare at a campaign rally tonight president trump declared a win and blasted democrats he tweeted earlier in the day as well obamacare is torturing the american people the democrats have fooled the people long enough repeal or repeal replace i have pen in hand don't tell lies kill the bill protestors interrupted the floor of the senate before the vote after the vote senators are on a 20 houbasenator bill nelson said better to work together and fix obamacare this senator has seen it in florida over and over as i have had people come up to me wherever i am in a meeting on the street corner in the airport wherever and say senator please don't let them take my health care away from me what's happenning now a vote-arama lawmakers propose amendments and make changes to the repeal and replace bill but a full repeal of obamacare is still on the table from the web center i'm roy de jesus a big development late tonight- republicans rejected the first version of the bill to repeal and replace obamacare",
+          "cluster": 4,
+          "start_line": "98543160",
+          "end_line": "98543255",
+          "start_timestamp": "07/25/2017 23:04:00",
+          "end_timestamp": "07/25/2017 23:05:55",
+          "station_id": "BN9--07-25-2017-23-04-00",
+          "segmentLength": 300
+        },
+        {
+          "id": 18,
+          "contentId": "18 2",
+          "text": "we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare",
+          "cluster": 4,
+          "start_line": "98543189",
+          "end_line": "98543197",
+          "start_timestamp": "07/25/2017 23:04:26",
+          "end_timestamp": "07/25/2017 23:04:41",
+          "station_id": "BN9--07-25-2017-23-04-00",
+          "segmentLength": 37
+        },
+        {
+          "id": 18,
+          "contentId": "18 3",
+          "text": "with two thirds being in the affirmative the rules are suspended the bill has passed while the senate was voting on health care members of the house passed new sanctions against russia the plan also includes new sanctions against iran and north korea -- and it gives congress the power to block any effort by the white house to weaken sanctions on russia the senate still has to approve the plan president trump has not said it whether he'll sign a senate judiciary committee will drop its supboena of former trump campaign chairman paul manafort",
+          "cluster": 4,
+          "start_line": "98543276",
+          "end_line": "98543308",
+          "start_timestamp": "07/25/2017 23:06:15",
+          "end_timestamp": "07/25/2017 23:06:45",
+          "station_id": "BN9--07-25-2017-23-04-00",
+          "segmentLength": 94
+        },
+        {
+          "id": 20,
+          "contentId": "20 3",
+          "text": "chamber held a nail-biting vote tuesday to start debate on the legislation vice president mike pence ended up breaking the tie jesus has more web anchor roy de from the web center health care reform passed the test to begin debate while senator john mccain seized the opportunity to call for bipartisanship after a brain less than a week cancer diagnosis the 80 year old senator came back to washington and cast a vote he then spoke publicly for the first time since the diagnosis let's trust each other let's return to regular order we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare at a campaign rally tonight president trump declared a win and blasted democrats he tweeted earlier in the day as well obamacare is torturing the american people the democrats have fooled the people long enough repeal or repeal replace i have pen in hand don't tell lies kill the bill protestors interrupted the floor of the senate before the vote after the vote senators are on a 20 hour debate senator bill nelson said better to work together and fix obamacare this senator has seen it in florida over and over as i have had people come up to me wherever i am in a meeting on the street corner in the airport wherever and say senator please don't letm y health care away from me what's happenning now a vote-arama lawmakers propose amendments and make changes to the repeal and but a full repeal of replace bill obamacare is still on the table from the web center i'm roy de jesus a big development late tonight- republicans rejected the first version of the bill to repeal and replace obamacare",
+          "cluster": 4,
+          "start_line": "98544697",
+          "end_line": "98544797",
+          "start_timestamp": "07/26/2017 00:04:00",
+          "end_timestamp": "07/26/2017 00:06:00",
+          "station_id": "BN9--07-25-2017-23-58-00",
+          "segmentLength": 311
+        },
+        {
+          "id": 20,
+          "contentId": "20 4",
+          "text": "we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle we're one step closer to liberating our citizens from this obamacare nightmare",
+          "cluster": 4,
+          "start_line": "98544730",
+          "end_line": "98544738",
+          "start_timestamp": "07/26/2017 00:04:31",
+          "end_timestamp": "07/26/2017 00:04:46",
+          "station_id": "BN9--07-25-2017-23-58-00",
+          "segmentLength": 37
+        },
+        {
+          "id": 20,
+          "contentId": "20 5",
+          "text": "just hours after the senate voted to start debate on health care reform the next step is floor debate on legislation to overhaul the affordable care act it is unclear what the final bill will look like with two thirds being in the affirmative the rules are suspended the bill has passed while the senate was voting on health care members of the house passed new sanctions against russia the plan also includes new sanctions against iran and north korea -- and it gives congress the power to block any effort by the white house to weaken sanctions on russia the senate still has to approve the plan president trump",
+          "cluster": 4,
+          "start_line": "98544803",
+          "end_line": "98544841",
+          "start_timestamp": "07/26/2017 00:06:06",
+          "end_timestamp": "07/26/2017 00:06:41",
+          "station_id": "BN9--07-25-2017-23-58-00",
+          "segmentLength": 109
+        },
+        {
+          "id": 45,
+          "contentId": "45 1",
+          "text": "we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle",
+          "cluster": 4,
+          "start_line": "35072547",
+          "end_line": "35072554",
+          "start_timestamp": "07/25/2017 22:08:32",
+          "end_timestamp": "07/25/2017 22:08:35",
+          "station_id": "KAYU--07-25-2017-22-06-00",
+          "segmentLength": 25
+        },
+        {
+          "id": 69,
+          "contentId": "69 2",
+          "text": "john mccain traveled back to washington to vote yes on working together to come up with something we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle",
+          "cluster": 4,
+          "start_line": "74072822",
+          "end_line": "74072829",
+          "start_timestamp": "07/25/2017 22:16:29",
+          "end_timestamp": "07/25/2017 22:16:39",
+          "station_id": "KCNC--07-25-2017-22-08-00",
+          "segmentLength": 42
+        },
+        {
+          "id": 70,
+          "contentId": "70 1",
+          "text": "john mccain traveled back to washington to vote yes on working together to come up with something we've been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle",
+          "cluster": 4,
+          "start_line": "74072822",
+          "end_line": "74072829",
+          "start_timestamp": "07/25/2017 22:16:29",
+          "end_timestamp": "07/25/2017 22:16:39",
+          "station_id": "KCNC--07-25-2017-22-14-00",
+          "segmentLength": 42
+        },
+        {
+          "id": 86,
+          "contentId": "86 2",
+          "text": "been spinning our wheels on too many important issues because we keep trying to find a way to win without help from across the aisle",
+          "cluster": 4,
+          "start_line": "27432357",
+          "end_line": "27432360",
+          "start_timestamp": "07/25/2017 22:07:11",
+          "end_timestamp": "07/25/2017 22:07:14",
+          "station_id": "KFDM--07-25-2017-22-05-00",
+          "segmentLength": 24
+        }
+      ]
+    },
+    "5": {
+      "cluster_message": "publicly since his diagnosis and called for bipartisanship moving forward all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it i voted for the motion to proceed to allow debate to continue and amendments to be offered i will not vote for this bill as it is today it's a shell of a bill right now we all know that the president took to twitter senjohnmccain- thank you for coming to d c for such a vital vote congrats to all rep we can now deliver grt healthcare to all americans don't tell lies kill the bill protestors interrupted the floor of the senate just before the vote right now senators have 20 hours of debate senator bill nelson",
+      "stations": [
+        {
+          "id": 4,
+          "contentId": "4 3",
+          "text": "help from across the aisle that's an approach that's been employed by both sides mandating legislation from the top down without any support from the other side with all the parliamentary maneuvers that requires we're getting nothing done my friends we're getting nothing done the president took to twitter senjohnmccain- thank you for coming to d c for such a vital vote congrats to all rep we can now deliver grt healthcare to all americans don't tell lies kill the bill protestors interrupted the floor of the senate just before the vote right now senators have 20 hours of debate senator bill nelson",
+          "cluster": 5,
+          "start_line": "98535452",
+          "end_line": "98535483",
+          "start_timestamp": "07/25/2017 18:02:06",
+          "end_timestamp": "07/25/2017 18:02:43",
+          "station_id": "BN9--07-25-2017-17-57-00",
+          "segmentLength": 102
+        },
+        {
+          "id": 8,
+          "contentId": "8 3",
+          "text": "publicly since his diagnosis and called for bipartisanship moving forward all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it i voted for the motion to proceed to allow debate to continue and amendments to be offered i will not vote for this bill as it is today it's a shell of a bill right now we all know that the president took to twitter senjohnmccain- thank you for coming to d c for such a vital vote congrats to all rep we can now deliver grt healthcare to all americans don't tell lies kill the bill protestors interrupted the floor of the senate just before the vote right now senators have 20 hours of debate senator bill nelson",
+          "cluster": 5,
+          "start_line": "98538625",
+          "end_line": "98538661",
+          "start_timestamp": "07/25/2017 20:03:58",
+          "end_timestamp": "07/25/2017 20:04:42",
+          "station_id": "BN9--07-25-2017-19-57-00",
+          "segmentLength": 132
+        },
+        {
+          "id": 9,
+          "contentId": "9 2",
+          "text": "publicly since his diagnosis and called for bipartisanship moving forward all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it i voted for the motion to proceed to allow debate to continue and amendments to be offered i will not vote for this bill as it is today it's a shell of a bill right now we all know that the president took to twitter senjohnmccain- thank you for coming to d c for such a vital vote congrats to all rep we can now deliver grt healthcare to all americans don't tell lies kill the bill protestors interrupted the floor of the senate just before the vote right now senators have 20 hours of debate senator bill nelson",
+          "cluster": 5,
+          "start_line": "98538625",
+          "end_line": "98538661",
+          "start_timestamp": "07/25/2017 20:03:58",
+          "end_timestamp": "07/25/2017 20:04:42",
+          "station_id": "BN9--07-25-2017-20-03-00",
+          "segmentLength": 132
+        },
+        {
+          "id": 11,
+          "contentId": "11 4",
+          "text": "publicly since his diagnosis and called for bipartisanship moving forward all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it i voted for the motion to proceed to allow debate to continue and amendments to be offered i will not vote for this bill as it is today it's a shell of a bill right now we all know that the president took to twitter senjohnmccain- thank you for coming to d c for such a vital vote congrats to all rep we can now deliver grt healthcare to all americans don't tell lies kill the bill protestors interrupted the floor of the senate just before the vote right now senators have 20 hours of debate senator bill nelson",
+          "cluster": 5,
+          "start_line": "98540273",
+          "end_line": "98540310",
+          "start_timestamp": "07/25/2017 21:04:40",
+          "end_timestamp": "07/25/2017 21:05:25",
+          "station_id": "BN9--07-25-2017-20-57-00",
+          "segmentLength": 132
+        },
+        {
+          "id": 12,
+          "contentId": "12 1",
+          "text": "publicly since his diagnosis and called for bipartisanship moving forward all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it i voted for the motion to proceed to allow debate to continue and amendments to be offered i will not vote for this bill as it is today it's a shell of a bill right now we all know that the president took to twitter senjohnmccain- thank you for coming to d c for such a vital vote congrats to all rep we can now deliver grt healthcare to all americans don't tell lies kill the bill protestors interrupted the floor of the senate just before the vote right now senators have 20 hours of debate senator bill nelson",
+          "cluster": 5,
+          "start_line": "98540273",
+          "end_line": "98540310",
+          "start_timestamp": "07/25/2017 21:04:40",
+          "end_timestamp": "07/25/2017 21:05:25",
+          "station_id": "BN9--07-25-2017-21-04-00",
+          "segmentLength": 132
+        }
+      ]
+    },
+    "6": {
+      "cluster_message": "the senate will now go through what's called a vote-arama lawmakers can propose amendments and make changes there's also a possibility of a full repeal of obamacare as well from the web center i'm roy de jesus senator marco rubio voted yes today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com it was a busy day for senators the president's former campaign manager -- paul manafort -- met with intelligence commitee staff today that meeting -- was about alleged russian meddling in last year's election the senate judiciary committee also subpoenaed manafort last night he hasn't said whether he'll testify senator dianne feinstein said manafort could be refuses in contempt if he panel met with the meantime -- a house president's son in law jared kushner today he answered more questions about russia kushner also released an 11-page statement and denied collusion with the russian government kushner said he had four meetings with russians last year but insists he discussed nothing improper",
+      "stations": [
+        {
+          "id": 4,
+          "contentId": "4 4",
+          "text": "the senate will now go through what's called a vote- arama lawmakers will have a chance to propose amendments and make changes there's also a possibility of a full repeal of obamacare as well from the web center i'm roy de jesus senator marco rubio voted yes today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com it was a busy day for senators the president's former campaign manager -- paul manafort -- met with intelligence commitee staff today that meeting -- was about alleged russian meddling in last year's election the senate judiciary committee also subpoenaed manafort last night he hasn't said whether he'll testify senator dianne feinstein said manafort could be in contempt if he refuses meantime -- a house panel met with the president's son in law jared kushner today he answered more questions about russia kushner also released an 11-page statement and denied collusion with the russian government kushner said he had four meetings with russians last year but insists he discussed nothing improper",
+          "cluster": 6,
+          "start_line": "98535501",
+          "end_line": "98535572",
+          "start_timestamp": "07/25/2017 18:03:15",
+          "end_timestamp": "07/25/2017 18:04:20",
+          "station_id": "BN9--07-25-2017-17-57-00",
+          "segmentLength": 174
+        },
+        {
+          "id": 8,
+          "contentId": "8 4",
+          "text": "the senate will now go through what's called a vote-arama lawmakers can propose amendments and make changes there's also a possibility of a full repeal of obamacare as well from the web center i'm roy de jesus senator marco rubio voted yes today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com it was a busy day for senators the president's former campaign manager -- paul manafort -- met with intelligence commitee staff today that meeting -- was about alleged russian meddling in last year's election the senate judiciary committee also subpoenaed manafort last night he hasn't said whether he'll testify senator dianne feinstein said manafort could be refuses in contempt if he panel met with the meantime -- a house president's son in law jared kushner today he answered more questions about russia kushner also released an 11-page statement and denied collusion with the russian government kushner said he had four meetings with russians last year but insists he discussed nothing improper",
+          "cluster": 6,
+          "start_line": "98538675",
+          "end_line": "98538746",
+          "start_timestamp": "07/25/2017 20:05:09",
+          "end_timestamp": "07/25/2017 20:06:14",
+          "station_id": "BN9--07-25-2017-19-57-00",
+          "segmentLength": 169
+        },
+        {
+          "id": 9,
+          "contentId": "9 3",
+          "text": "the senate will now go through what's called a vote-arama lawmakers can propose amendments and make changes there's also a possibility of a full repeal of obamacare as well from the web center i'm roy de jesus senator marco rubio voted yes today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com it was a busy day for senators the president's former campaign manager -- paul manafort -- met with intelligence commitee staff today that meeting -- was about alleged russian meddling in last year's election the senate judiciary committee also subpoenaed manafort last night he hasn't said whether he'll testify senator dianne feinstein said manafort could be refuses in contempt if he panel met with the meantime -- a house president's son in law jared kushner today he answered more questions about russia kushner also released an 11-page statement and denied collusion with the russian government kushner said he had four meetings with russians last year but insists he discussed nothing improper",
+          "cluster": 6,
+          "start_line": "98538675",
+          "end_line": "98538746",
+          "start_timestamp": "07/25/2017 20:05:09",
+          "end_timestamp": "07/25/2017 20:06:14",
+          "station_id": "BN9--07-25-2017-20-03-00",
+          "segmentLength": 169
+        },
+        {
+          "id": 11,
+          "contentId": "11 5",
+          "text": "the senate will now go through what's called a vote-arama lawmakers can propose amendments and make changes there's also a possibility of a full repeal of obamacare as well from the web center i'm roy de jesus senator marco rubio voted yes today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com it was a busy day for senators the president's former campaign manager -- paul manafort -- met with intelligence commitee staff today that meeting -- was about alleged russian meddling in last year's the senate judiciary election committee also subpoenaed manafort last night he hasn't said whether he'll testify senator dianne feinstein said manafort could be refuses in contempt if he meantime -- a house panel met with the president's son in law jared kushner today he answered more questions about russia kushner also released an 11-page statement and denied collusion with the russian government kushner said he had four meetings with russians last year but insists he discussed nothing improper",
+          "cluster": 6,
+          "start_line": "98540324",
+          "end_line": "98540394",
+          "start_timestamp": "07/25/2017 21:05:52",
+          "end_timestamp": "07/25/2017 21:06:57",
+          "station_id": "BN9--07-25-2017-20-57-00",
+          "segmentLength": 169
+        },
+        {
+          "id": 12,
+          "contentId": "12 2",
+          "text": "the senate will now go through what's called a vote-arama lawmakers can propose amendments and make changes there's also a possibility of a full repeal of obamacare as well from the web center i'm roy de jesus senator marco rubio voted yes today senator bill nelson voted no for more on today's health care reform vote visit baynews9- dot-com it was a busy day for senators the president's former campaign manager -- paul manafort -- met with intelligence commitee staff today that meeting -- was about alleged russian meddling in last year's the senate judiciary election committee also subpoenaed manafort last night he hasn't said whether he'll testify senator dianne feinstein said manafort could be refuses in contempt if he meantime -- a house panel met with the president's son in law jared kushner today he answered more questions about russia kushner also released an 11-page statement and denied collusion with the russian government kushner said he had four meetings with russians last year but insists he discussed nothing improper",
+          "cluster": 6,
+          "start_line": "98540324",
+          "end_line": "98540394",
+          "start_timestamp": "07/25/2017 21:05:52",
+          "end_timestamp": "07/25/2017 21:06:57",
+          "station_id": "BN9--07-25-2017-21-04-00",
+          "segmentLength": 169
+        }
+      ]
+    },
+    "7": {
+      "cluster_message": "from the palladium theater downtown hosted by bay news 9 and the tampa bay times it aired live right here at 7 mayor rick kriseman is vying to keep his job come august former mayor rick baker wants",
+      "stations": [
+        {
+          "id": 11,
+          "contentId": "11 2",
+          "text": "from the palladium theater downtown hosted by bay news 9 and the tampa bay times it was a substantive exchange of ideas positions and views mayor rick kriseman is vying to keep his job come august former mayor rick baker wants",
+          "cluster": 7,
+          "start_line": "98540109",
+          "end_line": "98540120",
+          "start_timestamp": "07/25/2017 21:00:41",
+          "end_timestamp": "07/25/2017 21:00:57",
+          "station_id": "BN9--07-25-2017-20-57-00",
+          "segmentLength": 40
+        },
+        {
+          "id": 14,
+          "contentId": "14 1",
+          "text": "from the palladium theater downtown hosted by bay news 9 and the tampa bay times it aired live right here at 7 mayor rick kriseman is vying to keep his job come august former mayor rick baker wants",
+          "cluster": 7,
+          "start_line": "98541688",
+          "end_line": "98541697",
+          "start_timestamp": "07/25/2017 22:02:04",
+          "end_timestamp": "07/25/2017 22:02:15",
+          "station_id": "BN9--07-25-2017-21-57-00",
+          "segmentLength": 37
+        },
+        {
+          "id": 17,
+          "contentId": "17 2",
+          "text": "from the palladium theater downtown hosted by bay news 9 and the tampa bay times mayor rick kriseman is vying to keep his job come august former mayor rick baker wants",
+          "cluster": 7,
+          "start_line": "98543060",
+          "end_line": "98543067",
+          "start_timestamp": "07/25/2017 23:01:35",
+          "end_timestamp": "07/25/2017 23:01:42",
+          "station_id": "BN9--07-25-2017-22-58-00",
+          "segmentLength": 30
+        },
+        {
+          "id": 20,
+          "contentId": "20 1",
+          "text": "from the palladium theater downtown hosted by bay news 9 and the tampa bay times mayor rick kriseman is vying to keep his job come august former mayor rick baker wants",
+          "cluster": 7,
+          "start_line": "98544601",
+          "end_line": "98544608",
+          "start_timestamp": "07/26/2017 00:01:40",
+          "end_timestamp": "07/26/2017 00:01:47",
+          "station_id": "BN9--07-25-2017-23-58-00",
+          "segmentLength": 30
+        }
+      ]
+    },
+    "8": {
+      "cluster_message": "a bi-partisan hero's welcome from his colleagues in the u-s senate tktktk a week after revealing that senator john mccain--gettin g a bi-partisan hero's welcome from his colleagues in the u-s senate tktktk a week after revealing that he's fighting brain cancer back in time to cast his vote determining te o obamacare the senate ultimately deciding to move forward they now move on to debate the repeal--and possible replacement-- of president obama's signature healthcare law the most recent abc washingto n post poll shows americans prefer obamacare to a gop replacement two-to-one -- sot - all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it protesters against repeal making their voices heard around the capitol and even on the senate floor-- nats-- --as the fight played out among senators sot - a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump--meetin g with the lebanese prime minister today--but keeping a close eye on that key vote on his biggest campaign promise sot - truly great health care for the american people we look forward to that this was a big step megan hughes there are still a lot of uncertainties as to what the final measure will look like senator mcconnell has indicated he's open to exploring amendments--a nd it will all play out on the senate floor this morning president trump's son in law and senior adviser",
+      "stations": [
+        {
+          "id": 21,
+          "contentId": "21 1",
+          "text": "a bi-partisan hero's welcome from his colleagues in the u-s senate tktktk a week after revealing that senator john mccain--gettin g a bi-partisan hero's welcome from his colleagues in the u-s senate tktktk a week after revealing that he's fighting brain cancer back in time to cast his vote determining te o obamacare the senate ultimately deciding to move forward they now move on to debate the repeal--and possible replacement-- of president obama's signature healthcare law the most recent abc washingto n post poll shows americans prefer obamacare to a gop replacement two-to-one -- sot - all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it protesters against repeal making their voices heard around the capitol and even on the senate floor-- nats-- --as the fight played out among senators sot - a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump--meetin g with the lebanese prime minister today--but keeping a close eye on that key vote on his biggest campaign promise sot - truly great health care for the american people we look forward to that this was a big step megan hughes there are still a lot of uncertainties as to what the final measure will look like senator mcconnell has indicated he's open to exploring amendments--a nd it will all play out on the senate floor this morning president trump's son in law and senior adviser",
+          "cluster": 8,
+          "start_line": "29008740",
+          "end_line": "29008808",
+          "start_timestamp": "07/25/2017 17:05:06",
+          "end_timestamp": "07/25/2017 17:06:48",
+          "station_id": "KAAL--07-25-2017-17-03-00",
+          "segmentLength": 270
+        },
+        {
+          "id": 54,
+          "contentId": "54 1",
+          "text": "passing a motion to begin debate on the house- passed health care bill abc's megan hughes begins-- our team coverage arizona senator john mccain-- getting a bi- partisan hero's welcome from his colleagues in the u-s senate tktktk a week after revealing that he's fighting brain cancer back in time to cast his vote determining the fate of obamacare the senate ultimately deciding to move forward they now move on to debate the repeal--and possible replacement-- of president obama's signature healthcare law the most recent abc washingto n post poll shows americans prefer obamacare to a gop replacement two-to-one -- sot - all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it protesters against repeal makg eir voices heard around the capitol and even on the senate floor-- nats-- --as the fight played out among senators sot - a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump--meeting with the lebanese prime minister today- -but keeping a close eye on that key vote on his biggest campaign promise sot - truly great health care for the american people we look forward to that this was a big step",
+          "cluster": 8,
+          "start_line": "30661241",
+          "end_line": "30661290",
+          "start_timestamp": "07/25/2017 17:02:18",
+          "end_timestamp": "07/25/2017 17:03:53",
+          "station_id": "KCAU--07-25-2017-17-00-00",
+          "segmentLength": 229
+        },
+        {
+          "id": 55,
+          "contentId": "55 1",
+          "text": "senate ultimately deciding to move forward they now move on to debate the repeal--and possible replacement-- of president obama's signature healthcare law the most recent abc washingto n post poll shows americans prefer obamacare to a gop replacement two-to-one -- sot - all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it protesters against repeal makg eir voices heard around the capitol and even on the senate floor-- nats-- --as the fight played out among senators sot - a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump--meeting with the lebanese prime minister today- -but keeping a close eye on that key vote on his biggest campaign promise sot - truly great health care for the american people we look forward to that this was a big step",
+          "cluster": 8,
+          "start_line": "30661255",
+          "end_line": "30661290",
+          "start_timestamp": "07/25/2017 17:03:00",
+          "end_timestamp": "07/25/2017 17:03:53",
+          "station_id": "KCAU--07-25-2017-17-03-00",
+          "segmentLength": 169
+        },
+        {
+          "id": 84,
+          "contentId": "84 2",
+          "text": "jared kushner returned to capitol hill for closed-door testimony before the house intelligence committee and the senate judiciary committee subpoenaed former trump campaign manager paul manafort to appear before them tomorrow the showdown over health care--playing out today on the senate floor senate republicans succeed in their last ditch effort to repeal or replace obamacare the vote--so significant--sen ator john mccain returning to washington to cast his vote a-b-c's megan hughes has all the details arizona senator john mccain--getting a bi-partisan hero's welcome from his colleagues in the u-s senate a week after revealing that he's fighting brain cancer back in time to cast his vote determining the fate of obamacare the senate ultimately deciding to move forward they now move on to debate the repeal--and possible replacement--of president obama's signature healthcare law the most recent abc washington post poll shows americans prefer obamacare to a gop replacement two-to-one -- sot - all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it protesters against repeal making their voices heard around the capitol and even on the senate floor-- --as the fight played out among senators a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump--meeting with the lebanese prime minister today--but keeping a close eye on that key vote on his biggest campaign promise sot - truly great health care for the american people we look forward to that this was a big step there are still a lot of uncertainties as to what the final measure will look like senator mcconnell has indicated he's open to exploring amendments--an d it will all play out on the senate floor millennials are set to surpass baby boomers next year as the largest generation of americans eligible to vote this is according to the states-of-change project at the liberal advocacy group center for american progress baby boomers have been the largest voter-eligible age group since 19-78- and have leaned toward the republican party in recent years millennials tend to vote more often for democrats but they also vote at much lower rates than baby boomers this makes their potential impact on politics uncertain",
+          "cluster": 8,
+          "start_line": "84888916",
+          "end_line": "84889018",
+          "start_timestamp": "07/25/2017 17:07:33",
+          "end_timestamp": "07/25/2017 17:10:15",
+          "station_id": "KERO--07-25-2017-17-05-00",
+          "segmentLength": 392
+        }
+      ]
+    },
+    "9": {
+      "cluster_message": "to replace the affordable care act trump did a victory lap tonight the latest from washington donald trump going back to his campaign roots tuesday night at a make america great rally in ohio the president feeling renewed momentum after his promise to repeal obamacare got a step closer to reality we are now one step closer to liberating our citizens from this obamacare nightmare mike pence breaking the tie on captiol hill also lending his support john mccain a scar visible above his left eye after brain surgery he was welcomed back with a standing ovation after casting his vote to move forward with debate senator mccain speaking his mind expressing reservations on what comes next it is a shll of a bill right now we all know that i have changes urged by my state's governor that will have to be to pass any bill republicans trying to hash out a bill they can pass without any democratic support there's a lot of things that we have done and will continue to do on a bipartisan basis regretfully the issue of health care has not fallen in to that category on either side senate republicans will be rolling up their sleeves whales unusual is this will be playing out on the senate floor megan hughes abc news",
+      "stations": [
+        {
+          "id": 23,
+          "contentId": "23 1",
+          "text": "to replace the affordable care act trump did a victory lap tonight the latest from washington donald trump going back to his campaign roots tuesday night at a make america great rally in ohio the president feeling renewed momentum after his promise to repeal obamacare got a step closer to reality we are now one step closer to liberating our citizens from this obamacare nightmare mike pence breaking the tie on captiol hill also lending his support john mccain a scar visible above his left eye after brain surgery he was welcomed back with a standing ovation after casting his vote to move forward with debate senator mccain speaking his mind expressing reservations on what comes next it is a shll of a bill right now we all know that i have changes urged by my state's governor that will have to be to pass any bill republicans trying to hash out a bill they can pass without any democratic support there's a lot of things that we have done and will continue to do on a bipartisan basis regretfully the issue of health care has not fallen in to that category on either side senate republicans will be rolling up their sleeves whales unusual is this will be playing out on the senate floor megan hughes abc news",
+          "cluster": 9,
+          "start_line": "29011931",
+          "end_line": "29011976",
+          "start_timestamp": "07/25/2017 22:09:29",
+          "end_timestamp": "07/25/2017 22:11:09",
+          "station_id": "KAAL--07-25-2017-22-07-00",
+          "segmentLength": 218
+        },
+        {
+          "id": 51,
+          "contentId": "51 1",
+          "text": "there's a lot of things that we have done and will continue to do on a bipartisan basis regretfully the issue of health care has not fallen into that category on either side the skinny repeal would keep much of obamacare - but clean up perceived mistakes president donald trump--going back to his campaign roots tuesday",
+          "cluster": 9,
+          "start_line": "28233850",
+          "end_line": "28233860",
+          "start_timestamp": "07/25/2017 22:08:12",
+          "end_timestamp": "07/25/2017 22:08:33",
+          "station_id": "KBMT--07-25-2017-22-05-00",
+          "segmentLength": 55
+        }
+      ]
+    },
+    "10": {
+      "cluster_message": "reform effort to pass its first procedural hurdle moderate republican susan collins and lisa murkowski reacted we had two republicans go against us which is very sad i believe now we will over the next week or two come up with a plan that's going to be really really wonderful for the american people arizona senator john mccain returned from his own health care battle with brain cancer to help gop leadership get to 50 votes mr mccain he received a heroic welcome back and noted there's still plenty of difficult work ahead our health care insurance system is a mess we all know it those who support obamacare and those who oppose it something has to be done we republicans have looked for a way to end it and replace it with something else without paying a terrible political price we haven't found it yet and i'm not sure we will sources say one idea that has been floated by gop leaders is passing a so-called skinny bill limited to repealing themare's individual and employer mandates and the medical device tax and then the measure would go to conference to cut a deal with the house after the procedural vote majority leader mitch mcconnell pledged to keep working to get there and noted democrats struggled with passing obamacare we watched a similar process seven years ago they had a lot of differences we're going to sort this out in a thoroughly open amendment process and a situation where 51 votes can change the built the senate democratic leader tried to convince moderate republicans to oppose this effort don't be fooled by this ruse a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it won't be an easy lift going forward but leadership was able to get past the first hurdle and will have the opportunity to keep working at it to keep a campaign promise going back",
+      "stations": [
+        {
+          "id": 24,
+          "contentId": "24 1",
+          "text": "reform effort to pass its first procedural hurdle moderate republican susan collins and lisa murkowski reacted we had two republicans go against us which is very sad i believe now we will over the next week or two come up with a plan that's going to be really really wonderful for the american people arizona senator john mccain returned from his own health care battle with brain cancer to help gop leadership get to 50 votes mr mccain he received a heroic welcome back and noted there's still plenty of difficult work ahead our health care insurance system is a mess we all know it those who support obamacare and those who oppose it something has to be done we republicans have looked for a way to end it and replace it with something else without paying a terrible political price we haven't found it yet and i'm not sure we will sources say one idea that has been floated by gop leaders is passing a so-called skinny bill limited to repealing themare's individual and employer mandates and the medical device tax and then the measure would go to conference to cut a deal with the house after the procedural vote majority leader mitch mcconnell pledged to keep working to get there and noted democrats struggled with passing obamacare we watched a similar process seven years ago they had a lot of differences we're going to sort this out in a thoroughly open amendment process and a situation where 51 votes can change the built the senate democratic leader tried to convince moderate republicans to oppose this effort don't be fooled by this ruse a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it won't be an easy lift going forward but leadership was able to get past the first hurdle and will have the opportunity to keep working at it to keep a campaign promise going back",
+          "cluster": 10,
+          "start_line": "65705492",
+          "end_line": "65705575",
+          "start_timestamp": "07/25/2017 21:17:46",
+          "end_timestamp": "07/25/2017 21:19:52",
+          "station_id": "KABB--07-25-2017-21-12-00",
+          "segmentLength": 331
+        },
+        {
+          "id": 25,
+          "contentId": "25 1",
+          "text": "reform effort to pass its first procedural hurdle moderate republican susan collins and lisa murkowski reacted we had two republicans go against us which is very sad i believe now we will over the next week or two come up with a plan that's going to be really really wonderful for the american people arizona senator john mccain returned from his own health care battle with brain cancer to help gop leadership get to 50 votes mr mccain he received a heroic welcome back and noted there's still plenty of difficult work ahead our health care insurance system is a mess we all know it those who support obamacare and those who oppose it something has to be done we republicans have looked for a way to end it and replace it with something else without paying a terrible political price we haven't found it yet and i'm not sure we will sources say one idea that has been floated by gop leaders is passing a so-called skinny bill limited to repealing themare's individual and employer mandates and the medical device tax and then the measure would go to conference to cut a deal with the house after the procedural vote majority leader mitch mcconnell pledged to keep working to get there and noted democrats struggled with passing obamacare we watched a similar process seven years ago they had a lot of differences we're going to sort this out in a thoroughly open amendment process and a situation where 51 votes can change the built the senate democratic leader tried to convince moderate republicans to oppose this effort don't be fooled by this ruse a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe even deeper than in the house bill it won't be an easy lift going forward but leadership was able to get past the first hurdle and will have the opportunity to keep working at it to keep a campaign promise going back",
+          "cluster": 10,
+          "start_line": "65705492",
+          "end_line": "65705575",
+          "start_timestamp": "07/25/2017 21:17:46",
+          "end_timestamp": "07/25/2017 21:19:52",
+          "station_id": "KABB--07-25-2017-21-16-00",
+          "segmentLength": 331
+        },
+        {
+          "id": 36,
+          "contentId": "36 1",
+          "text": "so we had two republicans that went against us which is very sad i think it's very very sad for them but i'm very very happy with the result i believe now we will over the next week or two come up with a plan that's going to be really really wonderful for the american people",
+          "cluster": 10,
+          "start_line": "11525722",
+          "end_line": "11525732",
+          "start_timestamp": "07/25/2017 17:01:24",
+          "end_timestamp": "07/25/2017 17:01:31",
+          "station_id": "KATH--07-25-2017-17-00-00",
+          "segmentLength": 55
+        },
+        {
+          "id": 41,
+          "contentId": "41 1",
+          "text": "and senator susan collins of maine for not voting along party lines so we had two republicans that went against us which is very sad i think it's very very sad for them but i'm very very happy with the result",
+          "cluster": 10,
+          "start_line": "11530600",
+          "end_line": "11530610",
+          "start_timestamp": "07/25/2017 22:14:05",
+          "end_timestamp": "07/25/2017 22:14:13",
+          "station_id": "KATH--07-25-2017-22-11-00",
+          "segmentLength": 40
+        }
+      ]
+    },
+    "11": {
+      "cluster_message": "continue and amendments to be offered i will not vote for this bill today as it is today kill the bill protestors chanted inside as democrats uniformly opposed this don't be fooled by this ruse we have lost an important battle today but we have not yet lost this war the president expressed support for the bill now we're all going to sit together",
+      "stations": [
+        {
+          "id": 27,
+          "contentId": "27 1",
+          "text": "continue and amendments to be offered i will not vote for this bill today as it is today kill the bill protestors chanted inside as democrats uniformly opposed this don't be fooled by this ruse we have lost an important battle today but we have not yet lost this war the president expressed support for the bill now we're all going to sit together",
+          "cluster": 11,
+          "start_line": "176746236",
+          "end_line": "176746251",
+          "start_timestamp": "07/25/2017 16:06:44",
+          "end_timestamp": "07/25/2017 16:07:10",
+          "station_id": "KABC--07-25-2017-16-03-00",
+          "segmentLength": 63
+        }
+      ]
+    },
+    "12": {
+      "cluster_message": "offered i will not vote for this bill today as it is today kill the bill protestors chant inside as democrats uniformly oppose this this is the most dangerous and destructive piece of legislation ever to be discussed on the floor of the senate in the modern history of this country turn back now before it's too late and millions and millions and millions of americans are hurt so badly in ways from which they will never ever recover",
+      "stations": [
+        {
+          "id": 28,
+          "contentId": "28 1",
+          "text": "offered i will not vote for this bill today as it is today kill the bill protestors chant inside as democrats uniformly oppose this this is the most dangerous and destructive piece of legislation ever to be discussed on the floor of the senate in the modern history of this country turn back now before it's too late and millions and millions and millions of americans are hurt so badly in ways from which they will never ever recover",
+          "cluster": 12,
+          "start_line": "176747766",
+          "end_line": "176747783",
+          "start_timestamp": "07/25/2017 17:02:46",
+          "end_timestamp": "07/25/2017 17:03:08",
+          "station_id": "KABC--07-25-2017-16-59-00",
+          "segmentLength": 78
+        }
+      ]
+    },
+    "13": {
+      "cluster_message": "sessions recusing himself from the russia investigation and leaving open the possibility he might fire sessions if he was going to recuse himself he should told me prior to taking office and i would have quite simply picked somebody else",
+      "stations": [
+        {
+          "id": 28,
+          "contentId": "28 2",
+          "text": "sessions recusing himself from the russia investigation and leaving open the possibility he might fire sessions if he was going to recuse himself he should told me prior to taking office and i would have quite simply picked somebody else",
+          "cluster": 13,
+          "start_line": "176747818",
+          "end_line": "176747825",
+          "start_timestamp": "07/25/2017 17:04:08",
+          "end_timestamp": "07/25/2017 17:04:21",
+          "station_id": "KABC--07-25-2017-16-59-00",
+          "segmentLength": 39
+        }
+      ]
+    },
+    "14": {
+      "cluster_message": "these sanctions are a clear signal that the united states will hold president putin and his close associates accountable for their actions president trump's son-in-law jared kushner spent three hours meeting behind closed doors with lawmakers on the house intelligence committee looking into",
+      "stations": [
+        {
+          "id": 28,
+          "contentId": "28 3",
+          "text": "these sanctions are a clear signal that the united states will hold president putin and his close associates accountable for their actions president trump's son-in-law jared kushner spent three hours meeting behind closed doors with lawmakers on the house intelligence committee looking into",
+          "cluster": 14,
+          "start_line": "176747854",
+          "end_line": "176747863",
+          "start_timestamp": "07/25/2017 17:05:04",
+          "end_timestamp": "07/25/2017 17:05:12",
+          "station_id": "KABC--07-25-2017-16-59-00",
+          "segmentLength": 42
+        }
+      ]
+    },
+    "15": {
+      "cluster_message": "out in washington today as senate republicans continue their efforts to repeal and replace obamacare after a failed attempt earlier this summer with mounting pressure from the white house the senate voted on a procedural motion to begin debate on new health care legislation emily schmidt is in washington with the latest on the on-going health care battle senate republicans are moving forward with their attempt to fulfill a long-held to repeal and replace obamacare the senate passing a motion to begin debate on the house-passed health care bill the high-stakes vote had been in peril for days with democrats united in their opposition sen chuck schumer -d- minority a vote to proceed with the motion to debate is a permission slip to to slash medicaid hurt millions and at least two republicans holding out the vote coming during the dramatic return of republican senator john mccain who traveled back to washington tuesday after being diagnosed with a rare brain cancer sen john mccain -r- i stand here today looking a little worse for wear i'm sure i have a refreshed appreciation for the protocalsprotocols and customs of this body and for the other 99 privileged souls who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including the 2015 repeal bill but the final version is still very much up in the air on the other end of pennsyania avenue pressure is mounting from president trump who spent the morning tweeting on health care and is taking a more aggressive approach on the topic pres donald",
+      "stations": [
+        {
+          "id": 32,
+          "contentId": "32 1",
+          "text": "out in washington today as senate republicans continue their efforts to repeal and replace obamacare after a failed attempt earlier this summer with mounting pressure from the white house the senate voted on a procedural motion to begin debate on new health care legislation emily schmidt is in washington with the latest on the on-going health care battle senate republicans are moving forward with their attempt to fulfill a long-held to repeal and replace obamacare the senate passing a motion to begin debate on the house-passed health care bill the high-stakes vote had been in peril for days with democrats united in their opposition sen chuck schumer -d- minority a vote to proceed with the motion to debate is a permission slip to to slash medicaid hurt millions and at least two republicans holding out the vote coming during the dramatic return of republican senator john mccain who traveled back to washington tuesday after being diagnosed with a rare brain cancer sen john mccain -r- i stand here today looking a little worse for wear i'm sure i have a refreshed appreciation for the protocalsprotocols and customs of this body and for the other 99 privileged souls who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including the 2015 repeal bill but the final version is still very much up in the air on the other end of pennsyania avenue pressure is mounting from president trump who spent the morning tweeting on health care and is taking a more aggressive approach on the topic pres donald",
+          "cluster": 15,
+          "start_line": "26897446",
+          "end_line": "26897535",
+          "start_timestamp": "07/25/2017 18:19:23",
+          "end_timestamp": "07/25/2017 18:21:18",
+          "station_id": "KALB--07-25-2017-18-17-00",
+          "segmentLength": 301
+        },
+        {
+          "id": 33,
+          "contentId": "33 1",
+          "text": "the senate passing a motion to begin debate on the house-passed health care bill the high-stakes vote had been in peril for days with democrats united in their opposition sen chuck schumer -d- minority a vote to proceed with the motion to debate is a permission slip to to slash medicaid hurt millions and at least two republicans holding out the vote coming during the dramatic return of republican senator john mccain who traveled back to washington tuesday after being diagnosed with a rare brain cancer sen john mccain -r- i stand here today looking a little worse for wear i'm sure i have a refreshed appreciation for the protocalsprotocols and customs of this body and for the other 99 privileged souls who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including the 2015 repeal bill but the final version is still very much up in the air on the other end of pennsyania avenue pressure is mounting from president trump who spent the morning tweeting on health care and is taking a more aggressive approach on the topic pres donald",
+          "cluster": 15,
+          "start_line": "26897472",
+          "end_line": "26897535",
+          "start_timestamp": "07/25/2017 18:20:00",
+          "end_timestamp": "07/25/2017 18:21:18",
+          "station_id": "KALB--07-25-2017-18-20-00",
+          "segmentLength": 226
+        },
+        {
+          "id": 35,
+          "contentId": "35 1",
+          "text": "the old addage if at first you don't succeed try try again is playing out in washington today as senate republicans continue their efforts to repeal and replace obamacare after a failed attempt earlier this summer with mounting pressure from the white house the senate voted on a procedural motion to begin debate on new health care legislation emily schmidt is in washington with the latest on the on-going saga nats senate republicans are moving forward with their attempt to fulfill a long- held to repeal and replace obamacare the senate passing a motion to begin debate on the house-passed health care bill the high-stakes vote had been in peril for days with democrats united in their opposition sen chuck schumer -d- minority a vote in favor on the motion to proceed this afternoon is a permission slip to to slash medicaid hurt millions and at least two republicans holding out the vote coming during the dramatic return of republican senator john mccain who traveled back to washington tuesday after being diagnosed with a rare brain cancer sen john mccain -r- i stand here today looking a little worse for wear i'm sure i have a refreshed appreciation for the protocols and customs of this body and for the other 99 privileged souls who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including the 2015 repeal bill but the final version is still very much up in the air on the other end of pennsylvania avenue pressure is mounting from president trump who spent the morning tweeting on health care and is taking a more aggressive approach on the topic pres donald the motion to proceed on health care has passed and now we move towards truly great health care in washington i'm emily schmidt",
+          "cluster": 15,
+          "start_line": "31778661",
+          "end_line": "31778765",
+          "start_timestamp": "07/25/2017 17:36:10",
+          "end_timestamp": "07/25/2017 17:38:04",
+          "station_id": "KARD--07-25-2017-17-34-00",
+          "segmentLength": 312
+        },
+        {
+          "id": 83,
+          "contentId": "83 1",
+          "text": "at least two republicans holding out this vote came during the dramatic return of republican john mccain he traveled back to washington after being diagnosed with a rare brain cancer i stand here today i have a refreshed appreciation for the protocols and customs of this body and for the other 99 privileged souls that have been elected to the senate now senators will vote on several amendments that would strip the house here bill amendment the final version is still very much up in the air on the other end of pennsylvania avenue pressure is mounting from president donald trump who spent the morning tweeting on health care the motion to proceed on healthcare has just passed",
+          "cluster": 15,
+          "start_line": "26509094",
+          "end_line": "26509119",
+          "start_timestamp": "07/25/2017 17:04:54",
+          "end_timestamp": "07/25/2017 17:05:41",
+          "station_id": "KEPR--07-25-2017-17-04-00",
+          "segmentLength": 117
+        },
+        {
+          "id": 97,
+          "contentId": "97 1",
+          "text": "if at first you don't succeed try try again well that adage is playing out in washington today as senate republicans continue their efforts to repeal and replace obamacare after a failed attempt earlier this summer daren -- with mounting pressure from the white house the senate voted on a procedural motion to begin debate on new health care legislation emily schmidt has the latest senate republicans are moving forward with their attempt to fulfill a long- held to repeal and replace obamacare the senate passing a motion to begin debate on the house-passed health care bill the high-stakes vote had been in peril for days with democrats united in their opposition sen chuck schumer -d- minority a vote to proceed with the motion to debate is a permission slip to to slash medicaid hurt millions and at least two republicans holding out the vote coming during the dramatic return of republican senator john mccain who traveled back to washington tuesday after being diagnosed with a rare brain cancer sen john mccain -r- i stand here today john mccain who traveled back to washington tuesday after being diagnosed with a rare brain cancer sen john mccain -r- i stand here today looking a little worse for wear i'm sure i have a refreshed appreciation for the protocols and customs of this body and for sen john mccain -r- i stand here today looking a little worse for wear i'm sure i have a refreshed appreciation for the protocols and customs of this body and for the other 99 privileged souls who've been elected to the senate the plan now gets complicated senators will vote on several amendments that would strip the house health care bill language - including the 2015 repeal bill but the final version is still very much up in the air on the other end of pennsylvania avenue pressure is mounting from president trump who spent the morning tweeting on health care and is taking a more aggressive approach on the topic pres donald the motion to debate has just passed and now we can move on to truly great health care in washington i'm emily schmidt",
+          "cluster": 15,
+          "start_line": "30661227",
+          "end_line": "30661310",
+          "start_timestamp": "07/25/2017 17:03:14",
+          "end_timestamp": "07/25/2017 17:05:06",
+          "station_id": "KFSM--07-25-2017-16-58-00",
+          "segmentLength": 359
+        }
+      ]
+    },
+    "16": {
+      "cluster_message": "on the topic pres donald you know after seven years of saying repeal and replace obamacare we have a chance to now do it they better do it hopefully they'll do it the stakes intensifying in the health care battle -- as senators work within a pressure cooker of deadlines",
+      "stations": [
+        {
+          "id": 32,
+          "contentId": "32 2",
+          "text": "on the topic pres donald you know after seven years of saying repeal and replace obamacare we have a chance to now do it they better do it hopefully they'll do it the stakes intensifying in the health care battle -- as senators work within a pressure cooker of deadlines",
+          "cluster": 16,
+          "start_line": "26897536",
+          "end_line": "26897547",
+          "start_timestamp": "07/25/2017 18:21:18",
+          "end_timestamp": "07/25/2017 18:21:32",
+          "station_id": "KALB--07-25-2017-18-17-00",
+          "segmentLength": 49
+        },
+        {
+          "id": 33,
+          "contentId": "33 2",
+          "text": "on the topic pres donald you know after seven years of saying repeal and replace obamacare we have a chance to now do it they better do it hopefully they'll do it the stakes intensifying in the health care battle -- as senators work within a pressure cooker of deadlines",
+          "cluster": 16,
+          "start_line": "26897536",
+          "end_line": "26897547",
+          "start_timestamp": "07/25/2017 18:21:18",
+          "end_timestamp": "07/25/2017 18:21:32",
+          "station_id": "KALB--07-25-2017-18-20-00",
+          "segmentLength": 49
+        }
+      ]
+    },
+    "17": {
+      "cluster_message": "to work together for the good of the american public he stressed that a lot of work needs to be done sen john mccain r- we republicans have looked for a way to end it and replace it with something else without paying a terrible political price we haven't found it yet and i'm not sure we will all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it i voted for the motion to proceed to allow debate to continue and amendments to be offered i will not vote for this bill as it is today before the vote the senate was briefly stalled by protestors shouting -- 95 were arrested kill the bill don't kill us",
+      "stations": [
+        {
+          "id": 36,
+          "contentId": "36 2",
+          "text": "to work together for the good of the american public he stressed that a lot of work needs to be done sen john mccain r- we republicans have looked for a way to end it and replace it with something else without paying a terrible political price we haven't found it yet and i'm not sure we will all we've managed to do is make more popular a policy that wasn't very popular when we started trying to get rid of it i voted for the motion to proceed to allow debate to continue and amendments to be offered i will not vote for this bill as it is today before the vote the senate was briefly stalled by protestors shouting -- 95 were arrested kill the bill don't kill us",
+          "cluster": 17,
+          "start_line": "11525871",
+          "end_line": "11525905",
+          "start_timestamp": "07/25/2017 17:04:11",
+          "end_timestamp": "07/25/2017 17:04:56",
+          "station_id": "KATH--07-25-2017-17-00-00",
+          "segmentLength": 130
+        }
+      ]
+    },
+    "18": {
+      "cluster_message": "democrats walked out of the capitol and sought to rally protesters who had gathered to oppose the g-o-p led health bill they pledged an all out legislative fight with warnings that americans will die if a bill is passed obviously we have our work cut out for us we cleared the first hurdle but there is obviously a lot of work yet to be done but i think we all know what we have today has to be fixed it's not working everyone of us loves someone knows someone with a pre- existing condition and they will be affected by this bill people will die and i'm not gonna let it happen",
+      "stations": [
+        {
+          "id": 36,
+          "contentId": "36 3",
+          "text": "everyone of us loves someone knows someone with a pre- existing condition and they will be affected by this bill people will die and i'm not gonna let it happen",
+          "cluster": 18,
+          "start_line": "11525959",
+          "end_line": "11525965",
+          "start_timestamp": "07/25/2017 17:05:49",
+          "end_timestamp": "07/25/2017 17:05:54",
+          "station_id": "KATH--07-25-2017-17-00-00",
+          "segmentLength": 29
+        },
+        {
+          "id": 39,
+          "contentId": "39 2",
+          "text": "democrats walked out of the capitol and sought to rally protesters who had gathered to oppose the g-o-p led health bill they pledged an all out legislative fight with warnings that americans will die if a bill is passed obviously we have our work cut out for us we cleared the first hurdle but there is obviously a lot of work yet to be done but i think we all know what we have today has to be fixed it's not working everyone of us loves someone knows someone with a pre- existing condition and they will be affected by this bill people will die and i'm not gonna let it happen",
+          "cluster": 18,
+          "start_line": "11529273",
+          "end_line": "11529303",
+          "start_timestamp": "07/25/2017 18:37:53",
+          "end_timestamp": "07/25/2017 18:38:28",
+          "station_id": "KATH--07-25-2017-18-32-00",
+          "segmentLength": 111
+        },
+        {
+          "id": 40,
+          "contentId": "40 1",
+          "text": "democrats walked out of the capitol and sought to rally protesters who had gathered to oppose the g-o-p led health bill they pledged an all out legislative fight with warnings that americans will die if a bill is passed obviously we have our work cut out for us we cleared the first hurdle but there is obviously a lot of work yet to be done but i think we all know what we have today has to be fixed it's not working everyone of us loves someone knows someone with a pre- existing condition and they will be affected by this bill people will die and i'm not gonna let it happen",
+          "cluster": 18,
+          "start_line": "11529273",
+          "end_line": "11529303",
+          "start_timestamp": "07/25/2017 18:37:53",
+          "end_timestamp": "07/25/2017 18:38:28",
+          "station_id": "KATH--07-25-2017-18-35-00",
+          "segmentLength": 111
+        }
+      ]
+    },
+    "19": {
+      "cluster_message": "in the senate's typically quiet chamber a hero's welcome for john mccain the political maverick enjoying a bipartisan embrace i stand here today looking a little worse for wear i'm sure -- 11 days after brain surgery the scar still fresh above his eye the 80-year-old senator delivering a powerful wakeup call to a dysfunctional congress stop listening to the bombastic loud mouths on the radio television and internet to hell with them we're getting nothing done my friends we're getting nothing done his return not just poetic but dramatic completing a cross-country trip just in time t republicans a critical yes vote to begin debate on overhauling obamacare while pushing colleagues to compromise",
+      "stations": [
+        {
+          "id": 37,
+          "contentId": "37 1",
+          "text": "in the senate's typically quiet chamber a hero's welcome for john mccain the political maverick enjoying a bipartisan embrace i stand here today looking a little worse for wear i'm sure -- 11 days after brain surgery the scar still fresh above his eye the 80-year-old senator delivering a powerful wakeup call to a dysfunctional congress stop listening to the bombastic loud mouths on the radio television and internet to hell with them we're getting nothing done my friends we're getting nothing done his return not just poetic but dramatic completing a cross-country trip just in time t republicans a critical yes vote to begin debate on overhauling obamacare while pushing colleagues to compromise",
+          "cluster": 19,
+          "start_line": "11526868",
+          "end_line": "11526907",
+          "start_timestamp": "07/25/2017 17:31:32",
+          "end_timestamp": "07/25/2017 17:32:35",
+          "station_id": "KATH--07-25-2017-17-26-00",
+          "segmentLength": 113
+        }
+      ]
+    },
+    "20": {
+      "cluster_message": "now we all know that mccain a staple on the senate floor for a generation urging lawmakers to stand up to president trump whether or not we are of the same party we are not the president's subordinates we are his equal at the white house a show of deference the president mocked mccain during the campaign saying he wasn't a war hero delaying his remarks until the senator was done i want to thank senator john mccain very brave man he made a tough trip to get here and vote still mccain's move met by resistance protesters attacking his vote for taking health care away from millions of americans just as he benefits from first-class care the former p o w who made a reputation fighting back today for another battle i have every intention of returning here and giving many of you cause to regret all the nice things you said about me",
+      "stations": [
+        {
+          "id": 37,
+          "contentId": "37 2",
+          "text": "now we all know that mccain a staple on the senate floor for a generation urging lawmakers to stand up to president trump whether or not we are of the same party we are not the president's subordinates we are his equal at the white house a show of deference the president mocked mccain during the campaign saying he wasn't a war hero delaying his remarks until the senator was done i want to thank senator john mccain very brave man he made a tough trip to get here and vote still mccain's move met by resistance protesters attacking his vote for taking health care away from millions of americans just as he benefits from first-class care the former p o w who made a reputation fighting back today for another battle i have every intention of returning here and giving many of you cause to regret all the nice things you said about me",
+          "cluster": 20,
+          "start_line": "11526915",
+          "end_line": "11526961",
+          "start_timestamp": "07/25/2017 17:32:47",
+          "end_timestamp": "07/25/2017 17:33:31",
+          "station_id": "KATH--07-25-2017-17-26-00",
+          "segmentLength": 154
+        }
+      ]
+    },
+    "21": {
+      "cluster_message": "we are an important check on the powers of the executive our consent is necessary for the president to appoint jurists and powerful government officials and in many respects to conduct foreign policy whether or not we are of the same party we are not the president's subordinates we are his equal mccain also stressed work mccain also stressed work needs to be done on a new health care plan saying he would not vote for a bill repeal the affordable care act as it stands today kill the bill don't kill us",
+      "stations": [
+        {
+          "id": 38,
+          "contentId": "38 1",
+          "text": "we are an important check on the powers of the executive our consent is necessary for the president to appoint jurists and powerful government officials and in many respects to conduct foreign policy whether or not we are of the same party we are not the president's subordinates we are his equal mccain also stressed work mccain also stressed work needs to be done on a new health care plan saying he would not vote for a bill repeal the affordable care act as it stands today kill the bill don't kill us",
+          "cluster": 21,
+          "start_line": "11528260",
+          "end_line": "11528286",
+          "start_timestamp": "07/25/2017 18:08:09",
+          "end_timestamp": "07/25/2017 18:08:40",
+          "station_id": "KATH--07-25-2017-18-06-00",
+          "segmentLength": 92
+        }
+      ]
+    },
+    "22": {
+      "cluster_message": "obamacare they're counting on us to do the right thing right now that means voting to allow the senate to finally move beyond obamacare's failures 40 sen chuck schumer senate minority leader 29 it will mean people with pre-existing conditions will be left high",
+      "stations": [
+        {
+          "id": 38,
+          "contentId": "38 2",
+          "text": "obamacare they're counting on us to do the right thing right now that means voting to allow the senate to finally move beyond obamacare's failures 40 sen chuck schumer senate minority leader 29 it will mean people with pre-existing conditions will be left high",
+          "cluster": 22,
+          "start_line": "11528378",
+          "end_line": "11528389",
+          "start_timestamp": "07/25/2017 18:10:00",
+          "end_timestamp": "07/25/2017 18:10:15",
+          "station_id": "KATH--07-25-2017-18-06-00",
+          "segmentLength": 43
+        }
+      ]
+    },
+    "23": {
+      "cluster_message": "to repeal much of former president barack obama's health care law and replace it with a more restrictive plan senators voted 57-43 tonight to reject the plan in the first vote on an amendment to the bill those voting",
+      "stations": [
+        {
+          "id": 39,
+          "contentId": "39 1",
+          "text": "to repeal much of former president barack obama's health care law and replace it with a more restrictive plan senators voted 57-43 tonight to reject the plan in the first vote on an amendment to the bill those voting",
+          "cluster": 23,
+          "start_line": "11528977",
+          "end_line": "11528989",
+          "start_timestamp": "07/25/2017 18:32:50",
+          "end_timestamp": "07/25/2017 18:33:02",
+          "station_id": "KATH--07-25-2017-18-32-00",
+          "segmentLength": 38
+        }
+      ]
+    },
+    "24": {
+      "cluster_message": "i'm very happy to announce that with zero of the democrats' votes the motion to proceed on health care has just passed and now we move forward towards truly great health care for",
+      "stations": [
+        {
+          "id": 39,
+          "contentId": "39 3",
+          "text": "i'm very happy to announce that with zero of the democrats' votes the motion to proceed on health care has just passed and now we move forward towards truly great health care for",
+          "cluster": 24,
+          "start_line": "11529334",
+          "end_line": "11529340",
+          "start_timestamp": "07/25/2017 18:38:59",
+          "end_timestamp": "07/25/2017 18:39:10",
+          "station_id": "KATH--07-25-2017-18-32-00",
+          "segmentLength": 32
+        },
+        {
+          "id": 40,
+          "contentId": "40 2",
+          "text": "i'm very happy to announce that with zero of the democrats' votes the motion to proceed on health care has just passed and now we move forward towards truly great health care for",
+          "cluster": 24,
+          "start_line": "11529334",
+          "end_line": "11529340",
+          "start_timestamp": "07/25/2017 18:38:59",
+          "end_timestamp": "07/25/2017 18:39:10",
+          "station_id": "KATH--07-25-2017-18-35-00",
+          "segmentLength": 32
+        }
+      ]
+    },
+    "25": {
+      "cluster_message": "their last ditch effort to repeal or replace obama care the vote so significant that senator john mccain returned to washington to cast his vote abc megan hughes has the details arizona senator john mccain getting a bipartisan hero's welcome from his colleagues in the u s senate his return a week after revealing that he's fighting brain cancer back in time to cast his vote determining the fate of obama care mccain -- the senate deciding to move forward with vice president mike pence casting the tiebreaking vote they now move on to debate the repeal and possible replacement of president obama's signature healthcare law the most recent abc washington post poll showed americans prefer obama care to g o p replacement 2-1 more popular a policy that wasn't popular when we started trying to get rid of it protestor against repeal making their voices heard around the capital and even on the senate floor a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump meeting with the lebanese prime minister today but keeping a close eye on that key vote on his biggest campaign promise and now we move forward towards truly great healthcare for the american people we look forward to that this was a big step there are still a lot of questions about what the final measure will look like senator mitch mcconnell said he's open to ideas and amendments so expect several significant votes in coming days megan hughes",
+      "stations": [
+        {
+          "id": 42,
+          "contentId": "42 1",
+          "text": "their last ditch effort to repeal or replace obama care the vote so significant that senator john mccain returned to washington to cast his vote abc megan hughes has the details arizona senator john mccain getting a bipartisan hero's welcome from his colleagues in the u s senate his return a week after revealing that he's fighting brain cancer back in time to cast his vote determining the fate of obama care mccain -- the senate deciding to move forward with vice president mike pence casting the tiebreaking vote they now move on to debate the repeal and possible replacement of president obama's signature healthcare law the most recent abc washington post poll showed americans prefer obama care to g o p replacement 2-1 more popular a policy that wasn't popular when we started trying to get rid of it protestor against repeal making their voices heard around the capital and even on the senate floor a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump meeting with the lebanese prime minister today but keeping a close eye on that key vote on his biggest campaign promise and now we move forward towards truly great healthcare for the american people we look forward to that this was a big step there are still a lot of questions about what the final measure will look like senator mitch mcconnell said he's open to ideas and amendments so expect several significant votes in coming days megan hughes",
+          "cluster": 25,
+          "start_line": "30465235",
+          "end_line": "30465296",
+          "start_timestamp": "07/25/2017 17:05:29",
+          "end_timestamp": "07/25/2017 17:07:18",
+          "station_id": "KATV--07-25-2017-17-03-00",
+          "segmentLength": 271
+        },
+        {
+          "id": 43,
+          "contentId": "43 1",
+          "text": "their last ditch effort to repeal or replace obama care the vote so significant that senator john mccain returned to washington to cast his vote abc megan hughes has the details arizona senator john mccain getting a bipartisan hero's welcome from his colleagues in the u s senate his return a week after revealing that he's fighting brain cancer back in time to cast his vote determining the fate of obama care mccain -- the senate deciding to move forward with vice president mike pence casting the tiebreaking vote they now move on to debate the repeal and possible replacement of president obama's signature healthcare law the most recent abc washington post poll showed americans prefer obama care to g o p replacement 2-1 more popular a policy that wasn't popular when we started trying to get rid of it protestor against repeal making their voices heard around the capital and even on the senate floor a vote in favor of the motion to proceed will mean deep cuts to medicaid maybe deeper than in the house bill it will mean people with preexisting conditions will be left high and dry president trump meeting with the lebanese prime minister today but keeping a close eye on that key vote on his biggest campaign promise and now we move forward towards truly great healthcare for the american people we look forward to that this was a big step there are still a lot of questions about what the final measure will look like senator mitch mcconnell said he's open to ideas and amendments so expect several significant votes in coming days megan hughes",
+          "cluster": 25,
+          "start_line": "30465235",
+          "end_line": "30465296",
+          "start_timestamp": "07/25/2017 17:05:29",
+          "end_timestamp": "07/25/2017 17:07:18",
+          "station_id": "KATV--07-25-2017-17-05-00",
+          "segmentLength": 271
+        }
+      ]
+    },
+    "26": {
+      "cluster_message": "know that the gop leadership needs nearly every republican senator on board for any action on healthcare because they hold a slim majority and democrats are united in their opposition leader mcconnell has a long way to go before he can get this done there are many many republicans who don't like this bill susan collins of maine lisa murkowski of alaska were the only two republican senators to join democrats in voting no president trump congratulated the gop leadership on this when now we move forward towards truly great healthcare for the american people look forward to that this was a big step protesters in the senate gallery chanted is voting began made their presence known around the capital",
+      "stations": [
+        {
+          "id": 46,
+          "contentId": "46 1",
+          "text": "today with a critical vote on health care republicans are trying to advance a critical vote on healthcare in the senate today republicans trying to advance plans to repeal and replace the affordable care act the senate is moving ahead with debate on an obamacare overhaul after a tie-breaking vote from mike pence john mccain returned from arizona where he's being treated for brain cancer to cast a critical vote mitch mcconnell implored several republicans to vote yes our constituents are hurting under obamacare they're counting on us to do the right thing right now getting to a yes vote on a final piece of legislation will be more difficult i will not vote for this bill as it is today it is a shell of a bill right now we all know that the gop leadership needs nearly every republican senator on board for any action on healthcare because they hold a slim majority and democrats are united in their opposition mcconnell has a long way to go before he can get this done there are many many republicans who don't like this bill susan collins of maine and lisa mercowski of alaska were the only two republicans to join democrats in voting no now we move forward towards truly great healthcare for the american people we look forward to that this is a big step protestors in the senate gallery chanted as voting began and made their presence known around the capitol today while the president ratcheted up his attacks on his own attorney general today he is frustrated by jeff sessions decision to recuse himself from the investigation into russian meddling he serves to revive an old campaign issue tweeting that sessions has",
+          "cluster": 26,
+          "start_line": "74905753",
+          "end_line": "74905828",
+          "start_timestamp": "07/25/2017 17:28:58",
+          "end_timestamp": "07/25/2017 17:31:02",
+          "station_id": "KBAK--07-25-2017-17-27-00",
+          "segmentLength": 285
+        },
+        {
+          "id": 66,
+          "contentId": "66 1",
+          "text": "on a final piece of legislation may be difficult i will not vote for this bill as it is today it is a shell of a bill right now leader mcconnell has a long way to go before he can get this done there are many",
+          "cluster": 26,
+          "start_line": "74067609",
+          "end_line": "74067616",
+          "start_timestamp": "07/25/2017 17:07:33",
+          "end_timestamp": "07/25/2017 17:07:48",
+          "station_id": "KCNC--07-25-2017-17-05-00",
+          "segmentLength": 45
+        },
+        {
+          "id": 80,
+          "contentId": "80 2",
+          "text": "a tie breaking vote from vice president mike pence the john mccain returned from arizona he's being treated for brain cancer to cast a critical vote majority leader mitch mcconnell implored fellow republicans to vote yes our constituents are hurting under obamacare they're counting on us to do the right saying right now getting to a yes vote on final piece of legislation will be more difficult",
+          "cluster": 26,
+          "start_line": "54582158",
+          "end_line": "54582172",
+          "start_timestamp": "07/25/2017 17:15:34",
+          "end_timestamp": "07/25/2017 17:15:59",
+          "station_id": "KENS--07-25-2017-17-13-00",
+          "segmentLength": 66
+        },
+        {
+          "id": 80,
+          "contentId": "80 3",
+          "text": "know that the gop leadership needs nearly every republican senator on board for any action on healthcare because they hold a slim majority and democrats are united in their opposition leader mcconnell has a long way to go before he can get this done there are many many republicans who don't like this bill susan collins of maine lisa murkowski of alaska were the only two republican senators to join democrats in voting no president trump congratulated the gop leadership on this when now we move forward towards truly great healthcare for the american people look forward to that this was a big step protesters in the senate gallery chanted is voting began made their presence known around the capital",
+          "cluster": 26,
+          "start_line": "54582178",
+          "end_line": "54582203",
+          "start_timestamp": "07/25/2017 17:16:11",
+          "end_timestamp": "07/25/2017 17:16:56",
+          "station_id": "KENS--07-25-2017-17-13-00",
+          "segmentLength": 119
+        }
+      ]
+    },
+    "27": {
+      "cluster_message": "issue tweeting that sessions has taken a weak position some say trump probably wants sessions out i think the president wants him gone vian enormous amount of respect for the attorney general but i do know the president pretty well and this level of tension in the relationship",
+      "stations": [
+        {
+          "id": 46,
+          "contentId": "46 2",
+          "text": "issue tweeting that sessions has taken a weak position some say trump probably wants sessions out i think the president wants him gone vian enormous amount of respect for the attorney general but i do know the president pretty well and this level of tension in the relationship",
+          "cluster": 27,
+          "start_line": "74905828",
+          "end_line": "74905841",
+          "start_timestamp": "07/25/2017 17:31:02",
+          "end_timestamp": "07/25/2017 17:31:23",
+          "station_id": "KBAK--07-25-2017-17-27-00",
+          "segmentLength": 47
+        }
+      ]
+    },
+    "28": {
+      "cluster_message": "chose to revive an old campaign issue tweeting sessions has taken a very weak position on hillary clinton's crimes i want the attorney general to be much tougher on the leaks from the intelligent agencies which are leaking like rarely have they ever leaked before at a very important level these are intelligence agencies we cannot have that happen i told you before i'm very disappointed with the attorney general but we'll see what happens time will tell time will tell speaking at the white house the president would not say whether he intends to fire sessions a moment that came down to the wire with an emotional return of senator john mccain",
+      "stations": [
+        {
+          "id": 49,
+          "contentId": "49 1",
+          "text": "chose to revive an old campaign issue tweeting sessions has taken a very weak position on hillary clinton's crimes i want the attorney general to be much tougher on the leaks from the intelligent agencies which are leaking like rarely have they ever leaked before at a very important level these are intelligence agencies we cannot have that happen i told you before i'm very disappointed with the attorney general but we'll see what happens time will tell time will tell speaking at the white house the president would not say whether he intends to fire sessions a moment that came down to the wire with an emotional return of senator john mccain",
+          "cluster": 28,
+          "start_line": "80258514",
+          "end_line": "80258538",
+          "start_timestamp": "07/25/2017 22:13:49",
+          "end_timestamp": "07/25/2017 22:14:30",
+          "station_id": "KBFX--07-25-2017-22-13-00",
+          "segmentLength": 112
+        },
+        {
+          "id": 97,
+          "contentId": "97 2",
+          "text": "i want the attorney general to be much tougher on the leaks from intelligence agencies which are leaking like rarely have they ever leaked before at a very important level these are intelligence agencies we cannot have that happen",
+          "cluster": 28,
+          "start_line": "30661329",
+          "end_line": "30661338",
+          "start_timestamp": "07/25/2017 17:05:33",
+          "end_timestamp": "07/25/2017 17:05:47",
+          "station_id": "KFSM--07-25-2017-16-58-00",
+          "segmentLength": 38
+        }
+      ]
+    },
+    "29": {
+      "cluster_message": "later with her sister lying lifeless sanchez is back live streaming again i killed my sister i knowwi'm going to prison for life alright i understand that this is the last thing i wanted to happen okay she's been charged with gross manslaughtee while intoxicated sot - chp it's very disturbing to us because of the callous nature of her actions both leading up to her actions and in the immediate aftermath",
+      "stations": [
+        {
+          "id": 50,
+          "contentId": "50 1",
+          "text": "later with her sister lying lifeless sanchez is back live streaming again i killed my sister i knowwi'm going to prison for life alright i understand that this is the last thing i wanted to happen okay she's been charged with gross manslaughtee while intoxicated sot - chp it's very disturbing to us because of the callous nature of her actions both leading up to her actions and in the immediate aftermath",
+          "cluster": 29,
+          "start_line": "28231748",
+          "end_line": "28231760",
+          "start_timestamp": "07/25/2017 17:04:58",
+          "end_timestamp": "07/25/2017 17:05:16",
+          "station_id": "KBMT--07-25-2017-17-02-00",
+          "segmentLength": 71
+        }
+      ]
+    },
+    "30": {
+      "cluster_message": "nats -- hello grassley's office in iowa senator chuck grassley's office the phones rarely stop ringing nats grassley's inbox is constantly bombarded with today i received 1 506 messages grassley says his office sends a written response to every iowan who contacts his office and leaves a name and address most constituents are contacting him about healthcare his office saw a huge spike in incoming messages throughout the first six months of the year we've responded and mailed out 190 000 responses to mail that has come into us that compares to about 75 000 a year ago grassley says most iowans are asking him to repeal and replace obamacare we're hearing from people that are paying higher premiums but he admits he also hears from people on the other side of the issue -- who want to protect aca i'm sure those people wouldn't call me up if they knew 72 000 people could not get insurance jess",
+      "stations": [
+        {
+          "id": 54,
+          "contentId": "54 2",
+          "text": "nats -- hello grassley's office in iowa senator chuck grassley's office the phones rarely stop ringing nats grassley's inbox is constantly bombarded with today i received 1 506 messages grassley says his office sends a written response to every iowan who contacts his office and leaves a name and address most constituents are contacting him about healthcare his office saw a huge spike in incoming messages throughout the first six months of the year we've responded and mailed out 190 000 responses to mail that has come into us that compares to about 75 000 a year ago grassley says most iowans are asking him to repeal and replace obamacare we're hearing from people that are paying higher premiums but he admits he also hears from people on the other side of the issue -- who want to protect aca i'm sure those people wouldn't call me up if they knew 72 000 people could not get insurance jess",
+          "cluster": 30,
+          "start_line": "30661311",
+          "end_line": "30661344",
+          "start_timestamp": "07/25/2017 17:04:37",
+          "end_timestamp": "07/25/2017 17:05:38",
+          "station_id": "KCAU--07-25-2017-17-00-00",
+          "segmentLength": 158
+        },
+        {
+          "id": 55,
+          "contentId": "55 2",
+          "text": "nats -- hello grassley's office in iowa senator chuck grassley's office the phones rarely stop ringing nats grassley's inbox is constantly bombarded with today i received 1 506 messages grassley says his office sends a written response to every iowan who contacts his office and leaves a name and address most constituents are contacting him about healthcare his office saw a huge spike in incoming messages throughout the first six months of the year we've responded and mailed out 190 000 responses to mail that has come into us that compares to about 75 000 a year ago grassley says most iowans are asking him to repeal and replace obamacare we're hearing from people that are paying higher premiums but he admits he also hears from people on the other side of the issue -- who want to protect aca i'm sure those people wouldn't call me up if they knew 72 000 people could not get insurance jess",
+          "cluster": 30,
+          "start_line": "30661311",
+          "end_line": "30661344",
+          "start_timestamp": "07/25/2017 17:04:37",
+          "end_timestamp": "07/25/2017 17:05:38",
+          "station_id": "KCAU--07-25-2017-17-03-00",
+          "segmentLength": 158
+        },
+        {
+          "id": 56,
+          "contentId": "56 3",
+          "text": "nats -- hello grassley's office in iowa senator chuck grassley's office the phones rarely stop ringing nats grassley's inbox is constantly bombarded with today i received 1 506 messages grassley says his office sends a written response to every iowan who contacts his office and leaves a name and address most constituents are contacting him about healthcare his office saw a huge spike in incoming messages throughout the first six months of the year we've responded and mailed out 190 000 responses to mail that has come into us that compares to about 75 000 a year ago grassley says most iowans are asking him to repeal and replace obamacare we're hearing from people that are paying higher premiums but he admits he also hears from people on the other side of the issue -- who want to protect aca i'm sure those people wouldn't call me up if they knew 72 000 people could not get insurance jess",
+          "cluster": 30,
+          "start_line": "30663594",
+          "end_line": "30663627",
+          "start_timestamp": "07/25/2017 22:05:15",
+          "end_timestamp": "07/25/2017 22:06:18",
+          "station_id": "KCAU--07-25-2017-22-00-00",
+          "segmentLength": 158
+        },
+        {
+          "id": 57,
+          "contentId": "57 1",
+          "text": "nats -- hello grassley's office in iowa senator chuck grassley's office the phones rarely stop ringing nats grassley's inbox is constantly bombarded with today i received 1 506 messages grassley says his office sends a written response to every iowan who contacts his office and leaves a name and address most constituents are contacting him about healthcare his office saw a huge spike in incoming messages throughout the first six months of the year we've responded and mailed out 190 000 responses to mail that has come into us that compares to about 75 000 a year ago grassley says most iowans are asking him to repeal and replace obamacare we're hearing from people that are paying higher premiums but he admits he also hears from people on the other side of the issue -- who want to protect aca i'm sure those people wouldn't call me up if they knew 72 000 people could not get insurance jess",
+          "cluster": 30,
+          "start_line": "30663594",
+          "end_line": "30663627",
+          "start_timestamp": "07/25/2017 22:05:15",
+          "end_timestamp": "07/25/2017 22:06:18",
+          "station_id": "KCAU--07-25-2017-22-04-00",
+          "segmentLength": 158
+        }
+      ]
+    },
+    "31": {
+      "cluster_message": "it's a privilege to serve with all of you i mean it many of you have reached out in the last few days with your concern and your prayers and it means a lot to me it really does i've had so many people say such nice things about me recently that i think some of you must have me confused with someone else",
+      "stations": [
+        {
+          "id": 56,
+          "contentId": "56 1",
+          "text": "just days after being diagnosed with brain cancer he received an ovation from members of both parties it's a privilege to serve with all of you i mean it many of you have reached out in the last few days with your concern and your prayers and it means a lot to me it really does",
+          "cluster": 31,
+          "start_line": "30663526",
+          "end_line": "30663536",
+          "start_timestamp": "07/25/2017 22:01:42",
+          "end_timestamp": "07/25/2017 22:02:00",
+          "station_id": "KCAU--07-25-2017-22-00-00",
+          "segmentLength": 55
+        },
+        {
+          "id": 100,
+          "contentId": "100 1",
+          "text": "it's a privilege to serve with all of you i mean it many of you have reached out in the last few days with your concern and your prayers and it means a lot to me it really does i've had so many people say such nice things about me recently that i think some of you must have me confused with someone else",
+          "cluster": 31,
+          "start_line": "30663546",
+          "end_line": "30663556",
+          "start_timestamp": "07/25/2017 22:01:21",
+          "end_timestamp": "07/25/2017 22:01:36",
+          "station_id": "KFSM--07-25-2017-22-00-00",
+          "segmentLength": 63
+        }
+      ]
+    },
+    "32": {
+      "cluster_message": "we try the old way of legislating in the senate the way our rules and customs encourage us to act mccain said if this process ends in failure which seems likely then let's return to regular order how does mccain's appearance rank trump shamed gop into a vote tweeting after 7 years of talking we will soon see whether or not republicans are willing to step up to the plate",
+      "stations": [
+        {
+          "id": 56,
+          "contentId": "56 2",
+          "text": "we try the old way of legislating in the senate the way our rules and customs encourage us to act mccain said if this process ends in failure which seems likely then let's return to regular order how does mccain's appearance rank trump shamed gop into a vote tweeting after 7 years of talking we will soon see whether or not republicans are willing to step up to the plate",
+          "cluster": 32,
+          "start_line": "30663556",
+          "end_line": "30663569",
+          "start_timestamp": "07/25/2017 22:02:41",
+          "end_timestamp": "07/25/2017 22:03:10",
+          "station_id": "KCAU--07-25-2017-22-00-00",
+          "segmentLength": 69
+        }
+      ]
+    },
+    "33": {
+      "cluster_message": "attorney general jeff sessions stealing some of the spotlight from senator john mccain who days after announcing he has an aggressive form of brain cancer returned to capitol hill to cast a key vote on health care this is the beginning of the end for the disasterknn as obamacare after seven years of promisingrepeal and replace obamacare 15 republicans voted yes on a motion to move forward with debate in the repeal of replace legislation as expected every democrat voted",
+      "stations": [
+        {
+          "id": 58,
+          "contentId": "58 1",
+          "text": "attorney general jeff sessions stealing some of the spotlight from senator john mccain who days after announcing he has an aggressive form of brain cancer returned to capitol hill to cast a key vote on health care this is the beginning of the end for the disasterknn as obamacare after seven years of promisingrepeal and replace obamacare 15 republicans voted yes on a motion to move forward with debate in the repeal of replace legislation as expected every democrat voted",
+          "cluster": 33,
+          "start_line": "30415141",
+          "end_line": "30415157",
+          "start_timestamp": "07/25/2017 16:07:08",
+          "end_timestamp": "07/25/2017 16:07:35",
+          "station_id": "KCBA--07-25-2017-15-58-00",
+          "segmentLength": 79
+        },
+        {
+          "id": 59,
+          "contentId": "59 1",
+          "text": "attorney general jeff sessions stealing some of the spotlight from senator john mccain who days after announcing he has an aggressive form of brain cancer returned to capitol hill to cast a key vote on health care this is the beginning of the end for the disasterknn as obamacare after seven years of promisingrepeal and replace obamacare 15 republicans voted yes on a motion to move forward with debate in the repeal of replace legislation as expected every democrat voted",
+          "cluster": 33,
+          "start_line": "30415141",
+          "end_line": "30415157",
+          "start_timestamp": "07/25/2017 16:07:08",
+          "end_timestamp": "07/25/2017 16:07:35",
+          "station_id": "KCBA--07-25-2017-16-04-00",
+          "segmentLength": 79
+        }
+      ]
+    },
+    "34": {
+      "cluster_message": "mike pence to step in as the tiebreaker mr mccain one of the yes votes ca from john mccain who has been recovering from surgery at home in arizona but insisted on making it back to washington to cast his vote i have had so many people say such nice things about me i think some of you must have me confused with someone else it was",
+      "stations": [
+        {
+          "id": 58,
+          "contentId": "58 2",
+          "text": "mike pence to step in as the tiebreaker mr mccain one of the yes votes ca from john mccain who has been recovering from surgery at home in arizona but insisted on making it back to washington to cast his",
+          "cluster": 34,
+          "start_line": "30415159",
+          "end_line": "30415167",
+          "start_timestamp": "07/25/2017 16:07:36",
+          "end_timestamp": "07/25/2017 16:07:53",
+          "station_id": "KCBA--07-25-2017-15-58-00",
+          "segmentLength": 39
+        },
+        {
+          "id": 59,
+          "contentId": "59 2",
+          "text": "mike pence to step in as the tiebreaker mr mccain one of the yes votes ca from john mccain who has been recovering from surgery at home in arizona but insisted on making it back to washington to cast his vote i have had so many people say such nice things about me i think some of you must have me confused with someone else it was",
+          "cluster": 34,
+          "start_line": "30415159",
+          "end_line": "30415172",
+          "start_timestamp": "07/25/2017 16:07:36",
+          "end_timestamp": "07/25/2017 16:08:04",
+          "station_id": "KCBA--07-25-2017-16-04-00",
+          "segmentLength": 66
+        },
+        {
+          "id": 74,
+          "contentId": "74 1",
+          "text": "to pass a vote that will help republicans move forward with their plans to repeal and replace obamacare this as the white house responds to growing reports president trump has been speaking with advisors about firing his attorney general -- jeff sessions joel waldman is in washington tonight with the latest trump this is the beginning of the end for the disaster known as obamacare after seven years of promising to repeal and replace obamacare - 50 republicans voted yes on a procedual motion to move forward with debate on repeal and replace legislation as expected every democrat voted no which forced vice president mike pence to step in as the tie breaker one of the final yes votes came from senator john mccain who has been recovering from surgery at home in arizona but insisted on making it back to washington to cast his vote mccain it's a privelege to serve with all of you had so many people say such nice things about me recently that they might have me confused with someone else but it was attorney general jeff sessions overshadowing the highly anticiapted senate health care vote this after sources tell the associated press president trump is seriously considering firing his longtime ally",
+          "cluster": 34,
+          "start_line": "71509166",
+          "end_line": "71509214",
+          "start_timestamp": "07/25/2017 21:30:56",
+          "end_timestamp": "07/25/2017 21:32:11",
+          "station_id": "KDSM--07-25-2017-21-29-00",
+          "segmentLength": 206
+        },
+        {
+          "id": 74,
+          "contentId": "74 2",
+          "text": "the president's frustration clearly increasing calling sessions - quote weak on twitter this morning as lawmakers on both side of the aisle we're quick to defend the former alabama senator blumenthal he represents the people - not party above reproach he did right thing by recusing himself shelby it would not be taken lightly if he was fired the president's former campaign chairman paul manafort",
+          "cluster": 34,
+          "start_line": "71509225",
+          "end_line": "71509240",
+          "start_timestamp": "07/25/2017 21:32:29",
+          "end_timestamp": "07/25/2017 21:32:41",
+          "station_id": "KDSM--07-25-2017-21-29-00",
+          "segmentLength": 64
+        },
+        {
+          "id": 89,
+          "contentId": "89 1",
+          "text": "barber attorney general jeff sessions stealing some of the spotlight away from republican senator john mccain who just days after announcing he has an aggressive form of brain cancer returned to capitol hill today for a key vote on healthcare trump this is the beginning of the end for the disaster known as obamacare after seven years of promising to repeal and replace obamacare - 50 republicans voted yes on a procedural motion to move forward with debate on repeal and replace legislation as expected every democrat voted no which forced vice president mike pence to step in as the tie breaker one of the final yes votes came from senator john mccain who has been recovering from surgery at home in arizona but insisted on making it back to washington to cast his vote mccain had so many people say such nice things about me recently that they might have me confused with someone else but it was attorney general jeff sessions overshadowing the highly anticipated senate health care vote this after sources tell the associated press president trump is seriously considering firing his longtime ally the president's frustration cleaincreasing calling sessions - quote weak on twitter this morning as lawmakers on both side of the aisle we're quick to defend the former alabama senator blumenthal he represents the people he did the right thing by recusing himself shelby sessions has a lot of support and respect on capitol hill also in the hot seat today was president trump's son-in-law jared kushner who met with congressional lawmakers for a second day of testimony regarding his involvement with russian officials during the 2016 presidential campaign in washington ellison barber fox news",
+          "cluster": 34,
+          "start_line": "28361516",
+          "end_line": "28361600",
+          "start_timestamp": "07/25/2017 21:30:17",
+          "end_timestamp": "07/25/2017 21:31:57",
+          "station_id": "KFJX--07-25-2017-21-28-00",
+          "segmentLength": 280
+        },
+        {
+          "id": 94,
+          "contentId": "94 1",
+          "text": "senator john mccain who just days after announcing he ha of brain cancer returned to capitol hill today for a vote on healthcare take insert trump this is thnd for the disaster known as obamacare after seven years peal and replace obamacare - 50 republicans voted yes on a procedural motion to",
+          "cluster": 34,
+          "start_line": "23803244",
+          "end_line": "23803256",
+          "start_timestamp": "07/25/2017 18:37:01",
+          "end_timestamp": "07/25/2017 18:37:14",
+          "station_id": "KFQX--07-25-2017-18-35-00",
+          "segmentLength": 51
+        }
+      ]
+    },
+    "35": {
+      "cluster_message": "after a tie breaking vote from vice president pence mccain returned from arizona where he is being treated for brain cancer to cast a critical vote mitch mcconnell implored fellow republicans to vote yes they are counting on us to do the right thing getting a yes vote on a final destinational piece of -- final piece of legislation will be more",
+      "stations": [
+        {
+          "id": 60,
+          "contentId": "60 1",
+          "text": "after a tie breaking vote from vice president pence mccain returned from arizona where he is being treated for brain cancer to cast a critical vote mitch mcconnell implored fellow republicans to vote yes they are counting on us to do the right thing getting a yes vote on a final destinational piece of -- final piece of legislation will be more",
+          "cluster": 35,
+          "start_line": "178458668",
+          "end_line": "178458679",
+          "start_timestamp": "07/25/2017 17:06:15",
+          "end_timestamp": "07/25/2017 17:06:45",
+          "station_id": "KCBS--07-25-2017-17-03-00",
+          "segmentLength": 61
+        }
+      ]
+    },
+    "36": {
+      "cluster_message": "leadership needs nearly every republican senator onboard for any action to healthcare they hold a slim majority in the senate democrats are united in opposition a long way to go before he can get this done there are many many republicans who don't like this bill senator susan collins of maine and lisa murkowski of alaska were only two republican senators to join the democrats in voting no president trump congratulated g o p leadership on the win we look toward to truly great healthcare for the american people we",
+      "stations": [
+        {
+          "id": 60,
+          "contentId": "60 2",
+          "text": "leadership needs nearly every republican senator onboard for any action to healthcare they hold a slim majority in the senate democrats are united in opposition a long way to go before he can get this done there are many many republicans who don't like this bill senator susan collins of maine and lisa murkowski of alaska were only two republican senators to join the democrats in voting no president trump congratulated g o p leadership on the win we look toward to truly great healthcare for the american people we",
+          "cluster": 36,
+          "start_line": "178458684",
+          "end_line": "178458703",
+          "start_timestamp": "07/25/2017 17:06:54",
+          "end_timestamp": "07/25/2017 17:07:32",
+          "station_id": "KCBS--07-25-2017-17-03-00",
+          "segmentLength": 89
+        }
+      ]
+    },
+    "37": {
+      "cluster_message": "is frustrated by sessions' decision to recuse himself from the investigation into russian meddles this morning mr trump revived an old campaign issue tweeting sessions has taken a very weak position on hillary clinton a crimes i am disappointed with the attorney general but we will see what happens time will tell time will",
+      "stations": [
+        {
+          "id": 60,
+          "contentId": "60 3",
+          "text": "is frustrated by sessions' decision to recuse himself from the investigation into russian meddles this morning mr trump revived an old campaign issue tweeting sessions has taken a very weak position on hillary clinton a crimes i am disappointed with the attorney general but we will see what happens time will tell time will",
+          "cluster": 37,
+          "start_line": "178458731",
+          "end_line": "178458742",
+          "start_timestamp": "07/25/2017 17:08:22",
+          "end_timestamp": "07/25/2017 17:08:45",
+          "station_id": "KCBS--07-25-2017-17-03-00",
+          "segmentLength": 53
+        }
+      ]
+    },
+    "38": {
+      "cluster_message": "decision to recuse himself from the vist investigation into russia an meddling i am disappointed in the attorney general he should not have recused himself almost immediately after he took office if he was going to recuse himself he should have told me prior to",
+      "stations": [
+        {
+          "id": 61,
+          "contentId": "61 1",
+          "text": "decision to recuse himself from the vist investigation into russia an meddling i am disappointed in the attorney general he should not have recused himself almost immediately after he took office if he was going to recuse himself he should have told me prior to",
+          "cluster": 38,
+          "start_line": "178459804",
+          "end_line": "178459813",
+          "start_timestamp": "07/25/2017 18:05:28",
+          "end_timestamp": "07/25/2017 18:05:46",
+          "station_id": "KCBS--07-25-2017-18-01-00",
+          "segmentLength": 44
+        }
+      ]
+    },
+    "39": {
+      "cluster_message": "washington correspondent mark meredith is on capitol hill with the latest mark reporting kill the bill pro-obamacare protesters shouted one last appeal kill the but after months of delays and bill debate over health care it all came down to a tie the senate being equally divided the vp votes in the affirmative the 51st vote allowing senate vice president mike pence cast republicans to start working with their house colleagues to repeal obamacare two republicans and every democrat voted no that left majority leader mitch mcconnell no room for error mcconnell bite people who sent us here expect us to begin this debate senator john mccain heard mcconnell's call for help today the 80-year-old rushed back to washington mccain is battling brain cancer after the vote he told his colleagues both parties must do more to work together lets trust each other lets mccain bite return to regular order for republicans trump bite today's vote as a major victory here hes a very brave man he made a tough trip to get here and vote we want to thank senator mccain and all of the republicans we passed it without one democrat vote mark meredith fox 14 news experts say a final health care plan is still likely a month away but today's vote is a major step in overhauling the nation's health care system the senate judiciary committee has issued a subpoena for former trump campaign manager paul manafort to testify",
+      "stations": [
+        {
+          "id": 64,
+          "contentId": "64 1",
+          "text": "washington correspondent mark meredith is on capitol hill with the latest mark reporting kill the bill pro-obamacare protesters shouted one last appeal kill the but after months of delays and bill debate over health care it all came down to a tie the senate being equally divided the vp votes in the affirmative the 51st vote allowing senate vice president mike pence cast republicans to start working with their house colleagues to repeal obamacare two republicans and every democrat voted no that left majority leader mitch mcconnell no room for error mcconnell bite people who sent us here expect us to begin this debate senator john mccain heard mcconnell's call for help today the 80-year-old rushed back to washington mccain is battling brain cancer after the vote he told his colleagues both parties must do more to work together lets trust each other lets mccain bite return to regular order for republicans trump bite today's vote as a major victory here hes a very brave man he made a tough trip to get here and vote we want to thank senator mccain and all of the republicans we passed it without one democrat vote mark meredith fox 14 news experts say a final health care plan is still likely a month away but today's vote is a major step in overhauling the nation's health care system the senate judiciary committee has issued a subpoena for former trump campaign manager paul manafort to testify",
+          "cluster": 39,
+          "start_line": "30897081",
+          "end_line": "30897137",
+          "start_timestamp": "07/25/2017 21:04:51",
+          "end_timestamp": "07/25/2017 21:06:27",
+          "station_id": "KCIT--07-25-2017-20-59-00",
+          "segmentLength": 242
+        },
+        {
+          "id": 65,
+          "contentId": "65 1",
+          "text": "washington correspondent mark meredith is on capitol hill with the latest mark reporting kill the bill pro-obamacare protesters shouted one last appeal kill the but after months of delays and bill debate over health care it all came down to a tie the senate being equally divided the vp votes in the affirmative the 51st vote allowing senate vice president mike pence cast republicans to start working with their house colleagues to repeal obamacare two republicans and every democrat voted no that left majority leader mitch mcconnell no room for error mcconnell bite people who sent us here expect us to begin this debate senator john mccain heard mcconnell's call for help today the 80-year-old rushed back to washington mccain is battling brain cancer after the vote he told his colleagues both parties must do more to work together lets trust each other lets mccain bite return to regular order for republicans trump bite today's vote as a major victory here hes a very brave man he made a tough trip to get here and vote we want to thank senator mccain and all of the republicans we passed it without one democrat vote mark meredith fox 14 news experts say a final health care plan is still likely a month away but today's vote is a major step in overhauling the nation's health care system the senate judiciary committee has issued a subpoena for former trump campaign manager paul manafort to testify",
+          "cluster": 39,
+          "start_line": "30897081",
+          "end_line": "30897137",
+          "start_timestamp": "07/25/2017 21:04:51",
+          "end_timestamp": "07/25/2017 21:06:27",
+          "station_id": "KCIT--07-25-2017-21-03-00",
+          "segmentLength": 242
+        }
+      ]
+    },
+    "40": {
+      "cluster_message": "before farm to table before field to fork there was just good wholesome food grown by america's farm families prepared fresh at culver's and always served with a smile we still cook every butterburger to order using the finest cuts of fresh 100 midwest beef and craft our frozen custard right in the restaurant using family farm fresh dairy so thank you farmers and to all the welcome to delicious",
+      "stations": [
+        {
+          "id": 67,
+          "contentId": "67 1",
+          "text": "before farm to table before field to fork there was just good wholesome food grown by america's farm families prepared fresh at culver's and always served with a smile we still cook every butterburger to order using the finest cuts of fresh 100 midwest beef and craft our frozen custard right in the restaurant using family farm fresh dairy so thank you farmers and to all the welcome to delicious",
+          "cluster": 40,
+          "start_line": "74069691",
+          "end_line": "74069706",
+          "start_timestamp": "07/25/2017 18:28:46",
+          "end_timestamp": "07/25/2017 18:29:09",
+          "station_id": "KCNC--07-25-2017-18-28-00",
+          "segmentLength": 69
+        },
+        {
+          "id": 75,
+          "contentId": "75 1",
+          "text": "before farm to table before field to fork there was just good wholesome food grown by america's farm families prepared fresh at culver's and always served with a smile",
+          "cluster": 40,
+          "start_line": "71764261",
+          "end_line": "71764268",
+          "start_timestamp": "07/25/2017 17:14:51",
+          "end_timestamp": "07/25/2017 17:14:57",
+          "station_id": "KDVR--07-25-2017-17-05-00",
+          "segmentLength": 28
+        },
+        {
+          "id": 76,
+          "contentId": "76 1",
+          "text": "before farm to table before field to fork there was just good wholesome food grown by america's farm families prepared fresh at culver's and always served with a smile we still cook every butterburger to order using the finest cuts of fresh 100 midwest beef and craft our frozen custard right in the restaurant using family farm fresh dairy so thank you farmers and to all the welcome to delicious",
+          "cluster": 40,
+          "start_line": "71764261",
+          "end_line": "71764276",
+          "start_timestamp": "07/25/2017 17:14:51",
+          "end_timestamp": "07/25/2017 17:15:14",
+          "station_id": "KDVR--07-25-2017-17-09-00",
+          "segmentLength": 69
+        },
+        {
+          "id": 77,
+          "contentId": "77 1",
+          "text": "before farm to table before field to fork there was just good wholesome food grown by america's farm families prepared fresh at culver's and always served with a smile we still cook every butterburger to order using the finest cuts of fresh 100 midwest beef and craft our frozen custard right in the restaurant using family farm fresh dairy so thank you farmers and to all the welcome to delicious",
+          "cluster": 40,
+          "start_line": "71766583",
+          "end_line": "71766598",
+          "start_timestamp": "07/25/2017 21:14:13",
+          "end_timestamp": "07/25/2017 21:14:37",
+          "station_id": "KDVR--07-25-2017-21-05-00",
+          "segmentLength": 69
+        }
+      ]
+    },
+    "41": {
+      "cluster_message": "sessions decision to recuse himself from the investigation into russian meddling in the us election while reviving an old campaign issue tweeting that sessions has taken a weak position on hillary clinton's crimes the president would not say if he intends to fire his attorney general i am very disappointed with the attorney general we will see what happens",
+      "stations": [
+        {
+          "id": 67,
+          "contentId": "67 2",
+          "text": "sessions decision to recuse himself from the investigation into russian meddling in the us election while reviving an old campaign issue tweeting that sessions has taken a weak position on hillary clinton's crimes the president would not say if he intends to fire his attorney general i am very disappointed with the attorney general we will see what happens",
+          "cluster": 41,
+          "start_line": "74069807",
+          "end_line": "74069819",
+          "start_timestamp": "07/25/2017 18:33:08",
+          "end_timestamp": "07/25/2017 18:33:29",
+          "station_id": "KCNC--07-25-2017-18-28-00",
+          "segmentLength": 58
+        }
+      ]
+    },
+    "42": {
+      "cluster_message": "whoa you're not taking these hey hey hey you're not taking those whoa whoa you're not taking that come with me you're not taking that you're not taking that you're not taking that mom i'm taking the subaru don't be late even when we're not there to keep them safe our subaru outback will be vo love it's what makes a subaru a subaru",
+      "stations": [
+        {
+          "id": 69,
+          "contentId": "69 1",
+          "text": "whoa you're not taking these hey hey hey you're not taking those whoa whoa you're not taking that come with me you're not taking that you're not taking that you're not taking that mom i'm taking the subaru don't be late even when we're not there to keep them safe our subaru outback will be vo love it's what makes a subaru a subaru",
+          "cluster": 42,
+          "start_line": "74072702",
+          "end_line": "74072719",
+          "start_timestamp": "07/25/2017 22:12:10",
+          "end_timestamp": "07/25/2017 22:12:34",
+          "station_id": "KCNC--07-25-2017-22-08-00",
+          "segmentLength": 63
+        }
+      ]
+    },
+    "43": {
+      "cluster_message": "still unclear what a final senate plan would look like 20 to 30 million people could lose their health insurance over a decade depending on the final version of the bill",
+      "stations": [
+        {
+          "id": 69,
+          "contentId": "69 3",
+          "text": "still unclear what a final senate plan would look like 20 to 30 million people could lose their health insurance over a decade depending on the final version of the bill",
+          "cluster": 43,
+          "start_line": "74072832",
+          "end_line": "74072837",
+          "start_timestamp": "07/25/2017 22:16:44",
+          "end_timestamp": "07/25/2017 22:16:51",
+          "station_id": "KCNC--07-25-2017-22-08-00",
+          "segmentLength": 30
+        },
+        {
+          "id": 70,
+          "contentId": "70 2",
+          "text": "still unclear what a final senate plan would look like 20 to 30 million people could lose their health insurance over a decade depending on the final version of the bill",
+          "cluster": 43,
+          "start_line": "74072832",
+          "end_line": "74072837",
+          "start_timestamp": "07/25/2017 22:16:44",
+          "end_timestamp": "07/25/2017 22:16:51",
+          "station_id": "KCNC--07-25-2017-22-14-00",
+          "segmentLength": 30
+        },
+        {
+          "id": 100,
+          "contentId": "100 2",
+          "text": "it's still unclear what a final senate plan would look like wisconsin senator ron johnson wants certain provisions 03 - 09 i think we need to protect traditional medicaid and medicaid expansion continuing the enrollment of that i think puts that at risk daren democrats who remain united in their opposition joined protesters on the steps of the capitol today 20 million to 30 million people could lose their health insurance over the next 10 years depending on the final version of the bill",
+          "cluster": 43,
+          "start_line": "30663578",
+          "end_line": "30663596",
+          "start_timestamp": "07/25/2017 22:02:08",
+          "end_timestamp": "07/25/2017 22:02:31",
+          "station_id": "KFSM--07-25-2017-22-00-00",
+          "segmentLength": 83
+        }
+      ]
+    },
+    "44": {
+      "cluster_message": "what happens time will tell the president's opinion of his attorney general seems to have soured in march after sessions recused himself from the russia investigation he should not have recused himself almost immediately after he took office and if he was going to recuse himself he should have told me prior to taking office and i would have quite simply picked somebody else",
+      "stations": [
+        {
+          "id": 71,
+          "contentId": "71 1",
+          "text": "what happens time will tell the president's opinion of his attorney general seems to have soured in march after sessions recused himself from the russia investigation he should not have recused himself almost immediately after he took office and if he was going to recuse himself he should have told me prior to taking office and i would have quite simply picked somebody else",
+          "cluster": 44,
+          "start_line": "31077311",
+          "end_line": "31077324",
+          "start_timestamp": "07/25/2017 22:13:56",
+          "end_timestamp": "07/25/2017 22:14:18",
+          "station_id": "KDBC--07-25-2017-22-12-00",
+          "segmentLength": 63
+        },
+        {
+          "id": 78,
+          "contentId": "78 1",
+          "text": "should not have recused himself almost immediately after he took office and if he was going to refuse himself he should have told me prior to taking office and i would have quite simply",
+          "cluster": 44,
+          "start_line": "71768025",
+          "end_line": "71768030",
+          "start_timestamp": "07/25/2017 22:08:20",
+          "end_timestamp": "07/25/2017 22:08:28",
+          "station_id": "KDVR--07-25-2017-22-05-00",
+          "segmentLength": 33
+        }
+      ]
+    },
+    "45": {
+      "cluster_message": "starting the process to overhaul healthcare vice president pence casted the tie-breaking vote to allow them to begin the bill to repeal and replace it john mccain traveled back to washington to vote yes and pressure his colleagues to work together wisconsin senator ron johnson who fell in line wants certain provisions i think we need to protect traditional medicaid and medicaid expansion we need to continue that the senate is weighing a number of controversial amendments including an appeal of the affordable care act 20 million to 30 million people could lose their health insurance depending on the final version of the bill",
+      "stations": [
+        {
+          "id": 73,
+          "contentId": "73 1",
+          "text": "starting the process to overhaul healthcare vice president pence casted the tie-breaking vote to allow them to begin the bill to repeal and replace it john mccain traveled back to washington to vote yes and pressure his colleagues to work together wisconsin senator ron johnson who fell in line wants certain provisions i think we need to protect traditional medicaid and medicaid expansion we need to continue that the senate is weighing a number of controversial amendments including an appeal of the affordable care act 20 million to 30 million people could lose their health insurance depending on the final version of the bill",
+          "cluster": 45,
+          "start_line": "31652595",
+          "end_line": "31652618",
+          "start_timestamp": "07/25/2017 22:04:19",
+          "end_timestamp": "07/25/2017 22:05:05",
+          "station_id": "KDLH--07-25-2017-22-02-00",
+          "segmentLength": 103
+        }
+      ]
+    },
+    "46": {
+      "cluster_message": "boiling hot trailer in san antonio casey stegall has more texas the truck was discovered early sunday morning at least 10 immigrants inside - dead from dehydration and severe heat stroke one survivor says - when he finally got out - he was too weak to move vega i woke up and wanted to run but i felt kind of faint so i fell and now we're learning more about the driver of that truck - james matthew bradley junior has been charged in the deaths but says he had no idea the trailer was loaded with immigrants he says he was just delivering it to brownsville texas when he heard movement in the back but that doesn't explain why he didn't help the victims - who say they were without air and water for hours in the hundred degree heat the incident - re-igniting the immigration debate with some blaming the deaths on president trump's recent crackdown claiming the focus on border security will lead to an uptick in risky crossings shirk the more extreme the counter measures and security that we put in place for border",
+      "stations": [
+        {
+          "id": 74,
+          "contentId": "74 3",
+          "text": "boiling hot trailer in san antonio casey stegall has more texas the truck was discovered early sunday morning at least 10 immigrants inside - dead from dehydration and severe heat stroke one survivor says - when he finally got out - he was too weak to move vega i woke up and wanted to run but i felt kind of faint so i fell and now we're learning more about the driver of that truck - james matthew bradley junior has been charged in the deaths but says he had no idea the trailer was loaded with immigrants he says he was just delivering it to brownsville texas when he heard movement in the back but that doesn't explain why he didn't help the victims - who say they were without air and water for hours in the hundred degree heat the incident - re-igniting the immigration debate with some blaming the deaths on president trump's recent crackdown claiming the focus on border security will lead to an uptick in risky crossings shirk the more extreme the counter measures and security that we put in place for border",
+          "cluster": 46,
+          "start_line": "71509335",
+          "end_line": "71509377",
+          "start_timestamp": "07/25/2017 21:35:04",
+          "end_timestamp": "07/25/2017 21:36:13",
+          "station_id": "KDSM--07-25-2017-21-29-00",
+          "segmentLength": 187
+        }
+      ]
+    },
+    "47": {
+      "cluster_message": "a new study published by jama found chronic traumatic encephalopathy -- or c-t-e -- in a high percentage of former football players whose brains were donated for research including 110 of 111 national football league players researchers with boston university's c-t-e center examined brain tissue donated by 202 deceased former football players they found the condition in 87- percent of men who played for an average of 15 years including high- school college semi-professional and professional play 86-percent of professional players diagnosed with c-t-e had a severe form of the condition symptoms of c-t-e may not appear for years they may include memory loss impaired judgement impulse control problems and aggression as well as depression anxiety and suicidal impulses some studies have linked cte to parkinson's and lou gherig's disease researchers acknowledged the limitations of their study -- it was based on a brain donation program designed for those who fear they suffer from c- t-e but the article concludes that the high proportion of c-t-e evidence found does suggest it may be related to - quote - prior participation in football",
+      "stations": [
+        {
+          "id": 74,
+          "contentId": "74 4",
+          "text": "a new study published by jama found chronic traumatic encephalopathy -- or c-t-e -- in a high percentage of former football players whose brains were donated for research including 110 of 111 national football league players researchers with boston university's c-t-e center examined brain tissue donated by 202 deceased former football players they found the condition in 87- percent of men who played for an average of 15 years including high- school college semi-professional and professional play 86-percent of professional players diagnosed with c-t-e had a severe form of the condition symptoms of c-t-e may not appear for years they may include memory loss impaired judgement impulse control problems and aggression as well as depression anxiety and suicidal impulses some studies have linked cte to parkinson's and lou gherig's disease researchers acknowledged the limitations of their study -- it was based on a brain donation program designed for those who fear they suffer from c- t-e but the article concludes that the high proportion of c-t-e evidence found does suggest it may be related to - quote - prior participation in football",
+          "cluster": 47,
+          "start_line": "71509428",
+          "end_line": "71509474",
+          "start_timestamp": "07/25/2017 21:37:36",
+          "end_timestamp": "07/25/2017 21:38:44",
+          "station_id": "KDSM--07-25-2017-21-29-00",
+          "segmentLength": 181
+        }
+      ]
+    },
+    "48": {
+      "cluster_message": "the senate is moving ahead with debate on an obamacare overhaul after a tie-breaking vote from vice president mike pence john mc-cain returned from arizona where hes being treated for brain cancer to cast a critical vote majority leader mitch mc-connell begged fellow republicans to vote yes ' 22 - 30 our constituents are hurting under obamacare - they are counting on us to do the right thing now' daren getting to a 'yes' vote on a final piece of legislation will be more difficult the g-o-p needs nearly every republican senator on board because they only hold a slim majority and democrats are united",
+      "stations": [
+        {
+          "id": 80,
+          "contentId": "80 1",
+          "text": "with a critical vote on health care republicans are trying to advance plans to repeal and replace obamacare but the final outcome is still far from certain mola lady reports now from capitol hill time the senate is moving ahead with debate on obamacare overall after a tie breaking vote from",
+          "cluster": 48,
+          "start_line": "54582149",
+          "end_line": "54582158",
+          "start_timestamp": "07/25/2017 17:15:20",
+          "end_timestamp": "07/25/2017 17:15:34",
+          "station_id": "KENS--07-25-2017-17-13-00",
+          "segmentLength": 50
+        },
+        {
+          "id": 96,
+          "contentId": "96 1",
+          "text": "a cliffhanger in the senate today with a critical vote on health care republicans are trying to advance plans to repeal and replace obamacare but the final outcome is far from certain mola lenghi reports from capitol hill the senate is moving ahead with debate on an obamacare overhaul after a tie-breaking vote from vice president mike pence john mccain returned from arhes ing treated for brain cancer to cast a critical vote majority leader mitch mcconnell implored fellow republicans to vote yes ' 'our constituents are hurting under obamacare - they are counting on us to do the right thing now' several senators remained on the fence until the last minute - with uncertainty about what versions of the bill would be in play the gop leadership needs nearly every republican senator on board for any action on health care because they only hold a slim majority and democrats are united in their opposition 'it will certainly mean drastic cuts in medicaid tax cuts for rich no help for people with pre-existing conditions' susan collins of maine and lisa murkowski of alaska were the only two republican senators to join democrats in voting 'no ' protesters in the senate gallery chanted as voting began and made their presence known around the capitol today mola lenghi for cbs news washington erika -- the 'yes' vote today kicks off 20 hours of debate on health care amendments in a back-and-forth expected to last all week with moderate and conservative republicans at odds over an obamacare replacement plan",
+          "cluster": 48,
+          "start_line": "30660755",
+          "end_line": "30660814",
+          "start_timestamp": "07/25/2017 16:07:30",
+          "end_timestamp": "07/25/2017 16:09:03",
+          "station_id": "KFSM--07-25-2017-16-05-00",
+          "segmentLength": 255
+        },
+        {
+          "id": 98,
+          "contentId": "98 1",
+          "text": "the senate is moving ahead with debate on an obamacare overhaul after a tie-breaking vote from vice president mike pence john mc-cain returned from arizona where hes being treated for brain cancer to cast a critical vote majority leader mitch mc-connell begged fellow republicans to vote yes ' 22 - 30 our constituents are hurting under obamacare - they are counting on us to do the right thing now' daren getting to a 'yes' vote on a final piece of legislation will be more difficult the g-o-p needs nearly every republican senator on board because they only hold a slim majority and democrats are united",
+          "cluster": 48,
+          "start_line": "30663201",
+          "end_line": "30663224",
+          "start_timestamp": "07/25/2017 18:09:45",
+          "end_timestamp": "07/25/2017 18:10:18",
+          "station_id": "KFSM--07-25-2017-18-07-00",
+          "segmentLength": 104
+        },
+        {
+          "id": 99,
+          "contentId": "99 1",
+          "text": "the senate is moving ahead with debate on an obamacare overhaul after a tie-breaking vote from vice president mike pence john mc-cain returned from arizona where hes being treated for brain cancer to cast a critical vote majority leader mitch mc-connell begged fellow republicans to vote yes ' 22 - 30 our constituents are hurting under obamacare - they are counting on us to do the right thing now' daren getting to a 'yes' vote on a final piece of legislation will be more difficult the g-o-p needs nearly every republican senator on board because they only hold a slim majority and democrats are united",
+          "cluster": 48,
+          "start_line": "30663201",
+          "end_line": "30663224",
+          "start_timestamp": "07/25/2017 18:09:45",
+          "end_timestamp": "07/25/2017 18:10:18",
+          "station_id": "KFSM--07-25-2017-18-08-00",
+          "segmentLength": 104
+        }
+      ]
+    },
+    "49": {
+      "cluster_message": "russia investigation many americans must be wondering if the president is trying to pry open the office of attorney general to appoint somoene during the august recess who will fire special counsel mueller",
+      "stations": [
+        {
+          "id": 84,
+          "contentId": "84 1",
+          "text": "russia investigation many americans must be wondering if the president is trying to pry open the office of attorney general to appoint somoene during the august recess who will fire special counsel mueller",
+          "cluster": 49,
+          "start_line": "84888896",
+          "end_line": "84888904",
+          "start_timestamp": "07/25/2017 17:07:06",
+          "end_timestamp": "07/25/2017 17:07:13",
+          "station_id": "KERO--07-25-2017-17-05-00",
+          "segmentLength": 32
+        }
+      ]
+    },
+    "50": {
+      "cluster_message": "citizens from this obamacare nightmare vice president pence appetite breaking boat allow the senate to begin debating a bill to repeal and replace obamacare battling brain counsel illinois senator john mccain travel back to washington to vote yes and pressure his colleagues to work together we have been spinning our wheels on",
+      "stations": [
+        {
+          "id": 86,
+          "contentId": "86 1",
+          "text": "citizens from this obamacare nightmare vice president pence appetite breaking boat allow the senate to begin debating a bill to repeal and replace obamacare battling brain counsel illinois senator john mccain travel back to washington to vote yes and pressure his colleagues to work together we have been spinning our wheels on",
+          "cluster": 50,
+          "start_line": "27432345",
+          "end_line": "27432357",
+          "start_timestamp": "07/25/2017 22:06:44",
+          "end_timestamp": "07/25/2017 22:07:11",
+          "station_id": "KFDM--07-25-2017-22-05-00",
+          "segmentLength": 51
+        }
+      ]
+    },
+    "51": {
+      "cluster_message": "risk democrats who remain united in their opposition joint protesters on the steps of the capital after the vote this is up to you guys there are 52 senators here who need to hear from you the senate is now weighing a number of controversial amendments including a straight up repeal of the affordable care act",
+      "stations": [
+        {
+          "id": 86,
+          "contentId": "86 3",
+          "text": "risk democrats who remain united in their opposition joint protesters on the steps of the capital after the vote this is up to you guys there are 52 senators here who need to hear from you the senate is now weighing a number of controversial amendments including a straight up repeal of the affordable care act",
+          "cluster": 51,
+          "start_line": "27432374",
+          "end_line": "27432386",
+          "start_timestamp": "07/25/2017 22:07:35",
+          "end_timestamp": "07/25/2017 22:07:56",
+          "station_id": "KFDM--07-25-2017-22-05-00",
+          "segmentLength": 55
+        }
+      ]
+    },
+    "52": {
+      "cluster_message": "floor debate on their efforts to repeal and replace obamacare vice president mike pence cast the tiebreaking vote plus two u-s defense officials say a u-s navy ship fired warning shots at an armed iranian patrol boat in the northern end of the persian gulf tuesday that story coming up but first tim adams with a sneak peek at your forecast coming up millennials are set to surpass baby boomers next year as the largest generation of americans eligible to vote the change will mark the crossing of a historic threshold",
+      "stations": [
+        {
+          "id": 87,
+          "contentId": "87 1",
+          "text": "floor debate on their efforts to repeal and replace obamacare vice president mike pence cast the tiebreaking vote plus two u-s defense officials say a u-s navy ship fired warning shots at an armed iranian patrol boat in the northern end of the persian gulf",
+          "cluster": 52,
+          "start_line": "31672442",
+          "end_line": "31672456",
+          "start_timestamp": "07/25/2017 22:07:07",
+          "end_timestamp": "07/25/2017 22:07:23",
+          "station_id": "KFFX--07-25-2017-21-59-00",
+          "segmentLength": 44
+        },
+        {
+          "id": 88,
+          "contentId": "88 1",
+          "text": "floor debate on their efforts to repeal and replace obamacare vice president mike pence cast the tiebreaking vote plus two u-s defense officials say a u-s navy ship fired warning shots at an armed iranian patrol boat in the northern end of the persian gulf tuesday that story coming up but first tim adams with a sneak peek at your forecast coming up millennials are set to surpass baby boomers next year as the largest generation of americans eligible to vote the change will mark the crossing of a historic threshold",
+          "cluster": 52,
+          "start_line": "31672442",
+          "end_line": "31672469",
+          "start_timestamp": "07/25/2017 22:07:07",
+          "end_timestamp": "07/25/2017 22:12:59",
+          "station_id": "KFFX--07-25-2017-22-05-00",
+          "segmentLength": 90
+        }
+      ]
+    },
+    "53": {
+      "cluster_message": "i mean i've talked to her oldest child and i think more than anything it's for the kids he's okay with it i mean i know that sounds probably bad yeah we don't talk anymore we used to be best friends i mean i would love to get a relationr again i mean i love her so that i can just move forward and put everything behind me i don't think in the end i lost my sister it is what it is she did me a favor she can have him forgive and forget i mean her oldest son has forgiven me and he's okay with it so i think it's time for her to do the same i know who i can trust now --captions by vitac -- www vitac com",
+      "stations": [
+        {
+          "id": 90,
+          "contentId": "90 1",
+          "text": "i mean i've talked to her oldest child and i think more than anything it's for the kids he's okay with it i mean i know that sounds probably bad yeah we don't talk anymore we used to be best friends i mean i would love to get a relationr again i mean i love her so that i can just move forward and put everything behind me i don't think in the end i lost my sister it is what it is she did me a favor she can have him forgive and forget i mean her oldest son has forgiven me and he's okay with it so i think it's time for her to do the same i know who i can trust now --captions by vitac -- www vitac com",
+          "cluster": 53,
+          "start_line": "149316453",
+          "end_line": "149316479",
+          "start_timestamp": "07/25/2017 16:58:56",
+          "end_timestamp": "07/25/2017 16:59:26",
+          "station_id": "KFMB--07-25-2017-16-58-00",
+          "segmentLength": 132
+        }
+      ]
+    },
+    "54": {
+      "cluster_message": "senator john mccain made a dramatic shinon today - casting a decisive vote that opens debate on repealing and replacing obamacare the veteran lawmaker who is battling brain cancer also made a passionate plea for congress to put aside partisanship and help the american people n-b-c's blayne alexander has more - from washington for senator john mccain - a hero's welcome -- back on capitol hill - for the first time since his brain cancer diagnosis mister mccain - aye his vote today - crucial - for his party to move forward with health care delivering with a passionate message for his colleagues arizona 19-32 what have we to lose by trying to work together to find those solutions we're not getting done much apart i don't think any of us feels very proud of our incapacity today's procedural vote - a turning point -- that would allow the senate to even begin discussing health care senate majority leader 39-43 many of us on this side of aisle waited years for opportunity and thought it'd never come lawmakers can consider three repeal and replace - repeal only - or something else altogether nat sot kill the bill - don't kill us a rare gallery protest - interrupting the senate floor - just as the vote began senate minority leader 59-10 turn back we can go thru regular order - we want to work with you we know aca is not perfect but we also know what you've proposed is much worse president trump - pushing from the sidelines -- tweeting - big day for healthcare after 7 years of talking we will soon see whether or not republicans are willing to step up to the plate the motion is agreed to the final vote - 50 50 - with vice president pence breaking the tie in republicans favor - officially opening - the health care debate audio blayne alexander nbc news washington only two republicans voted no - senators lisa murkowski and susan collins after the vote - president trump praised mccain for coming back to cast the decisive",
+      "stations": [
+        {
+          "id": 93,
+          "contentId": "93 1",
+          "text": "senator john mccain made a dramatic shinon today - casting a decisive vote that opens debate on repealing and replacing obamacare the veteran lawmaker who is battling brain cancer also made a passionate plea for congress to put aside partisanship and help the american people n-b-c's blayne alexander has more - from washington for senator john mccain - a hero's welcome -- back on capitol hill - for the first time since his brain cancer diagnosis mister mccain - aye his vote today - crucial - for his party to move forward with health care delivering with a passionate message for his colleagues arizona 19-32 what have we to lose by trying to work together to find those solutions we're not getting done much apart i don't think any of us feels very proud of our incapacity today's procedural vote - a turning point -- that would allow the senate to even begin discussing health care senate majority leader 39-43 many of us on this side of aisle waited years for opportunity and thought it'd never come lawmakers can consider three repeal and replace - repeal only - or something else altogether nat sot kill the bill - don't kill us a rare gallery protest - interrupting the senate floor - just as the vote began senate minority leader 59-10 turn back we can go thru regular order - we want to work with you we know aca is not perfect but we also know what you've proposed is much worse president trump - pushing from the sidelines -- tweeting - big day for healthcare after 7 years of talking we will soon see whether or not republicans are willing to step up to the plate the motion is agreed to the final vote - 50 50 - with vice president pence breaking the tie in republicans favor - officially opening - the health care debate audio blayne alexander nbc news washington only two republicans voted no - senators lisa murkowski and susan collins after the vote - president trump praised mccain for coming back to cast the decisive",
+          "cluster": 54,
+          "start_line": "71792769",
+          "end_line": "71792844",
+          "start_timestamp": "07/25/2017 16:05:50",
+          "end_timestamp": "07/25/2017 16:07:51",
+          "station_id": "KFOR--07-25-2017-16-03-00",
+          "segmentLength": 348
+        }
+      ]
+    }
+  }
+}
