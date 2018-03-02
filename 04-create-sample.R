@@ -3,14 +3,20 @@
 
 # processed file: processed_6gram__AHCA_LocalNews_092617_101017_processed_
 # for this demo purposes: only 101017 transcripts will be analyzed.
-load("./data/processed_6gram__AHCA_LocalNews_092617_101017_processed_.RData")
+load("./data/processed_6gram__AHCA_LocalNews_072517_080917_processed_.RData")
 # return ids of 101017 news
-ids <- lapply(processed_6gram__AHCA_LocalNews_092617_101017_processed_, function(x) {
+ids <- lapply(processed_6gram__AHCA_LocalNews_072517_080917_processed_, function(x) {
   return(x$id[1])
-}) %>% unlist()
+}) %>% 
+  unlist() %>%
+  unique()
 
 # return the relevant list of data frames
-sub <- processed_6gram__AHCA_LocalNews_092617_101017_processed_[(1:3970)[grepl("10-10-2017", ids)]]
+sub <- processed_6gram__AHCA_LocalNews_072517_080917_processed_[(1:3970)[grepl("07-25-2017", ids)]]
+
+# prep sub into data frame called ngram
+ngram <-  sub %>%
+  do.call('rbind', .)
 
 # the following script is from 03-segment-extraction.R
 library(magrittr)
@@ -22,8 +28,7 @@ library(tm)
 # count the number of times a particular ngram appears
 # the object ngrams is from the load() statement above
 
-countNgrams <- sub %>%
-  do.call('rbind', .) %>%
+countNgrams <- ngram %>%
   group_by(id) %>%
   mutate(index = 1:n()) %>%
   group_by(ngram) %>%
@@ -48,9 +53,10 @@ content <- data.frame(id = integer(0),
                       start_timestamp = integer(0),
                       end_timestamp = integer(0),
                       station_id = integer(0))
+pdf("./data/segments/plot.pdf")
 for (i in 1:100) {
   mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == i]), 
-                       ifelse(countNgrams$count[countNgrams$id == i] >= 3,
+                       ifelse(countNgrams$count[countNgrams$id == i] >= 5,
                               countNgrams$count[countNgrams$id == i],
                               NA)))
   if (nrow(mat) == 0) {
@@ -61,8 +67,12 @@ for (i in 1:100) {
   db <- dbscan(mat, 30, 20)
   group <- data.frame(x = mat[,1],
                       y = mat[,2],
-                      cluster = db$cluster)
+                      cluster = db$cluster) %>%
+    filter(cluster!=0)
   group <- cbind(countNgrams[countNgrams$id == i,][group$x,], group)
+  # plot(group$x, group$y, col=factor(db$cluster))
+  
+  
   content <- group %>%
     filter(cluster != 0) %>%
     group_by(cluster) %>%
@@ -80,7 +90,7 @@ for (i in 1:100) {
     select(id, contentId, first, last, start_line, end_line, start_timestamp, end_timestamp, station_id) %>%
     rbind(content, .)
 }
-
+   dev.off()
 
 ############
 ##  ADDING THE TEXTS TO THE SEGMENTS
@@ -88,10 +98,10 @@ for (i in 1:100) {
 
 
 # get ngrams specified by the index and transform the ngrams into text
-getNgramsToText <- function(ngramdata, id, first, last) {
+getNgramsToText <- function(ngramdata, id_to_search, first, last) {
   # list of ngrams
   ngram.list <- ngramdata %>%
-    filter(id == id) %$%
+    dplyr::filter(id == id_to_search) %$%
     ngram[first:last]
   
   # take first word  of each ngrams and paste them together 
@@ -107,11 +117,28 @@ getNgramsToText <- function(ngramdata, id, first, last) {
 }
 
 
-# remove stop words from the content
+# get ngrams specified by the index and transform the ngrams into text
+getNgramsToVector <- function(ngramdata, id_to_search, first, last) {
+  # list of ngrams
+  ngramdata %>%
+    dplyr::filter(id == id_to_search) %$%
+    ngram[first:last]
+}
+
+getNgramsToVector(ngram, "BN9--07-25-2017-16-12-00", 634, 750)
+
+# get text and remove stop words from the content
 content$text <- ""
 for (i in 1:nrow(content)) {
-  content$text[i] <- getNgramsToText(ngrams, content$id[i], content$first[i], content$last[i])
+  content$text[i] <- getNgramsToText(ngram, content$station_id[i], content$first[i], content$last[i])
 }
+content_list <- list()
+for (i in 1:nrow(content)) {
+  content_list[[i]] <- getNgramsToVector(ngram, content$station_id[i], content$first[i], content$last[i])
+  print(i)
+}
+
+
 
 textToClean <- Corpus(VectorSource(content$text)) %>%
   tm_map(removeWords, stopwords('english'))
@@ -156,14 +183,55 @@ for (i in 1:nrow(content)) {
   }
 }
 
+
+
+
+## INTRODUCE NEW SEGMENT SIMILARITY USING N-GRAM!!!
+
+
+
+segmentSimilarityNgram<- function(text.x, text.y) {
+  # split.x <- str_split(text.x, " ") %>% unlist
+  # split.y <- str_split(text.y, " ") %>% unlist
+  # ngram.x <- lapply(1:(length(split.x)-2), function(x) {
+  #   split.x[x:(x+2)] %>% paste(collapse=" ")
+  # }) %>% unlist
+  # ngram.y <- lapply(1:(length(split.y)-2), function(y) {
+  #   split.y[y:(y+2)]  %>% paste(collapse=" ")
+  # }) %>% unlist
+  sizeIntersection <- length(intersect(text.x, text.y))
+  similarity <- sizeIntersection/length(text.x)
+  return(similarity) 
+}
+
+
+similarityScoresNgram <- matrix(nrow = nrow(content), ncol = nrow(content))
+for (i in 1:nrow(content)) {
+  for (j in 1:nrow(content)) {
+    if (i==j) {
+      similarityScoresNgram[i,j] <- NA
+      next
+    }
+    text.x <- content_list[[i]]
+    text.y <- content_list[[j]]
+    similarityScoresNgram[i,j] <- segmentSimilarityNgram(text.x, text.y)
+  }
+  print(paste(i, j))
+}
+
+
+
+
 # create threshold
-ggg <- similarityScores > 0.8
+ggg <- similarityScoresNgram > 0.4
 
 library(igraph)
 g1 <- graph_from_adjacency_matrix(ggg, mode = "directed")
-plot(g1, mode = "strong", arrow.size=0.1, layout=layout_on_grid(g1))
-clusters(g1, mode = "strong")
-content$cluster <- clusters(graph_from_adjacency_matrix(ggg, mode = "directed"), mode = "strong")$membership
+groups <- cluster_walktrap(g1, weights = E(g1)$weights)
+communities(groups)
+cluster <- clusters(g1, mode = "weak")$membership
+content$cluster <- cluster
+plot(g1, mode = "strong", edge.arrow.size=0.1,  layout=layout.fruchterman.reingold(g1), vertex.size=5, vertex.color=cluster)
 
 segments <- content[order(content$cluster), c("id", "contentId", "text", "cluster", "start_line", 
                                               "end_line", "start_timestamp", "end_timestamp", "station_id")]
@@ -175,10 +243,12 @@ segments$segmentLength <- str_extract_all(segments$text, "\\s") %>% lapply(FUN =
 uniqueSegments <- segments %>%
   group_by(cluster) %>%
   arrange(desc(segmentLength)) %>%
-  summarise(sampleText = text[ceiling(length(text)/2)])
+  summarise(sampleText = text[ceiling(length(text)/2)],
+            num_transcripts=n()) %>%
+  arrange(desc(num_transcripts))
 
-write.csv(segments, file="./data/segments/092617_extracted-02-16.csv", row.names = F)
-write.csv(uniqueSegments, file="./data/segments/092617_extracted-02-16_unique.csv", row.names = F)
+write.csv(segments, file="./data/segments/07-25-2017_extracted-03-01.csv", row.names = F)
+write.csv(uniqueSegments, file="./data/segments/07-25-2017_extracted-03-01_unique.csv", row.names = F)
 
 
 # CREATING THE JSON FILE
@@ -192,13 +262,40 @@ for (i in 1:nrow(uniqueSegments)) {
     list() # cover with a "master list"
   json[[i]] <- c("cluster_message"=uniqueSegments$sampleText[uniqueSegments$cluster == i], "stations"=segment_list)
 }
-json <- list("date"="10/10/2017", "clusters"=json)
+json <- list("date"="07-25-2017", "clusters"=json)
 
-json %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write_lines('./data/segments/092617_extracted-02-16.json')
+json %>% jsonlite::toJSON(pretty = T, auto_unbox = T) %>% write_lines('./data/segments/07-25-2017_extracted-03-01-18.json')
+
+#### RE-DOING GROUPS ####
+# find neighbors of vertex
+# find the intersection
+# get the text of the intersection
+# expand the window of the intersection
+# remove the vertex from the for loop
+
+visited_neighbors <- c()
+for (i in 1:nrow(content)) {
+  if (i %in% visited_neighbors) {
+    next
+  } 
+  neighbors <- neighbors(g1, i, "out") %>% as.vector()
+  neighbors_ngram <- lapply(neighbors, function(x) {
+    content_list[[x]]
+  })
+  Reduce("intersect", neighbors_ngram)
+  sampleText <- content[i,"text"] %>% 
+    tidytext::unnest_tokens(ngram, text, token="ngrams", n=6) %>%
+    select(ngram)
+  
+  countNgrams %>%
+    filter(ngram %in% sampleText$ngram) %$% segmentId %>% unique
+}
 
 
 
-## TRYING TO GET THE VIDEO ELEMENTS
+
+
+#### TRYING TO GET THE VIDEO ELEMENTS ####
 getVideoQuery <- function(station_id, start_timestamp) {
   timestamps <- lubridate::mdy_hms(segments$start_timestamp)
   station_id %>%
@@ -215,8 +312,17 @@ write_lines(getVideoQuery(segments$station_id, segments$start_timestamp), "test.
 videos <- read.csv("./data/segments/101017_videos.csv")
 
 
-findClosestTimeStamp <- function(station_date, timestamp, list_videos){
-  
+findClosestTimeStamp <- function(station_date_trans, timestamp_trans, list_videos){
+  video_df <- data.frame(station_date = str_replace(list_videos, "[0-9]{6}[.]mp4$", ""),
+                         timestamp = str_extract(list_videos, "([0-9]{6})(?=[.]mp4$)"),
+                         stringsAsFactors = F)
+  video_df %>%
+    filter(station_date == station_date_trans) %>%
+    arrange(timestamp) %>%
+    mutate(diff = timestamp_trans - timestamp) %>%
+    filter(diff > 0) %>%
+    arrange(timestamp) %>%
+    {paste(.[1,1], .[1,2], ".mp4", sep="")}
 }
 
 
@@ -229,17 +335,17 @@ findClosestTimeStamp <- function(station_date, timestamp, list_videos){
 # ########
 # ## sample dbscan
 # 
-# testindex = 1
-# mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == testindex]),
-#                      ifelse(countNgrams$count[countNgrams$id == testindex] >= 3,
-#                             countNgrams$count[countNgrams$id == testindex],
-#                             NA)))
-# db <- dbscan(mat, 30, 20)
-# group <- data.frame(x = mat[,1],
-#                     y = mat[,2],
-#                     cluster = db$cluster)
-# group
-# plot(group$x, group$y, col=factor(db$cluster))
+testindex = 2
+mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$id == testindex]),
+                     ifelse(countNgrams$count[countNgrams$id == testindex] >= 3,
+                            countNgrams$count[countNgrams$id == testindex],
+                            NA)))
+db <- dbscan(mat, 30, 20)
+group <- data.frame(x = mat[,1],
+                    y = mat[,2],
+                    cluster = db$cluster)
+group
+plot(group$x, group$y, col=factor(db$cluster))
 #      
 # 
 
