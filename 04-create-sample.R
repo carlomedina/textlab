@@ -58,43 +58,51 @@ content <- data.frame(num_id = integer(0),
                       end_timestamp = integer(0),
                       station_id = integer(0))
 pdf("./data/segments/plot.pdf")
-for (i in 1:100) {
+for (i in 1:length(relevant_ids)) {
   mat <- na.omit(cbind(1:length(countNgrams$count[countNgrams$num_id == i]), 
-                       ifelse(countNgrams$count[countNgrams$num_id == i] >= 5,
+                       ifelse(countNgrams$count[countNgrams$num_id == i] >= 4,
                               countNgrams$count[countNgrams$num_id == i],
                               NA)))
-  if (nrow(mat) == 0) {
-    next
-  }
-  
-  # perform dbscan to get clusters of content =>. segments
-  db <- dbscan(mat, 30, 20)
-  group <- data.frame(x = mat[,1],
-                      y = mat[,2],
-                      cluster = db$cluster) %>%
-    filter(cluster!=0)
-  group <- cbind(countNgrams[countNgrams$num_id == i,][group$x,], group)
+  su <- summary(mat[,2])
+  plot(mat)
+  abline(h = su[2], col="blue")
+  abline(h = su[4], col="red")
+  abline(h = su[5], col="green")
+  # if (nrow(mat) == 0) {
+  #   next
+  # }
+  # 
+  # # perform dbscan to get clusters of content =>. segments
+  # db <- dbscan(mat, 5, 30)
+  # group <- data.frame(x = mat[,1],
+  #                     y = mat[,2],
+  #                     cluster = db$cluster) %>%
+  #   filter(cluster!=0)
+  # if (nrow(group) == 0) {
+  #   next
+  # }
+  # group <- cbind(countNgrams[countNgrams$num_id == i,][group$x,], group)
   # plot(group$x, group$y, col=factor(db$cluster))
-  
-  
-  content <- group %>%
-    filter(cluster != 0) %>%
-    group_by(cluster) %>%
-    summarise(num_id = i,
-              contentId = paste(i, first(cluster)),
-              first = min(x),
-              last = max(x),
-              start_line = linenumber[which(x==min(x))],
-              end_line = linenumber[which(x==max(x))],
-              start_timestamp = timestamp[which(x==min(x))],
-              end_timestamp = timestamp[which(x==max(x))],
-              station_id = first(id),
-              count = n()) %>%
-    filter(count > 10) %>%   # only keep cluster if there are more than 10 words
-    select(num_id, contentId, first, last, start_line, end_line, start_timestamp, end_timestamp, station_id) %>%
-    rbind(content, .)
-  
-  print(i)
+  # 
+  # 
+  # content <- group %>%
+  #   filter(cluster != 0) %>%
+  #   group_by(cluster) %>%
+  #   summarise(num_id = i,
+  #             contentId = paste(i, first(cluster)),
+  #             first = min(x),
+  #             last = max(x),
+  #             start_line = linenumber[which(x==min(x))],
+  #             end_line = linenumber[which(x==max(x))],
+  #             start_timestamp = timestamp[which(x==min(x))],
+  #             end_timestamp = timestamp[which(x==max(x))],
+  #             station_id = first(id),
+  #             count = n()) %>%
+  #   filter(count > 10) %>%   # only keep cluster if there are more than 10 words
+  #   select(num_id, contentId, first, last, start_line, end_line, start_timestamp, end_timestamp, station_id) %>%
+  #   rbind(content, .)
+  # 
+  # print(i)
 }
    dev.off()
 
@@ -131,8 +139,6 @@ getNgramsToVector <- function(ngramdata, id_to_search, first, last) {
     ngram[first:last]
 }
 
-getNgramsToVector(ngram, "BN9--07-25-2017-16-12-00", 634, 750)
-
 # get text and remove stop words from the content
 content$text <- ""
 for (i in 1:nrow(content)) {
@@ -146,48 +152,48 @@ for (i in 1:nrow(content)) {
 
 
 
-textToClean <- Corpus(VectorSource(content$text)) %>%
-  tm_map(removeWords, stopwords('english'))
+# textToClean <- Corpus(VectorSource(content$text)) %>%
+#   tm_map(removeWords, stopwords('english'))
+# 
+# 
+# cleanText <- lapply(textToClean, FUN = function(x) {
+#   x
+# }) %>% unlist
+# content$cleanText <- cleanText
+# 
+# 
+# content$words <- ""
+# # sort non-stopwords by alphabetically and only get unique
+# content$words <- cleanText %>% 
+#   lapply(FUN = function(x) {
+#     x %>% 
+#       strsplit(' ') %>%
+#       unlist() %>%
+#       unique %>%
+#       sort()
+#   })
 
 
-cleanText <- lapply(textToClean, FUN = function(x) {
-  x
-}) %>% unlist
-content$cleanText <- cleanText
-
-
-content$words <- ""
-# sort non-stopwords by alphabetically and only get unique
-content$words <- cleanText %>% 
-  lapply(FUN = function(x) {
-    x %>% 
-      strsplit(' ') %>%
-      unlist() %>%
-      unique %>%
-      sort()
-  })
-
-
-# segments similarity is based on the relative frequency of the words used between them
-# segment similarity (intersect(x,y)/length(x)) : NOTE THAT THIS MEASURE IS DIRECTED
-segmentSimilarity <- function(text.x, text.y) {
-  sizeIntersection <- length(intersect(text.x, text.y))
-  similarity <- sizeIntersection/length(text.x)
-  return(similarity) 
-}
-
-similarityScores <- matrix(nrow = nrow(content), ncol = nrow(content))
-for (i in 1:nrow(content)) {
-  for (j in 1:nrow(content)) {
-    if (i==j) {
-      similarityScores[i,j] <- NA
-      next
-    }
-    text.x <- content$words[[i]]
-    text.y <- content$words[[j]]
-    similarityScores[i,j] <- segmentSimilarity(text.x, text.y)
-  }
-}
+# # segments similarity is based on the relative frequency of the words used between them
+# # segment similarity (intersect(x,y)/length(x)) : NOTE THAT THIS MEASURE IS DIRECTED
+# segmentSimilarity <- function(text.x, text.y) {
+#   sizeIntersection <- length(intersect(text.x, text.y))
+#   similarity <- sizeIntersection/length(text.x)
+#   return(similarity) 
+# }
+# 
+# similarityScores <- matrix(nrow = nrow(content), ncol = nrow(content))
+# for (i in 1:nrow(content)) {
+#   for (j in 1:nrow(content)) {
+#     if (i==j) {
+#       similarityScores[i,j] <- NA
+#       next
+#     }
+#     text.x <- content$words[[i]]
+#     text.y <- content$words[[j]]
+#     similarityScores[i,j] <- segmentSimilarity(text.x, text.y)
+#   }
+# }
 
 
 
@@ -229,7 +235,7 @@ for (i in 1:nrow(content)) {
 
 
 # create threshold
-ggg <- similarityScoresNgram > 0.4
+ggg <- similarityScoresNgram > 0.5
 
 library(igraph)
 g1 <- graph_from_adjacency_matrix(ggg, mode = "directed")
@@ -237,10 +243,23 @@ groups <- cluster_walktrap(g1, weights = E(g1)$weights)
 communities(groups)
 cluster <- clusters(g1, mode = "weak")$membership
 content$cluster <- cluster
-plot(g1, mode = "strong", edge.arrow.size=0.1,  layout=layout.fruchterman.reingold(g1), vertex.size=5, vertex.color=cluster)
+plot(g1, mode = "strong", edge.arrow.size=0.1, vertex.size=5, vertex.color=cluster)
 
 
 #### TRYING TO GET THE VIDEO ELEMENTS ####
+getVideoQuery <- function(station_id, start_timestamp) {
+  timestamps <- lubridate::mdy_hms(segments$start_timestamp)
+  station_id %>%
+    stringr::str_extract('.*?(?=-)') %>%
+    paste(lubridate::month(timestamps) %>%
+            str_pad(2, "left", "0"), 
+          lubridate::day(timestamps) %>%
+            str_pad(2, "left", "0"), lubridate::year(timestamps) %>% substr(3,4), sep = "") %>%
+            {paste('FileName LIKE "%', ., '%" OR ', sep = "")} %>%
+    unique() %>%
+    paste(collapse = " ")
+}
+write_lines(getVideoQuery(segments$station_id, segments$start_timestamp), "test.txt")
 # I queried the entries of the file below using: 
 # select FileName from video where FileName LIKE "%WALA101017%" OR  FileName LIKE "%KYTX101017%" OR  FileName LIKE "%KXMC101017%" OR  FileName LIKE "%KVOA101017%" OR  FileName LIKE "%KTWO101017%" OR  FileName LIKE "%NECN101017%" OR  FileName LIKE "%KTVODT101017%" OR  FileName LIKE "%KSWB101017%" OR  FileName LIKE "%KSTU101017%" OR  FileName LIKE "%KOKI101017%" OR  FileName LIKE "%KRGV101017%" OR  FileName LIKE "%KTVT101017%" OR  FileName LIKE "%KULR101017%" OR  FileName LIKE "%KMTV101017%" OR  FileName LIKE "%KHQA101017%" OR  FileName LIKE "%CFNEWS101017%" OR  FileName LIKE "%KQTV101017%" OR  FileName LIKE "%KFXO101017%" OR  FileName LIKE "%WAGA101017%" OR  FileName LIKE "%CLTV101017%" OR  FileName LIKE "%KWWL101017%" OR  FileName LIKE "%KOSA101017%" OR  FileName LIKE "%KTNV101017%" OR  FileName LIKE "%KGAN101017%" OR  FileName LIKE "%KGUN101017%" OR  FileName LIKE "%KMGH101017%" OR  FileName LIKE "%KFXK101017%" OR  FileName LIKE "%KGTV101017%" OR  FileName LIKE "%KNIN101017%" OR  FileName LIKE "%KREM101017%" OR  FileName LIKE "%KREX101017%" OR  FileName LIKE "%KSHB101017%" OR  FileName LIKE "%KTBC101017%" OR  FileName LIKE "%KTTV101017%" OR  FileName LIKE "%KTVI101017%" OR  FileName LIKE "%KVHP101017%" OR  FileName LIKE "%KVRR101017%" OR  FileName LIKE "%KXRM101017%" OR  FileName LIKE "%KYOU101017%" OR  FileName LIKE "%WBRC101017%”
 videos <- read_csv("./data/segments/072517_videos.csv")
@@ -284,19 +303,6 @@ for (i in 1:nrow(segments)) {
 }
 
 #### GET VIDEO FILES TO TRANSFER TO TMPVIDEO ####
-getVideoQuery <- function(station_id, start_timestamp) {
-  timestamps <- lubridate::mdy_hms(segments$start_timestamp)
-  station_id %>%
-    stringr::str_extract('.*?(?=-)') %>%
-    paste(lubridate::month(timestamps) %>%
-            str_pad(2, "left", "0"), 
-          lubridate::day(timestamps) %>%
-            str_pad(2, "left", "0"), lubridate::year(timestamps) %>% substr(3,4), sep = "") %>%
-            {paste('FileName LIKE "%', ., '%" OR ', sep = "")} %>%
-    unique() %>%
-    paste(collapse = " ")
-}
-write_lines(getVideoQuery(segments$station_id, segments$start_timestamp), "test.txt")
 
 segments$url %>% unique() %>% paste(collapse=",") %>% write(file="copycommand.txt")
 
@@ -309,7 +315,7 @@ segments$segmentLength <- str_extract_all(segments$text, "\\s") %>% lapply(FUN =
 uniqueSegments <- segments %>%
   group_by(cluster) %>%
   arrange(desc(segmentLength)) %>%
-  summarise(sampleText = text[ceiling(length(text)/2)],
+  summarise(sampleText = text[1],
             num_transcripts=n()) %>%
   arrange(desc(num_transcripts))
 
