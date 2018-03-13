@@ -68,6 +68,7 @@ showTargetText <- function(targetngramsdf, targetId) {
 
 function(input, output) {
   cols <- brewer.pal(5, "Spectral")
+  
   corrPlot <- eventReactive(input$sendSourceText, {
     data <- input$sourceText %>%
       cleanSourceText() %>%

@@ -22,6 +22,7 @@ segment_date = infile %>% str_extract("[0-9]{4}-[0-9]{2}-[0-9]{2}")
 outpath <- args[2]
 
 
+
 if (!file.exists(outpath)) {
   cat('[WARNING]: Path for output file does not exists \n')
   cat('[WARNING]: Creating path \n')
@@ -41,7 +42,7 @@ if (length(args) > 2) {
   isDebug = F
 }
 
-#### HELPER FUNCTIONS
+#### HELPER FUNCTIONS ####
 
 # where_in_vect2string creates the necessary string needed for the WHERE x IN type of SQL queries
 # returns a string (e.g. "(segment1, segment2, segment3)")
@@ -154,6 +155,32 @@ stories_similarity <- function(ngram_story1, ngram_story2) {
   return(similarity)
 }
 
+
+calculate_similarity_matrix <- function(stories, all_stories_ngrams) {
+  # get similarity metric between two stories
+  indices <- expand.grid(i = 1:nrow(stories),
+                        j = 1:nrow(stories))
+
+  mclapply(1:nrow(indices), mc.cores=8, function(ij) {
+    print(paste("[INFO]: Calculating similarity between", indices$i[ij], indices$j[ij]))
+    # if i and j are equal, return NA
+    if (indices$i[ij] == indices$j[ij]) {
+      return(NA)
+    } else {
+      ngram_story1 <- all_stories_ngrams[[ indices$i[ij] ]]
+      ngram_story2 <- all_stories_ngrams[[ indices$j[ij] ]]
+
+      return(stories_similarity(ngram_story1, ngram_story2))
+    }
+    
+    }) %>%
+  unlist() %>%
+  matrix(nrow = nrow(stories), ncol = nrow(stories), byrow = F) %>%
+  return()
+}
+
+
+
 # query video files for the stories identified
 # returns a data frame of videos file infos
 get_video_files <- function(con, Segment_IDs) {
@@ -170,16 +197,23 @@ get_closest_video <- function(story_segment_ID, story_timestamp, video_df){
   ### PLEASE ADD ERROR HANDLING PLEASEEEE!!!!
   story_timestamp <- ymd_hms(story_timestamp, tz = "UTC")
   
-  video_df %>%
+  vids <- video_df %>%
     filter(Segment_ID == story_segment_ID) %>%
     {cbind(., data.frame(story_timestamp = rep(story_timestamp, nrow(.))))} %>%
     mutate(search = ymd_hms(StartTime, tz = "UTC"),
            diff =  difftime(story_timestamp, search)) %>%           # find a video that is shortly before the story timestamp
     filter(diff > 0) %>%
-    arrange(diff) %>%
-    {paste(.[1,2], .[1,1], sep="/")} %>%
-    str_trim("both") %>%
-    return()
+    arrange(diff) 
+  
+  if (nrow(vid) == 0) {
+    return("FileNotFound.mp4")
+  } else {
+    vids %>%
+      {paste(.[1,2], .[1,1], sep="/")} %>%    # paste the location folder and the filename
+      str_trim("both") %>%
+      return()
+  }
+    
 }
 
 # calls the system cp commande to copy the relevant video files to the public_web tmpVideo folder
@@ -195,7 +229,9 @@ copy_videos_to_publicweb <- function(directories) {
       {sprintf("cp /data/1/wesmediafowler/TVEyesTasks/Campaigns/%s /data/1/wesmediafowler/public_web/sites/tmpVideo", .)} %>%
       system()
 }
-#### MAIN
+
+
+#### MAIN ####
 
 
   #### READING DATA AND CONNECTION TO DATABASE
@@ -203,17 +239,19 @@ copy_videos_to_publicweb <- function(directories) {
 # read the RDS file
 ngram_basic <- readRDS(infile)
 
+# create a subset of the data when debug is requested
 if (isDebug) {
-  sample_segment_ID<- ngram_basic$Segment_ID %>% unique %>% sample(50)
+  sample_segment_ID<- ngram_basic$Segment_ID %>% unique %>% sample(300)
   ngram_basic <- ngram_basic %>%
       filter(Segment_ID %in% sample_segment_ID)
 }
 
-
+# read credentials
+creds <- read_lines(".pass")
 # connect to MySQL database
 con <- dbConnect(MySQL(),
-  user = 'TextLab',
-  password = 'Carlo!and!Duong=house',
+  user = creds[1],
+  password = creds[2],
   host = 'localhost',
   dbname = 'textsim'
   )
@@ -257,7 +295,7 @@ ngram_data <- merge(ngram_index, count_ngrams, by="ngram") %>%
 
 
 
-# # structure
+# # structure of the stories data frame
 # stories <- data.frame(Segment_ID = integer(0),
 #                       station = character(0),
 #                       story_ID = character(0),
@@ -292,24 +330,8 @@ all_stories_ngrams <- mclapply(1:nrow(stories), mc.cores=8, function(row) {
 
 
 
-
-
 # get similarity metric between two stories
-similarity_scores <- matrix(nrow = nrow(stories), ncol = nrow(stories))
-for (i in 1:nrow(stories)) {
-  for (j in 1:nrow(stories)) {
-    if (i==j) {
-      similarity_scores[i,j] <- NA
-      next
-    }
-    ngram_story1 <- all_stories_ngrams[[i]]
-    ngram_story2 <- all_stories_ngrams[[j]]
-    similarity_scores[i,j] <- stories_similarity(ngram_story1, ngram_story2)
-  }
-  print(paste(i, j))
-}
-
-
+similarity_scores <- calculate_similarity_matrix(stories, all_stories_ngrams)
 
 
 # create stories adj mat based on a threshold
@@ -338,7 +360,7 @@ videofiles_df <- get_video_files(con, stories_segment_ID)
 stories_videofiles <- mclapply(1:nrow(stories), mc.cores=8, function(row) {
   get_closest_video(stories$Segment_ID[row], stories$start_timestamp[row], videofiles_df)
   }) %>% unlist()
-str(stories_videofiles)
+
 stories$location <- stories_videofiles
 stories$url <- stories_videofiles %>% str_extract("[A-Z0-9]*\\.mp4$")
 
@@ -382,31 +404,6 @@ json %>%
   write_lines(sprintf('%s/%s_extracted_%s.json', outpath, segment_date, Sys.Date()))
 
 
+save.image(sprintf("processing_%s", segment_date))
 
 
-
-
-#### SANDBOX #####
-
-calculate_similarity_matrix <- function(stories, all_stories_ngrams) {
-  # get similarity metric between two stories
-  indices <- expand.grid(i = 1:nrow(stories),
-                        j = 1:nrow(stories))
-
-  mclapply(1:nrow(indices), mc.cores=8, function(ij) {
-
-    # if i and j are equal, return NA
-    if (indices[ij,1] == indices[ij,2]) {
-      return(NA)
-    } else {
-      ngram_story1 <- all_stories_ngrams[[indices[ij,1]]]
-      ngram_story1 <- all_stories_ngrams[[indices[ij,2]]]
-
-      return(stories_similarity(ngram_story1, ngram_story2))
-    }
-    
-    }) %>%
-  unlist() %>%
-  matrix(nrow = nrow(stories), ncol = nrow(stories), byrow = F) %>%
-  return()
-}
